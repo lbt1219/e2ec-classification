@@ -1,0 +1,53 @@
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+[31mWARNING: NO MODEL LOADED !!!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+/home/deep/anaconda3/envs/e2ec/lib/python3.7/site-packages/torch/nn/functional.py:3385: UserWarning: Default grid_sample and affine_grid behavior has changed to align_corners=False since 1.3.0. Please specify align_corners=True if the old behavior is desired. See the documentation of grid_sample for details.
+  warnings.warn("Default grid_sample and affine_grid behavior has changed "
+/home/deep/1-POJECT/e2ec/e2ec/network/evolve/utils.py:5: UserWarning: indexing with dtype torch.uint8 is now deprecated, please use a dtype torch.bool instead. (Triggered internally at  /pytorch/aten/src/ATen/native/IndexingUtils.h:25.)
+  poly = torch.cat([poly[i][ct_01[i]] for i in range(batch_size)], dim=0)
+eta: 0:00:02  epoch: 0  step: 1  ct_loss: 22.0633  init_py_loss: 19.8218  coarse_py_loss: 19.8026  py_loss_0: 19.8023  py_loss_1: 19.8021  loss: 39.2272  data: 1.0788  batch: 2.9842  lr: 0.000100  max_mem: 8597
+eta: 0:00:02  epoch: 1  step: 3  ct_loss: 24.7075  init_py_loss: 18.0473  coarse_py_loss: 17.4490  py_loss_0: 17.4480  py_loss_1: 17.4473  loss: 39.8890  data: 0.6340  batch: 2.3344  lr: 0.000100  max_mem: 8874
+eta: 0:00:02  epoch: 2  step: 5  ct_loss: 22.8422  init_py_loss: 21.2138  coarse_py_loss: 20.0713  py_loss_0: 20.0693  py_loss_1: 20.0678  loss: 40.3497  data: 0.5565  batch: 2.2159  lr: 0.000100  max_mem: 8876
+eta: 0:00:02  epoch: 3  step: 7  ct_loss: 19.3874  init_py_loss: 19.6279  coarse_py_loss: 17.9668  py_loss_0: 17.9627  py_loss_1: 17.9597  loss: 35.1210  data: 0.5108  batch: 2.1494  lr: 0.000100  max_mem: 8883
+eta: 0:00:02  epoch: 4  step: 9  ct_loss: 16.4954  init_py_loss: 19.4985  coarse_py_loss: 17.1208  py_loss_0: 17.1132  py_loss_1: 17.1080  loss: 31.5644  data: 0.4964  batch: 2.1246  lr: 0.000100  max_mem: 8883
+eta: 0:00:02  epoch: 5  step: 11  ct_loss: 14.9441  init_py_loss: 17.8580  coarse_py_loss: 15.7881  py_loss_0: 15.7845  py_loss_1: 15.7823  loss: 28.8310  data: 0.4776  batch: 2.0994  lr: 0.000100  max_mem: 8883
+eta: 0:00:02  epoch: 6  step: 13  ct_loss: 13.2626  init_py_loss: 17.9275  coarse_py_loss: 15.2944  py_loss_0: 15.2887  py_loss_1: 15.2855  loss: 26.7762  data: 0.4707  batch: 2.0880  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 7  step: 15  ct_loss: 12.0784  init_py_loss: 17.5968  coarse_py_loss: 14.9417  py_loss_0: 14.9378  py_loss_1: 14.9357  loss: 25.2901  data: 0.4657  batch: 2.0809  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 8  step: 17  ct_loss: 11.1051  init_py_loss: 17.7402  coarse_py_loss: 14.6695  py_loss_0: 14.6622  py_loss_1: 14.6582  loss: 24.1195  data: 0.4598  batch: 2.0732  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 9  step: 19  ct_loss: 10.2571  init_py_loss: 17.6942  coarse_py_loss: 14.2950  py_loss_0: 14.2840  py_loss_1: 14.2776  loss: 22.9766  data: 0.4568  batch: 2.0691  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 10  step: 21  ct_loss: 8.9863  init_py_loss: 18.1210  coarse_py_loss: 14.1215  py_loss_0: 14.1046  py_loss_1: 14.0945  loss: 21.7964  end_set_loss: 11.1697  data: 0.4202  batch: 2.0178  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 11  step: 23  ct_loss: 6.6772  init_py_loss: 18.5910  coarse_py_loss: 13.9237  py_loss_0: 13.9011  py_loss_1: 13.8874  loss: 19.6360  end_set_loss: 8.8898  data: 0.4234  batch: 2.0238  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 12  step: 25  ct_loss: 4.9463  init_py_loss: 17.7903  coarse_py_loss: 12.6308  py_loss_0: 12.6045  py_loss_1: 12.5889  loss: 17.0446  end_set_loss: 7.9013  data: 0.4224  batch: 2.0261  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 13  step: 27  ct_loss: 4.1565  init_py_loss: 17.7697  coarse_py_loss: 12.2014  py_loss_0: 12.1732  py_loss_1: 12.1567  loss: 16.0933  end_set_loss: 7.1118  data: 0.4284  batch: 2.0370  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 14  step: 29  ct_loss: 3.7770  init_py_loss: 17.5290  coarse_py_loss: 11.6527  py_loss_0: 11.6270  py_loss_1: 11.6128  loss: 15.4441  end_set_loss: 6.6823  data: 0.4258  batch: 2.0381  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 15  step: 31  ct_loss: 3.2361  init_py_loss: 17.7261  coarse_py_loss: 11.4777  py_loss_0: 11.4549  py_loss_1: 11.4424  loss: 14.9643  end_set_loss: 6.4117  data: 0.4291  batch: 2.0461  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 16  step: 33  ct_loss: 3.1000  init_py_loss: 17.3986  coarse_py_loss: 11.2793  py_loss_0: 11.2635  py_loss_1: 11.2558  loss: 14.8565  end_set_loss: 6.3800  data: 0.4319  batch: 2.0525  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 17  step: 35  ct_loss: 2.9035  init_py_loss: 17.6163  coarse_py_loss: 10.8612  py_loss_0: 10.8364  py_loss_1: 10.8229  loss: 14.5453  end_set_loss: 6.2971  data: 0.4326  batch: 2.0565  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 18  step: 37  ct_loss: 2.7979  init_py_loss: 17.5355  coarse_py_loss: 10.4970  py_loss_0: 10.4744  py_loss_1: 10.4624  loss: 14.3309  end_set_loss: 6.1793  data: 0.4338  batch: 2.0608  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 19  step: 39  ct_loss: 2.7474  init_py_loss: 17.4274  coarse_py_loss: 10.2378  py_loss_0: 10.2244  py_loss_1: 10.2188  loss: 14.2033  end_set_loss: 5.9210  data: 0.4328  batch: 2.0638  lr: 0.000100  max_mem: 8886
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  7.30it/s]
+Traceback (most recent call last):
+  File "train_net.py", line 69, in <module>
+    main()
+  File "train_net.py", line 66, in main
+    train(network, cfg)
+  File "train_net.py", line 58, in train
+    trainer.val(epoch, val_loader, evaluator, recorder)
+  File "/home/deep/1-POJECT/e2ec/e2ec/train/trainer/trainer.py", line 82, in val
+    result = evaluator.summarize()
+  File "/home/deep/1-POJECT/e2ec/e2ec/evaluator/coco/snake.py", line 62, in summarize
+    coco_dets = self.coco.loadRes(os.path.join(self.result_dir, 'results.json'))
+  File "/home/deep/anaconda3/envs/e2ec/lib/python3.7/site-packages/pycocotools/coco.py", line 329, in loadRes
+    if 'caption' in anns[0]:
+IndexError: list index out of range
+Loading and preparing results...

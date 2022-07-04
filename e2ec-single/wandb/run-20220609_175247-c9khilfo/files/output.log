@@ -1,0 +1,177 @@
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+index created!
+[31mWARNING: NO MODEL LOADED !!!
+loading annotations into memory...
+/home/deep/anaconda3/envs/e2ec/lib/python3.7/site-packages/torch/nn/functional.py:3385: UserWarning: Default grid_sample and affine_grid behavior has changed to align_corners=False since 1.3.0. Please specify align_corners=True if the old behavior is desired. See the documentation of grid_sample for details.
+  warnings.warn("Default grid_sample and affine_grid behavior has changed "
+/home/deep/1-POJECT/e2ec/e2ec/network/evolve/utils.py:5: UserWarning: indexing with dtype torch.uint8 is now deprecated, please use a dtype torch.bool instead. (Triggered internally at  /pytorch/aten/src/ATen/native/IndexingUtils.h:25.)
+  poly = torch.cat([poly[i][ct_01[i]] for i in range(batch_size)], dim=0)
+Done (t=0.14s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+eta: 0:05:07  epoch: 0  step: 20  ct_loss: 4.5665  init_py_loss: 8.6391  coarse_py_loss: 6.1242  py_loss_0: 6.1099  py_loss_1: 6.1004  loss: 10.1130  data: 0.0495  batch: 1.3424  lr: 0.000100  max_mem: 5970
+eta: 0:04:35  epoch: 0  step: 40  ct_loss: 2.1742  init_py_loss: 6.7559  coarse_py_loss: 4.2980  py_loss_0: 4.1310  py_loss_1: 4.0566  loss: 6.0088  data: 0.0014  batch: 1.2949  lr: 0.000100  max_mem: 5999
+eta: 0:04:08  epoch: 0  step: 60  ct_loss: 1.5992  init_py_loss: 4.7380  coarse_py_loss: 3.9683  py_loss_0: 3.6321  py_loss_1: 3.5066  loss: 4.8495  data: 0.0015  batch: 1.3141  lr: 0.000100  max_mem: 6002
+eta: 0:03:42  epoch: 0  step: 80  ct_loss: 1.4112  init_py_loss: 3.8014  coarse_py_loss: 3.4933  py_loss_0: 3.0274  py_loss_1: 2.9160  loss: 4.1218  data: 0.0014  batch: 1.3220  lr: 0.000100  max_mem: 6027
+eta: 0:03:16  epoch: 0  step: 100  ct_loss: 1.2645  init_py_loss: 3.7218  coarse_py_loss: 3.4707  py_loss_0: 3.0062  py_loss_1: 2.9440  loss: 3.9672  data: 0.0016  batch: 1.3271  lr: 0.000100  max_mem: 6027
+eta: 0:02:50  epoch: 0  step: 120  ct_loss: 1.1991  init_py_loss: 3.6058  coarse_py_loss: 3.1727  py_loss_0: 2.7270  py_loss_1: 2.6837  loss: 3.6805  data: 0.0014  batch: 1.3446  lr: 0.000100  max_mem: 6027
+eta: 0:02:24  epoch: 0  step: 140  ct_loss: 1.0953  init_py_loss: 3.3923  coarse_py_loss: 2.7987  py_loss_0: 2.4251  py_loss_1: 2.3712  loss: 3.3131  data: 0.0015  batch: 1.3408  lr: 0.000100  max_mem: 6027
+eta: 0:01:58  epoch: 0  step: 160  ct_loss: 1.0190  init_py_loss: 3.2759  coarse_py_loss: 2.6389  py_loss_0: 2.3085  py_loss_1: 2.2881  loss: 3.1427  data: 0.0014  batch: 1.3730  lr: 0.000100  max_mem: 6034
+eta: 0:01:32  epoch: 0  step: 180  ct_loss: 1.0106  init_py_loss: 3.6244  coarse_py_loss: 2.8833  py_loss_0: 2.5423  py_loss_1: 2.5078  loss: 3.3448  data: 0.0014  batch: 1.3570  lr: 0.000100  max_mem: 6034
+eta: 0:01:05  epoch: 0  step: 200  ct_loss: 1.0208  init_py_loss: 3.2345  coarse_py_loss: 2.4716  py_loss_0: 2.1767  py_loss_1: 2.1534  loss: 3.0348  data: 0.0014  batch: 1.3619  lr: 0.000100  max_mem: 6034
+eta: 0:00:38  epoch: 0  step: 220  ct_loss: 0.9181  init_py_loss: 3.1979  coarse_py_loss: 2.3219  py_loss_0: 2.0100  py_loss_1: 1.9718  loss: 2.7973  data: 0.0014  batch: 1.3649  lr: 0.000100  max_mem: 6034
+eta: 0:00:12  epoch: 0  step: 240  ct_loss: 0.8793  init_py_loss: 3.1050  coarse_py_loss: 2.2089  py_loss_0: 1.9185  py_loss_1: 1.8927  loss: 2.6811  data: 0.0015  batch: 1.3731  lr: 0.000100  max_mem: 6034
+eta: 0:00:01  epoch: 0  step: 248  ct_loss: 0.8514  init_py_loss: 3.0100  coarse_py_loss: 2.1059  py_loss_0: 1.8350  py_loss_1: 1.8101  loss: 2.5780  data: 0.0016  batch: 1.3643  lr: 0.000100  max_mem: 6034
+eta: 0:05:08  epoch: 1  step: 269  ct_loss: 0.8677  init_py_loss: 3.1610  coarse_py_loss: 2.2272  py_loss_0: 1.9747  py_loss_1: 1.9554  loss: 2.7165  data: 0.0361  batch: 1.4140  lr: 0.000100  max_mem: 6034
+eta: 0:04:42  epoch: 1  step: 289  ct_loss: 0.7996  init_py_loss: 3.0295  coarse_py_loss: 2.0742  py_loss_0: 1.8264  py_loss_1: 1.8042  loss: 2.5201  data: 0.0016  batch: 1.3957  lr: 0.000100  max_mem: 6034
+eta: 0:04:15  epoch: 1  step: 309  ct_loss: 0.8892  init_py_loss: 3.2935  coarse_py_loss: 2.3110  py_loss_0: 2.0651  py_loss_1: 2.0420  loss: 2.8187  data: 0.0015  batch: 1.3557  lr: 0.000100  max_mem: 6034
+eta: 0:03:49  epoch: 1  step: 329  ct_loss: 0.8136  init_py_loss: 3.1001  coarse_py_loss: 2.1364  py_loss_0: 1.8636  py_loss_1: 1.8406  loss: 2.5719  data: 0.0014  batch: 1.4105  lr: 0.000100  max_mem: 6034
+eta: 0:03:22  epoch: 1  step: 349  ct_loss: 0.8026  init_py_loss: 3.0241  coarse_py_loss: 2.1138  py_loss_0: 1.8351  py_loss_1: 1.8081  loss: 2.5308  data: 0.0015  batch: 1.3816  lr: 0.000100  max_mem: 6034
+eta: 0:02:55  epoch: 1  step: 369  ct_loss: 0.8198  init_py_loss: 2.8365  coarse_py_loss: 2.0141  py_loss_0: 1.7737  py_loss_1: 1.7590  loss: 2.4824  data: 0.0014  batch: 1.3973  lr: 0.000100  max_mem: 6034
+eta: 0:02:28  epoch: 1  step: 389  ct_loss: 0.7925  init_py_loss: 2.7488  coarse_py_loss: 1.9336  py_loss_0: 1.6882  py_loss_1: 1.6700  loss: 2.3802  data: 0.0016  batch: 1.3985  lr: 0.000100  max_mem: 6034
+eta: 0:02:01  epoch: 1  step: 409  ct_loss: 0.7584  init_py_loss: 2.7193  coarse_py_loss: 1.8002  py_loss_0: 1.5475  py_loss_1: 1.5246  loss: 2.2343  data: 0.0015  batch: 1.3987  lr: 0.000100  max_mem: 6034
+eta: 0:01:34  epoch: 1  step: 429  ct_loss: 0.7724  init_py_loss: 2.8897  coarse_py_loss: 1.9389  py_loss_0: 1.7216  py_loss_1: 1.7066  loss: 2.3980  data: 0.0014  batch: 1.3696  lr: 0.000100  max_mem: 6034
+eta: 0:01:06  epoch: 1  step: 449  ct_loss: 0.8009  init_py_loss: 2.8601  coarse_py_loss: 2.0192  py_loss_0: 1.7804  py_loss_1: 1.7613  loss: 2.4694  data: 0.0014  batch: 1.3695  lr: 0.000100  max_mem: 6034
+eta: 0:00:39  epoch: 1  step: 469  ct_loss: 0.7549  init_py_loss: 2.6732  coarse_py_loss: 1.8939  py_loss_0: 1.6616  py_loss_1: 1.6511  loss: 2.3158  data: 0.0014  batch: 1.4021  lr: 0.000100  max_mem: 6034
+eta: 0:00:12  epoch: 1  step: 489  ct_loss: 0.7232  init_py_loss: 2.5651  coarse_py_loss: 1.7959  py_loss_0: 1.5529  py_loss_1: 1.5322  loss: 2.1877  data: 0.0015  batch: 1.4025  lr: 0.000100  max_mem: 6034
+eta: 0:00:01  epoch: 1  step: 497  ct_loss: 0.7116  init_py_loss: 2.4474  coarse_py_loss: 1.7063  py_loss_0: 1.4732  py_loss_1: 1.4576  loss: 2.1039  data: 0.0015  batch: 1.3968  lr: 0.000100  max_mem: 6034
+eta: 0:05:13  epoch: 2  step: 518  ct_loss: 0.7009  init_py_loss: 2.4562  coarse_py_loss: 1.7597  py_loss_0: 1.5501  py_loss_1: 1.5408  loss: 2.1527  data: 0.0390  batch: 1.4315  lr: 0.000100  max_mem: 6034
+eta: 0:04:46  epoch: 2  step: 538  ct_loss: 0.7132  init_py_loss: 2.5281  coarse_py_loss: 1.7711  py_loss_0: 1.5406  py_loss_1: 1.5189  loss: 2.1630  data: 0.0016  batch: 1.4055  lr: 0.000100  max_mem: 6034
+eta: 0:04:19  epoch: 2  step: 558  ct_loss: 0.6803  init_py_loss: 2.4726  coarse_py_loss: 1.7277  py_loss_0: 1.5092  py_loss_1: 1.4868  loss: 2.0990  data: 0.0014  batch: 1.4019  lr: 0.000100  max_mem: 6034
+eta: 0:03:52  epoch: 2  step: 578  ct_loss: 0.7300  init_py_loss: 2.4290  coarse_py_loss: 1.7784  py_loss_0: 1.5508  py_loss_1: 1.5385  loss: 2.1806  data: 0.0015  batch: 1.4026  lr: 0.000100  max_mem: 6034
+eta: 0:03:24  epoch: 2  step: 598  ct_loss: 0.7373  init_py_loss: 2.3092  coarse_py_loss: 1.6053  py_loss_0: 1.4057  py_loss_1: 1.3913  loss: 2.0611  data: 0.0014  batch: 1.3945  lr: 0.000100  max_mem: 6034
+eta: 0:02:57  epoch: 2  step: 618  ct_loss: 0.6662  init_py_loss: 2.2824  coarse_py_loss: 1.6713  py_loss_0: 1.4806  py_loss_1: 1.4661  loss: 2.0438  data: 0.0014  batch: 1.4060  lr: 0.000100  max_mem: 6034
+eta: 0:02:30  epoch: 2  step: 638  ct_loss: 0.7400  init_py_loss: 2.2896  coarse_py_loss: 1.6868  py_loss_0: 1.4882  py_loss_1: 1.4751  loss: 2.1254  data: 0.0016  batch: 1.4081  lr: 0.000100  max_mem: 6034
+eta: 0:02:02  epoch: 2  step: 658  ct_loss: 0.7099  init_py_loss: 2.2408  coarse_py_loss: 1.6565  py_loss_0: 1.4690  py_loss_1: 1.4512  loss: 2.0730  data: 0.0014  batch: 1.4020  lr: 0.000100  max_mem: 6034
+eta: 0:01:35  epoch: 2  step: 678  ct_loss: 0.6992  init_py_loss: 2.2434  coarse_py_loss: 1.6063  py_loss_0: 1.4372  py_loss_1: 1.4302  loss: 2.0400  data: 0.0014  batch: 1.4150  lr: 0.000100  max_mem: 6034
+eta: 0:01:07  epoch: 2  step: 698  ct_loss: 0.7252  init_py_loss: 2.2669  coarse_py_loss: 1.6920  py_loss_0: 1.4990  py_loss_1: 1.4827  loss: 2.1150  data: 0.0014  batch: 1.3944  lr: 0.000100  max_mem: 6034
+eta: 0:00:39  epoch: 2  step: 718  ct_loss: 0.7055  init_py_loss: 2.3842  coarse_py_loss: 1.7322  py_loss_0: 1.5450  py_loss_1: 1.5308  loss: 2.1424  data: 0.0014  batch: 1.3798  lr: 0.000100  max_mem: 6034
+eta: 0:00:12  epoch: 2  step: 738  ct_loss: 0.6782  init_py_loss: 2.1991  coarse_py_loss: 1.6416  py_loss_0: 1.4741  py_loss_1: 1.4658  loss: 2.0422  data: 0.0014  batch: 1.4074  lr: 0.000100  max_mem: 6034
+eta: 0:00:01  epoch: 2  step: 746  ct_loss: 0.6770  init_py_loss: 2.2408  coarse_py_loss: 1.6558  py_loss_0: 1.4808  py_loss_1: 1.4738  loss: 2.0515  data: 0.0015  batch: 1.3975  lr: 0.000100  max_mem: 6034
+eta: 0:05:16  epoch: 3  step: 767  ct_loss: 0.6892  init_py_loss: 2.3503  coarse_py_loss: 1.7360  py_loss_0: 1.5684  py_loss_1: 1.5596  loss: 2.1405  data: 0.0400  batch: 1.4361  lr: 0.000100  max_mem: 6034
+eta: 0:04:48  epoch: 3  step: 787  ct_loss: 0.6723  init_py_loss: 2.0202  coarse_py_loss: 1.4469  py_loss_0: 1.2726  py_loss_1: 1.2581  loss: 1.8626  data: 0.0014  batch: 1.3967  lr: 0.000100  max_mem: 6034
+eta: 0:04:21  epoch: 3  step: 807  ct_loss: 0.6850  init_py_loss: 2.0821  coarse_py_loss: 1.5685  py_loss_0: 1.3951  py_loss_1: 1.3808  loss: 1.9754  data: 0.0015  batch: 1.4103  lr: 0.000100  max_mem: 6034
+eta: 0:03:53  epoch: 3  step: 827  ct_loss: 0.6682  init_py_loss: 2.0686  coarse_py_loss: 1.5184  py_loss_0: 1.3536  py_loss_1: 1.3424  loss: 1.9256  data: 0.0015  batch: 1.3938  lr: 0.000100  max_mem: 6034
+eta: 0:03:26  epoch: 3  step: 847  ct_loss: 0.6916  init_py_loss: 2.2377  coarse_py_loss: 1.7010  py_loss_0: 1.5414  py_loss_1: 1.5301  loss: 2.1093  data: 0.0014  batch: 1.3859  lr: 0.000100  max_mem: 6034
+eta: 0:02:58  epoch: 3  step: 867  ct_loss: 0.7514  init_py_loss: 2.2216  coarse_py_loss: 1.6542  py_loss_0: 1.5082  py_loss_1: 1.4964  loss: 2.1405  data: 0.0014  batch: 1.3940  lr: 0.000100  max_mem: 6034
+eta: 0:02:30  epoch: 3  step: 887  ct_loss: 0.6792  init_py_loss: 2.0472  coarse_py_loss: 1.5201  py_loss_0: 1.3630  py_loss_1: 1.3502  loss: 1.9403  data: 0.0016  batch: 1.4057  lr: 0.000100  max_mem: 6034
+eta: 0:02:03  epoch: 3  step: 907  ct_loss: 0.6389  init_py_loss: 1.8523  coarse_py_loss: 1.3961  py_loss_0: 1.2362  py_loss_1: 1.2256  loss: 1.7843  data: 0.0015  batch: 1.3991  lr: 0.000100  max_mem: 6034
+eta: 0:01:35  epoch: 3  step: 927  ct_loss: 0.6398  init_py_loss: 1.8874  coarse_py_loss: 1.3885  py_loss_0: 1.2293  py_loss_1: 1.2196  loss: 1.7837  data: 0.0014  batch: 1.3968  lr: 0.000100  max_mem: 6034
+eta: 0:01:07  epoch: 3  step: 947  ct_loss: 0.6332  init_py_loss: 1.6873  coarse_py_loss: 1.3180  py_loss_0: 1.2017  py_loss_1: 1.1940  loss: 1.7323  data: 0.0014  batch: 1.3962  lr: 0.000100  max_mem: 6034
+eta: 0:00:40  epoch: 3  step: 967  ct_loss: 0.6586  init_py_loss: 1.7618  coarse_py_loss: 1.3294  py_loss_0: 1.1989  py_loss_1: 1.1884  loss: 1.7635  data: 0.0015  batch: 1.3866  lr: 0.000100  max_mem: 6034
+eta: 0:00:12  epoch: 3  step: 987  ct_loss: 0.7009  init_py_loss: 1.8431  coarse_py_loss: 1.3838  py_loss_0: 1.2504  py_loss_1: 1.2438  loss: 1.8550  data: 0.0014  batch: 1.4050  lr: 0.000100  max_mem: 6044
+eta: 0:00:01  epoch: 3  step: 995  ct_loss: 0.6831  init_py_loss: 1.8474  coarse_py_loss: 1.3959  py_loss_0: 1.2594  py_loss_1: 1.2494  loss: 1.8437  data: 0.0015  batch: 1.3983  lr: 0.000100  max_mem: 6044
+eta: 0:05:17  epoch: 4  step: 1016  ct_loss: 0.7048  init_py_loss: 1.8623  coarse_py_loss: 1.4123  py_loss_0: 1.2857  py_loss_1: 1.2759  loss: 1.8861  data: 0.0392  batch: 1.4187  lr: 0.000100  max_mem: 6044
+eta: 0:04:49  epoch: 4  step: 1036  ct_loss: 0.6418  init_py_loss: 2.1341  coarse_py_loss: 1.5621  py_loss_0: 1.4359  py_loss_1: 1.4226  loss: 1.9643  data: 0.0016  batch: 1.3944  lr: 0.000100  max_mem: 6044
+eta: 0:04:21  epoch: 4  step: 1056  ct_loss: 0.6440  init_py_loss: 2.0860  coarse_py_loss: 1.5541  py_loss_0: 1.4122  py_loss_1: 1.4065  loss: 1.9476  data: 0.0016  batch: 1.3843  lr: 0.000100  max_mem: 6044
+eta: 0:03:54  epoch: 4  step: 1076  ct_loss: 0.6448  init_py_loss: 1.7105  coarse_py_loss: 1.3421  py_loss_0: 1.2095  py_loss_1: 1.2029  loss: 1.7542  data: 0.0015  batch: 1.3914  lr: 0.000100  max_mem: 6044
+eta: 0:03:26  epoch: 4  step: 1096  ct_loss: 0.6538  init_py_loss: 1.7863  coarse_py_loss: 1.3591  py_loss_0: 1.2327  py_loss_1: 1.2264  loss: 1.7881  data: 0.0015  batch: 1.4046  lr: 0.000100  max_mem: 6044
+eta: 0:02:58  epoch: 4  step: 1116  ct_loss: 0.6210  init_py_loss: 1.8039  coarse_py_loss: 1.3868  py_loss_0: 1.2734  py_loss_1: 1.2676  loss: 1.7871  data: 0.0014  batch: 1.3954  lr: 0.000100  max_mem: 6044
+eta: 0:02:31  epoch: 4  step: 1136  ct_loss: 0.6350  init_py_loss: 1.6533  coarse_py_loss: 1.2951  py_loss_0: 1.1719  py_loss_1: 1.1663  loss: 1.7092  data: 0.0014  batch: 1.4039  lr: 0.000100  max_mem: 6044
+eta: 0:02:03  epoch: 4  step: 1156  ct_loss: 0.6594  init_py_loss: 1.6849  coarse_py_loss: 1.2925  py_loss_0: 1.1686  py_loss_1: 1.1590  loss: 1.7330  data: 0.0015  batch: 1.3976  lr: 0.000100  max_mem: 6044
+eta: 0:01:35  epoch: 4  step: 1176  ct_loss: 0.6511  init_py_loss: 1.9268  coarse_py_loss: 1.4796  py_loss_0: 1.3595  py_loss_1: 1.3492  loss: 1.8947  data: 0.0015  batch: 1.3862  lr: 0.000100  max_mem: 6044
+eta: 0:01:07  epoch: 4  step: 1196  ct_loss: 0.6303  init_py_loss: 1.8375  coarse_py_loss: 1.4112  py_loss_0: 1.2975  py_loss_1: 1.2971  loss: 1.8200  data: 0.0014  batch: 1.3909  lr: 0.000100  max_mem: 6044
+eta: 0:00:40  epoch: 4  step: 1216  ct_loss: 0.6471  init_py_loss: 1.6982  coarse_py_loss: 1.3044  py_loss_0: 1.1736  py_loss_1: 1.1651  loss: 1.7269  data: 0.0016  batch: 1.3967  lr: 0.000100  max_mem: 6044
+eta: 0:00:12  epoch: 4  step: 1236  ct_loss: 0.6409  init_py_loss: 1.7571  coarse_py_loss: 1.3514  py_loss_0: 1.2390  py_loss_1: 1.2315  loss: 1.7752  data: 0.0015  batch: 1.3752  lr: 0.000100  max_mem: 6044
+eta: 0:00:01  epoch: 4  step: 1244  ct_loss: 0.6426  init_py_loss: 1.7665  coarse_py_loss: 1.3622  py_loss_0: 1.2530  py_loss_1: 1.2433  loss: 1.7876  data: 0.0016  batch: 1.3795  lr: 0.000100  max_mem: 6044
+eta: 0:05:17  epoch: 5  step: 1265  ct_loss: 0.6579  init_py_loss: 1.6888  coarse_py_loss: 1.2999  py_loss_0: 1.1877  py_loss_1: 1.1812  loss: 1.7464  data: 0.0403  batch: 1.4149  lr: 0.000100  max_mem: 6044
+eta: 0:04:49  epoch: 5  step: 1285  ct_loss: 0.6225  init_py_loss: 1.7058  coarse_py_loss: 1.3031  py_loss_0: 1.1932  py_loss_1: 1.1858  loss: 1.7164  data: 0.0015  batch: 1.3876  lr: 0.000100  max_mem: 6044
+eta: 0:04:22  epoch: 5  step: 1305  ct_loss: 0.6441  init_py_loss: 1.7428  coarse_py_loss: 1.3104  py_loss_0: 1.1961  py_loss_1: 1.1897  loss: 1.7447  data: 0.0015  batch: 1.3904  lr: 0.000100  max_mem: 6044
+eta: 0:03:54  epoch: 5  step: 1325  ct_loss: 0.6104  init_py_loss: 1.6558  coarse_py_loss: 1.2454  py_loss_0: 1.1303  py_loss_1: 1.1238  loss: 1.6518  data: 0.0015  batch: 1.3922  lr: 0.000100  max_mem: 6044
+eta: 0:03:26  epoch: 5  step: 1345  ct_loss: 0.5906  init_py_loss: 1.5203  coarse_py_loss: 1.1794  py_loss_0: 1.0894  py_loss_1: 1.0854  loss: 1.5854  data: 0.0015  batch: 1.4074  lr: 0.000100  max_mem: 6044
+eta: 0:02:59  epoch: 5  step: 1365  ct_loss: 0.6394  init_py_loss: 1.7180  coarse_py_loss: 1.3029  py_loss_0: 1.2000  py_loss_1: 1.1952  loss: 1.7399  data: 0.0015  batch: 1.4002  lr: 0.000100  max_mem: 6044
+eta: 0:02:31  epoch: 5  step: 1385  ct_loss: 0.6394  init_py_loss: 1.6507  coarse_py_loss: 1.2928  py_loss_0: 1.1921  py_loss_1: 1.1863  loss: 1.7265  data: 0.0014  batch: 1.3968  lr: 0.000100  max_mem: 6044
+eta: 0:02:03  epoch: 5  step: 1405  ct_loss: 0.6268  init_py_loss: 1.6181  coarse_py_loss: 1.2757  py_loss_0: 1.1653  py_loss_1: 1.1577  loss: 1.6905  data: 0.0014  batch: 1.3963  lr: 0.000100  max_mem: 6044
+eta: 0:01:35  epoch: 5  step: 1425  ct_loss: 0.6216  init_py_loss: 1.5928  coarse_py_loss: 1.2498  py_loss_0: 1.1535  py_loss_1: 1.1477  loss: 1.6730  data: 0.0014  batch: 1.4095  lr: 0.000100  max_mem: 6044
+eta: 0:01:08  epoch: 5  step: 1445  ct_loss: 0.6138  init_py_loss: 1.6967  coarse_py_loss: 1.3045  py_loss_0: 1.1971  py_loss_1: 1.1878  loss: 1.7089  data: 0.0016  batch: 1.3925  lr: 0.000100  max_mem: 6044
+eta: 0:00:40  epoch: 5  step: 1465  ct_loss: 0.6086  init_py_loss: 1.6757  coarse_py_loss: 1.2551  py_loss_0: 1.1495  py_loss_1: 1.1447  loss: 1.6665  data: 0.0015  batch: 1.4086  lr: 0.000100  max_mem: 6044
+eta: 0:00:12  epoch: 5  step: 1485  ct_loss: 0.6061  init_py_loss: 1.5371  coarse_py_loss: 1.2025  py_loss_0: 1.1076  py_loss_1: 1.1021  loss: 1.6166  data: 0.0015  batch: 1.4088  lr: 0.000100  max_mem: 6044
+eta: 0:00:01  epoch: 5  step: 1493  ct_loss: 0.5762  init_py_loss: 1.5332  coarse_py_loss: 1.1999  py_loss_0: 1.1167  py_loss_1: 1.1109  loss: 1.5921  data: 0.0015  batch: 1.3950  lr: 0.000100  max_mem: 6044
+eta: 0:05:18  epoch: 6  step: 1514  ct_loss: 0.6188  init_py_loss: 1.5349  coarse_py_loss: 1.1698  py_loss_0: 1.0736  py_loss_1: 1.0666  loss: 1.6027  data: 0.0382  batch: 1.4442  lr: 0.000100  max_mem: 6044
+eta: 0:04:50  epoch: 6  step: 1534  ct_loss: 0.5707  init_py_loss: 1.7501  coarse_py_loss: 1.3577  py_loss_0: 1.2519  py_loss_1: 1.2434  loss: 1.7133  data: 0.0014  batch: 1.4082  lr: 0.000100  max_mem: 6044
+eta: 0:04:22  epoch: 6  step: 1554  ct_loss: 0.6261  init_py_loss: 1.7109  coarse_py_loss: 1.3200  py_loss_0: 1.2219  py_loss_1: 1.2182  loss: 1.7425  data: 0.0015  batch: 1.3818  lr: 0.000100  max_mem: 6044
+eta: 0:03:54  epoch: 6  step: 1574  ct_loss: 0.5950  init_py_loss: 1.5856  coarse_py_loss: 1.2356  py_loss_0: 1.1336  py_loss_1: 1.1274  loss: 1.6308  data: 0.0015  batch: 1.3929  lr: 0.000100  max_mem: 6044
+eta: 0:03:27  epoch: 6  step: 1594  ct_loss: 0.5910  init_py_loss: 1.5800  coarse_py_loss: 1.2479  py_loss_0: 1.1512  py_loss_1: 1.1460  loss: 1.6395  data: 0.0014  batch: 1.3791  lr: 0.000100  max_mem: 6044
+eta: 0:02:59  epoch: 6  step: 1614  ct_loss: 0.5876  init_py_loss: 1.4627  coarse_py_loss: 1.1104  py_loss_0: 1.0210  py_loss_1: 1.0165  loss: 1.5241  data: 0.0016  batch: 1.4097  lr: 0.000100  max_mem: 6044
+eta: 0:02:31  epoch: 6  step: 1634  ct_loss: 0.5946  init_py_loss: 1.5304  coarse_py_loss: 1.1704  py_loss_0: 1.0800  py_loss_1: 1.0757  loss: 1.5833  data: 0.0014  batch: 1.4067  lr: 0.000100  max_mem: 6044
+eta: 0:02:03  epoch: 6  step: 1654  ct_loss: 0.6209  init_py_loss: 1.6384  coarse_py_loss: 1.3065  py_loss_0: 1.2190  py_loss_1: 1.2120  loss: 1.7257  data: 0.0014  batch: 1.3973  lr: 0.000100  max_mem: 6044
+eta: 0:01:35  epoch: 6  step: 1674  ct_loss: 0.6586  init_py_loss: 1.5971  coarse_py_loss: 1.1822  py_loss_0: 1.0795  py_loss_1: 1.0733  loss: 1.6541  data: 0.0015  batch: 1.3831  lr: 0.000100  max_mem: 6044
+eta: 0:01:08  epoch: 6  step: 1694  ct_loss: 0.6411  init_py_loss: 1.6582  coarse_py_loss: 1.2605  py_loss_0: 1.1546  py_loss_1: 1.1479  loss: 1.7005  data: 0.0014  batch: 1.4036  lr: 0.000100  max_mem: 6044
+eta: 0:00:40  epoch: 6  step: 1714  ct_loss: 0.6066  init_py_loss: 1.6423  coarse_py_loss: 1.2374  py_loss_0: 1.1223  py_loss_1: 1.1158  loss: 1.6407  data: 0.0015  batch: 1.3930  lr: 0.000100  max_mem: 6044
+eta: 0:00:12  epoch: 6  step: 1734  ct_loss: 0.6021  init_py_loss: 1.4316  coarse_py_loss: 1.1390  py_loss_0: 1.0459  py_loss_1: 1.0412  loss: 1.5549  data: 0.0015  batch: 1.3930  lr: 0.000100  max_mem: 6044
+eta: 0:00:01  epoch: 6  step: 1742  ct_loss: 0.5885  init_py_loss: 1.4511  coarse_py_loss: 1.1499  py_loss_0: 1.0634  py_loss_1: 1.0588  loss: 1.5559  data: 0.0014  batch: 1.4052  lr: 0.000100  max_mem: 6044
+eta: 0:05:18  epoch: 7  step: 1763  ct_loss: 0.5848  init_py_loss: 1.5533  coarse_py_loss: 1.2557  py_loss_0: 1.1787  py_loss_1: 1.1782  loss: 1.6513  data: 0.0402  batch: 1.4148  lr: 0.000100  max_mem: 6044
+eta: 0:04:50  epoch: 7  step: 1783  ct_loss: 0.5917  init_py_loss: 1.4876  coarse_py_loss: 1.1770  py_loss_0: 1.0908  py_loss_1: 1.0858  loss: 1.5836  data: 0.0014  batch: 1.4056  lr: 0.000100  max_mem: 6046
+eta: 0:04:22  epoch: 7  step: 1803  ct_loss: 0.6063  init_py_loss: 1.4286  coarse_py_loss: 1.1215  py_loss_0: 1.0270  py_loss_1: 1.0201  loss: 1.5437  data: 0.0014  batch: 1.3832  lr: 0.000100  max_mem: 6046
+eta: 0:03:55  epoch: 7  step: 1823  ct_loss: 0.5871  init_py_loss: 1.5384  coarse_py_loss: 1.1949  py_loss_0: 1.1054  py_loss_1: 1.0992  loss: 1.5953  data: 0.0015  batch: 1.4197  lr: 0.000100  max_mem: 6046
+eta: 0:03:27  epoch: 7  step: 1843  ct_loss: 0.5912  init_py_loss: 1.5439  coarse_py_loss: 1.1876  py_loss_0: 1.0855  py_loss_1: 1.0794  loss: 1.5860  data: 0.0014  batch: 1.4045  lr: 0.000100  max_mem: 6046
+eta: 0:02:59  epoch: 7  step: 1863  ct_loss: 0.6043  init_py_loss: 1.4875  coarse_py_loss: 1.1658  py_loss_0: 1.0692  py_loss_1: 1.0667  loss: 1.5816  data: 0.0014  batch: 1.4090  lr: 0.000100  max_mem: 6046
+eta: 0:02:31  epoch: 7  step: 1883  ct_loss: 0.6191  init_py_loss: 1.6371  coarse_py_loss: 1.2728  py_loss_0: 1.1743  py_loss_1: 1.1668  loss: 1.6904  data: 0.0015  batch: 1.3930  lr: 0.000100  max_mem: 6046
+eta: 0:02:03  epoch: 7  step: 1903  ct_loss: 0.5921  init_py_loss: 1.5387  coarse_py_loss: 1.1977  py_loss_0: 1.1031  py_loss_1: 1.0974  loss: 1.5992  data: 0.0014  batch: 1.4041  lr: 0.000100  max_mem: 6046
+eta: 0:01:36  epoch: 7  step: 1923  ct_loss: 0.6043  init_py_loss: 1.5333  coarse_py_loss: 1.2385  py_loss_0: 1.1566  py_loss_1: 1.1532  loss: 1.6514  data: 0.0015  batch: 1.3871  lr: 0.000100  max_mem: 6046
+eta: 0:01:08  epoch: 7  step: 1943  ct_loss: 0.5657  init_py_loss: 1.4504  coarse_py_loss: 1.1321  py_loss_0: 1.0425  py_loss_1: 1.0382  loss: 1.5175  data: 0.0014  batch: 1.4081  lr: 0.000100  max_mem: 6046
+eta: 0:00:40  epoch: 7  step: 1963  ct_loss: 0.5597  init_py_loss: 1.4599  coarse_py_loss: 1.1103  py_loss_0: 1.0083  py_loss_1: 1.0029  loss: 1.4871  data: 0.0014  batch: 1.3992  lr: 0.000100  max_mem: 6046
+eta: 0:00:12  epoch: 7  step: 1983  ct_loss: 0.5817  init_py_loss: 1.3963  coarse_py_loss: 1.0914  py_loss_0: 1.0044  py_loss_1: 1.0008  loss: 1.4989  data: 0.0014  batch: 1.4011  lr: 0.000100  max_mem: 6046
+eta: 0:00:01  epoch: 7  step: 1991  ct_loss: 0.5599  init_py_loss: 1.4131  coarse_py_loss: 1.1098  py_loss_0: 1.0191  py_loss_1: 1.0133  loss: 1.4896  data: 0.0014  batch: 1.3939  lr: 0.000100  max_mem: 6046
+eta: 0:05:18  epoch: 8  step: 2012  ct_loss: 0.5974  init_py_loss: 1.4927  coarse_py_loss: 1.1821  py_loss_0: 1.0983  py_loss_1: 1.0934  loss: 1.5954  data: 0.0377  batch: 1.4364  lr: 0.000100  max_mem: 6046
+eta: 0:04:51  epoch: 8  step: 2032  ct_loss: 0.6198  init_py_loss: 1.5359  coarse_py_loss: 1.2514  py_loss_0: 1.1590  py_loss_1: 1.1520  loss: 1.6689  data: 0.0015  batch: 1.3956  lr: 0.000100  max_mem: 6046
+eta: 0:04:23  epoch: 8  step: 2052  ct_loss: 0.5863  init_py_loss: 1.3779  coarse_py_loss: 1.1073  py_loss_0: 1.0297  py_loss_1: 1.0257  loss: 1.5200  data: 0.0014  batch: 1.4007  lr: 0.000100  max_mem: 6046
+eta: 0:03:55  epoch: 8  step: 2072  ct_loss: 0.5831  init_py_loss: 1.4311  coarse_py_loss: 1.1088  py_loss_0: 1.0274  py_loss_1: 1.0242  loss: 1.5210  data: 0.0014  batch: 1.4120  lr: 0.000100  max_mem: 6046
+eta: 0:03:27  epoch: 8  step: 2092  ct_loss: 0.5692  init_py_loss: 1.4600  coarse_py_loss: 1.1524  py_loss_0: 1.0617  py_loss_1: 1.0562  loss: 1.5364  data: 0.0014  batch: 1.3875  lr: 0.000100  max_mem: 6046
+eta: 0:02:59  epoch: 8  step: 2112  ct_loss: 0.5971  init_py_loss: 1.3831  coarse_py_loss: 1.0919  py_loss_0: 1.0163  py_loss_1: 1.0109  loss: 1.5203  data: 0.0015  batch: 1.3916  lr: 0.000100  max_mem: 6046
+eta: 0:02:31  epoch: 8  step: 2132  ct_loss: 0.5715  init_py_loss: 1.4280  coarse_py_loss: 1.1336  py_loss_0: 1.0436  py_loss_1: 1.0400  loss: 1.5222  data: 0.0014  batch: 1.4162  lr: 0.000100  max_mem: 6046
+eta: 0:02:03  epoch: 8  step: 2152  ct_loss: 0.5823  init_py_loss: 1.4873  coarse_py_loss: 1.1758  py_loss_0: 1.0830  py_loss_1: 1.0779  loss: 1.5690  data: 0.0014  batch: 1.4038  lr: 0.000100  max_mem: 6046
+eta: 0:01:36  epoch: 8  step: 2172  ct_loss: 0.5643  init_py_loss: 1.3957  coarse_py_loss: 1.0949  py_loss_0: 1.0091  py_loss_1: 1.0044  loss: 1.4845  data: 0.0015  batch: 1.3876  lr: 0.000100  max_mem: 6046
+eta: 0:01:08  epoch: 8  step: 2192  ct_loss: 0.5872  init_py_loss: 1.4163  coarse_py_loss: 1.1280  py_loss_0: 1.0461  py_loss_1: 1.0398  loss: 1.5370  data: 0.0015  batch: 1.4015  lr: 0.000100  max_mem: 6046
+eta: 0:00:40  epoch: 8  step: 2212  ct_loss: 0.5768  init_py_loss: 1.2947  coarse_py_loss: 1.0345  py_loss_0: 0.9572  py_loss_1: 0.9534  loss: 1.4466  data: 0.0014  batch: 1.3986  lr: 0.000100  max_mem: 6046
+eta: 0:00:12  epoch: 8  step: 2232  ct_loss: 0.6289  init_py_loss: 1.4200  coarse_py_loss: 1.1388  py_loss_0: 1.0660  py_loss_1: 1.0632  loss: 1.5945  data: 0.0014  batch: 1.4041  lr: 0.000100  max_mem: 6046
+eta: 0:00:01  epoch: 8  step: 2240  ct_loss: 0.6271  init_py_loss: 1.4372  coarse_py_loss: 1.1620  py_loss_0: 1.0837  py_loss_1: 1.0804  loss: 1.6084  data: 0.0015  batch: 1.3969  lr: 0.000100  max_mem: 6046
+eta: 0:05:19  epoch: 9  step: 2261  ct_loss: 0.6018  init_py_loss: 1.4870  coarse_py_loss: 1.1991  py_loss_0: 1.1254  py_loss_1: 1.1220  loss: 1.6195  data: 0.0409  batch: 1.4295  lr: 0.000100  max_mem: 6046
+eta: 0:04:51  epoch: 9  step: 2281  ct_loss: 0.5917  init_py_loss: 1.5090  coarse_py_loss: 1.1360  py_loss_0: 1.0575  py_loss_1: 1.0526  loss: 1.5595  data: 0.0016  batch: 1.4019  lr: 0.000100  max_mem: 6046
+eta: 0:04:23  epoch: 9  step: 2301  ct_loss: 0.5861  init_py_loss: 1.5117  coarse_py_loss: 1.1714  py_loss_0: 1.0750  py_loss_1: 1.0697  loss: 1.5693  data: 0.0014  batch: 1.3899  lr: 0.000100  max_mem: 6046
+eta: 0:03:55  epoch: 9  step: 2321  ct_loss: 0.5627  init_py_loss: 1.3468  coarse_py_loss: 1.0502  py_loss_0: 0.9544  py_loss_1: 0.9469  loss: 1.4362  data: 0.0015  batch: 1.4013  lr: 0.000100  max_mem: 6046
+eta: 0:03:27  epoch: 9  step: 2341  ct_loss: 0.5805  init_py_loss: 1.3433  coarse_py_loss: 1.0890  py_loss_0: 1.0012  py_loss_1: 0.9954  loss: 1.4892  data: 0.0015  batch: 1.4161  lr: 0.000100  max_mem: 6046
+eta: 0:02:59  epoch: 9  step: 2361  ct_loss: 0.5741  init_py_loss: 1.3232  coarse_py_loss: 1.0809  py_loss_0: 1.0013  py_loss_1: 0.9969  loss: 1.4806  data: 0.0014  batch: 1.3823  lr: 0.000100  max_mem: 6046
+eta: 0:02:31  epoch: 9  step: 2381  ct_loss: 0.5552  init_py_loss: 1.2388  coarse_py_loss: 0.9956  py_loss_0: 0.9322  py_loss_1: 0.9295  loss: 1.3992  data: 0.0015  batch: 1.4218  lr: 0.000100  max_mem: 6046
+eta: 0:02:04  epoch: 9  step: 2401  ct_loss: 0.5854  init_py_loss: 1.4039  coarse_py_loss: 1.1353  py_loss_0: 1.0684  py_loss_1: 1.0652  loss: 1.5505  data: 0.0014  batch: 1.3961  lr: 0.000100  max_mem: 6046
+eta: 0:01:36  epoch: 9  step: 2421  ct_loss: 0.5747  init_py_loss: 1.4543  coarse_py_loss: 1.1874  py_loss_0: 1.1147  py_loss_1: 1.1123  loss: 1.5812  data: 0.0014  batch: 1.4006  lr: 0.000100  max_mem: 6046
+eta: 0:01:08  epoch: 9  step: 2441  ct_loss: 0.5756  init_py_loss: 1.3591  coarse_py_loss: 1.0895  py_loss_0: 1.0094  py_loss_1: 1.0049  loss: 1.4919  data: 0.0015  batch: 1.3889  lr: 0.000100  max_mem: 6046
+eta: 0:00:40  epoch: 9  step: 2461  ct_loss: 0.5674  init_py_loss: 1.2992  coarse_py_loss: 1.0441  py_loss_0: 0.9730  py_loss_1: 0.9706  loss: 1.4496  data: 0.0015  batch: 1.4143  lr: 0.000100  max_mem: 6046
+eta: 0:00:12  epoch: 9  step: 2481  ct_loss: 0.5593  init_py_loss: 1.3619  coarse_py_loss: 1.1021  py_loss_0: 1.0217  py_loss_1: 1.0145  loss: 1.4844  data: 0.0015  batch: 1.3938  lr: 0.000100  max_mem: 6046
+eta: 0:00:01  epoch: 9  step: 2489  ct_loss: 0.5580  init_py_loss: 1.3691  coarse_py_loss: 1.0818  py_loss_0: 0.9998  py_loss_1: 0.9936  loss: 1.4676  data: 0.0014  batch: 1.3902  lr: 0.000100  max_mem: 6046
+eta: 0:05:19  epoch: 10  step: 2510  ct_loss: 0.5819  init_py_loss: 1.3522  coarse_py_loss: 1.0748  py_loss_0: 1.0072  py_loss_1: 1.0079  loss: 1.6234  end_set_loss: 0.3811  data: 0.0363  batch: 1.4774  lr: 0.000100  max_mem: 6113
+eta: 0:04:51  epoch: 10  step: 2530  ct_loss: 0.6142  init_py_loss: 1.3381  coarse_py_loss: 1.0778  py_loss_0: 1.0125  py_loss_1: 1.0212  loss: 1.6542  end_set_loss: 0.3616  data: 0.0016  batch: 1.4362  lr: 0.000100  max_mem: 6113
+eta: 0:04:23  epoch: 10  step: 2550  ct_loss: 0.5672  init_py_loss: 1.1581  coarse_py_loss: 0.9241  py_loss_0: 0.8546  py_loss_1: 0.8586  loss: 1.4481  end_set_loss: 0.3047  data: 0.0015  batch: 1.4425  lr: 0.000100  max_mem: 6113
+eta: 0:03:55  epoch: 10  step: 2570  ct_loss: 0.5547  init_py_loss: 1.2480  coarse_py_loss: 1.0110  py_loss_0: 0.9375  py_loss_1: 0.9414  loss: 1.5113  end_set_loss: 0.3129  data: 0.0015  batch: 1.4551  lr: 0.000100  max_mem: 6113
+eta: 0:03:28  epoch: 10  step: 2590  ct_loss: 0.5648  init_py_loss: 1.4040  coarse_py_loss: 1.1275  py_loss_0: 1.0553  py_loss_1: 1.0573  loss: 1.6428  end_set_loss: 0.3620  data: 0.0016  batch: 1.4321  lr: 0.000100  max_mem: 6113
+eta: 0:03:00  epoch: 10  step: 2610  ct_loss: 0.5647  init_py_loss: 1.2550  coarse_py_loss: 0.9957  py_loss_0: 0.9267  py_loss_1: 0.9307  loss: 1.5126  end_set_loss: 0.3111  data: 0.0015  batch: 1.4323  lr: 0.000100  max_mem: 6113
+eta: 0:02:32  epoch: 10  step: 2630  ct_loss: 0.5856  init_py_loss: 1.4053  coarse_py_loss: 1.0761  py_loss_0: 0.9980  py_loss_1: 0.9984  loss: 1.6216  end_set_loss: 0.3673  data: 0.0015  batch: 1.4550  lr: 0.000100  max_mem: 6116
+eta: 0:02:04  epoch: 10  step: 2650  ct_loss: 0.5576  init_py_loss: 1.4031  coarse_py_loss: 1.1207  py_loss_0: 1.0453  py_loss_1: 1.0501  loss: 1.6245  end_set_loss: 0.3482  data: 0.0016  batch: 1.4194  lr: 0.000100  max_mem: 6116
+eta: 0:01:36  epoch: 10  step: 2670  ct_loss: 0.5760  init_py_loss: 1.2257  coarse_py_loss: 0.9954  py_loss_0: 0.9185  py_loss_1: 0.9223  loss: 1.5145  end_set_loss: 0.3084  data: 0.0015  batch: 1.4507  lr: 0.000100  max_mem: 6116
+eta: 0:01:08  epoch: 10  step: 2690  ct_loss: 0.5269  init_py_loss: 1.2093  coarse_py_loss: 0.9514  py_loss_0: 0.8750  py_loss_1: 0.8761  loss: 1.4179  end_set_loss: 0.2739  data: 0.0016  batch: 1.4406  lr: 0.000100  max_mem: 6116
+eta: 0:00:40  epoch: 10  step: 2710  ct_loss: 0.6010  init_py_loss: 1.3347  coarse_py_loss: 1.0736  py_loss_0: 1.0071  py_loss_1: 1.0102  loss: 1.6280  end_set_loss: 0.3412  data: 0.0016  batch: 1.4480  lr: 0.000100  max_mem: 6116
+eta: 0:00:12  epoch: 10  step: 2730  ct_loss: 0.5285  init_py_loss: 1.3396  coarse_py_loss: 1.0997  py_loss_0: 1.0453  py_loss_1: 1.0505  loss: 1.5800  end_set_loss: 0.3266  data: 0.0014  batch: 1.4244  lr: 0.000100  max_mem: 6116
+eta: 0:00:01  epoch: 10  step: 2738  ct_loss: 0.5453  init_py_loss: 1.3522  coarse_py_loss: 1.1273  py_loss_0: 1.0707  py_loss_1: 1.0780  loss: 1.6127  end_set_loss: 0.3097  data: 0.0015  batch: 1.4257  lr: 0.000100  max_mem: 6116
+eta: 0:05:20  epoch: 11  step: 2759  ct_loss: 0.5826  init_py_loss: 1.3033  coarse_py_loss: 1.0639  py_loss_0: 0.9903  py_loss_1: 0.9919  loss: 1.5964  end_set_loss: 0.3493  data: 0.0387  batch: 1.4695  lr: 0.000100  max_mem: 6116
+eta: 0:04:52  epoch: 11  step: 2779  ct_loss: 0.5617  init_py_loss: 1.2991  coarse_py_loss: 1.0515  py_loss_0: 0.9778  py_loss_1: 0.9783  loss: 1.5552  end_set_loss: 0.3193  data: 0.0015  batch: 1.4306  lr: 0.000100  max_mem: 6116
+eta: 0:04:24  epoch: 11  step: 2799  ct_loss: 0.5357  init_py_loss: 1.3025  coarse_py_loss: 1.0406  py_loss_0: 0.9770  py_loss_1: 0.9797  loss: 1.5276  end_set_loss: 0.3160  data: 0.0015  batch: 1.4385  lr: 0.000100  max_mem: 6116
+eta: 0:03:56  epoch: 11  step: 2819  ct_loss: 0.5391  init_py_loss: 1.2359  coarse_py_loss: 0.9642  py_loss_0: 0.8917  py_loss_1: 0.8943  loss: 1.4533  end_set_loss: 0.2967  data: 0.0015  batch: 1.4382  lr: 0.000100  max_mem: 6116
+eta: 0:03:28  epoch: 11  step: 2839  ct_loss: 0.5321  init_py_loss: 1.3314  coarse_py_loss: 1.0778  py_loss_0: 1.0045  py_loss_1: 1.0061  loss: 1.5417  end_set_loss: 0.2953  data: 0.0017  batch: 1.4519  lr: 0.000100  max_mem: 6116
+eta: 0:03:00  epoch: 11  step: 2859  ct_loss: 0.5499  init_py_loss: 1.3336  coarse_py_loss: 1.0569  py_loss_0: 0.9880  py_loss_1: 0.9912  loss: 1.5472  end_set_loss: 0.2956  data: 0.0016  batch: 1.4359  lr: 0.000100  max_mem: 6138
+eta: 0:02:32  epoch: 11  step: 2879  ct_loss: 0.6036  init_py_loss: 1.2917  coarse_py_loss: 1.0582  py_loss_0: 0.9837  py_loss_1: 0.9855  loss: 1.6043  end_set_loss: 0.3280  data: 0.0017  batch: 1.4391  lr: 0.000100  max_mem: 6138
+eta: 0:02:04  epoch: 11  step: 2899  ct_loss: 0.5645  init_py_loss: 1.4217  coarse_py_loss: 1.1479  py_loss_0: 1.0707  py_loss_1: 1.0716  loss: 1.6364  end_set_loss: 0.3026  data: 0.0015  batch: 1.4207  lr: 0.000100  max_mem: 6138
+eta: 0:01:36  epoch: 11  step: 2919  ct_loss: 0.5537  init_py_loss: 1.2629  coarse_py_loss: 1.0088  py_loss_0: 0.9363  py_loss_1: 0.9392  loss: 1.5067  end_set_loss: 0.3022  data: 0.0016  batch: 1.4578  lr: 0.000100  max_mem: 6138
+eta: 0:01:08  epoch: 11  step: 2939  ct_loss: 0.5534  init_py_loss: 1.3259  coarse_py_loss: 1.0720  py_loss_0: 0.9982  py_loss_1: 1.0004  loss: 1.5675  end_set_loss: 0.3244  data: 0.0015  batch: 1.4220  lr: 0.000100  max_mem: 6138
+eta: 0:00:40  epoch: 11  step: 2959  ct_loss: 0.5385  init_py_loss: 1.1422  coarse_py_loss: 0.9116  py_loss_0: 0.8303  py_loss_1: 0.8327  loss: 1.3816  end_set_loss: 0.2500  data: 0.0015  batch: 1.4204  lr: 0.000100  max_mem: 6138
+eta: 0:00:12  epoch: 11  step: 2979  ct_loss: 0.5702  init_py_loss: 1.3337  coarse_py_loss: 1.1022  py_loss_0: 1.0128  py_loss_1: 1.0092  loss: 1.5972  end_set_loss: 0.3284  data: 0.0015  batch: 1.4423  lr: 0.000100  max_mem: 6138
+eta: 0:00:01  epoch: 11  step: 2987  ct_loss: 0.5606  init_py_loss: 1.3514  coarse_py_loss: 1.1192  py_loss_0: 1.0313  py_loss_1: 1.0316  loss: 1.6042  end_set_loss: 0.3265  data: 0.0015  batch: 1.4336  lr: 0.000100  max_mem: 6138
+eta: 0:05:21  epoch: 12  step: 3008  ct_loss: 0.5617  init_py_loss: 1.3627  coarse_py_loss: 1.0873  py_loss_0: 1.0030  py_loss_1: 1.0046  loss: 1.6042  end_set_loss: 0.3849  data: 0.0394  batch: 1.4560  lr: 0.000100  max_mem: 6138
+eta: 0:04:53  epoch: 12  step: 3028  ct_loss: 0.5490  init_py_loss: 1.3000  coarse_py_loss: 1.0133  py_loss_0: 0.9234  py_loss_1: 0.9238  loss: 1.4942  end_set_loss: 0.2947  data: 0.0015  batch: 1.4463  lr: 0.000100  max_mem: 6138
+eta: 0:04:25  epoch: 12  step: 3048  ct_loss: 0.5514  init_py_loss: 1.3575  coarse_py_loss: 1.0593  py_loss_0: 0.9761  py_loss_1: 0.9760  loss: 1.5404  end_set_loss: 0.2898  data: 0.0015  batch: 1.4465  lr: 0.000100  max_mem: 6138
+eta: 0:03:57  epoch: 12  step: 3068  ct_loss: 0.5538  init_py_loss: 1.2484  coarse_py_loss: 1.0149  py_loss_0: 0.9367  py_loss_1: 0.9378  loss: 1.4984  end_set_loss: 0.2801  data: 0.0015  batch: 1.4400  lr: 0.000100  max_mem: 6138

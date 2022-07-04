@@ -1,0 +1,31 @@
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+[31mWARNING: NO MODEL LOADED !!!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+/home/deep/anaconda3/envs/e2ec/lib/python3.7/site-packages/torch/nn/functional.py:3385: UserWarning: Default grid_sample and affine_grid behavior has changed to align_corners=False since 1.3.0. Please specify align_corners=True if the old behavior is desired. See the documentation of grid_sample for details.
+  warnings.warn("Default grid_sample and affine_grid behavior has changed "
+/home/deep/1-POJECT/e2ec/e2ec/network/evolve/utils.py:5: UserWarning: indexing with dtype torch.uint8 is now deprecated, please use a dtype torch.bool instead. (Triggered internally at  /pytorch/aten/src/ATen/native/IndexingUtils.h:25.)
+  poly = torch.cat([poly[i][ct_01[i]] for i in range(batch_size)], dim=0)
+Traceback (most recent call last):
+  File "train_net.py", line 69, in <module>
+    main()
+  File "train_net.py", line 66, in main
+    train(network, cfg)
+  File "train_net.py", line 50, in train
+    trainer.train(epoch, train_loader, optimizer, recorder)
+  File "/home/deep/1-POJECT/e2ec/e2ec/train/trainer/trainer.py", line 42, in train
+    loss.backward()
+  File "/home/deep/anaconda3/envs/e2ec/lib/python3.7/site-packages/torch/tensor.py", line 221, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "/home/deep/anaconda3/envs/e2ec/lib/python3.7/site-packages/torch/autograd/__init__.py", line 132, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+RuntimeError: CUDA out of memory. Tried to allocate 400.00 MiB (GPU 3; 11.91 GiB total capacity; 10.74 GiB already allocated; 69.06 MiB free; 11.15 GiB reserved in total by PyTorch)

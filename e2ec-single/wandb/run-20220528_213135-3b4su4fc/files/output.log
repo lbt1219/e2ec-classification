@@ -1,0 +1,61 @@
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+[31mWARNING: NO MODEL LOADED !!!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+/home/deep/anaconda3/envs/e2ec/lib/python3.7/site-packages/torch/nn/functional.py:3385: UserWarning: Default grid_sample and affine_grid behavior has changed to align_corners=False since 1.3.0. Please specify align_corners=True if the old behavior is desired. See the documentation of grid_sample for details.
+  warnings.warn("Default grid_sample and affine_grid behavior has changed "
+/home/deep/1-POJECT/e2ec/e2ec/network/evolve/utils.py:5: UserWarning: indexing with dtype torch.uint8 is now deprecated, please use a dtype torch.bool instead. (Triggered internally at  /pytorch/aten/src/ATen/native/IndexingUtils.h:25.)
+  poly = torch.cat([poly[i][ct_01[i]] for i in range(batch_size)], dim=0)
+eta: 0:00:03  epoch: 0  step: 1  ct_loss: 51.4093  init_py_loss: 20.1122  coarse_py_loss: 20.1467  py_loss_0: 20.1461  py_loss_1: 20.1456  loss: 68.8657  data: 1.0887  batch: 3.0235  lr: 0.000100  max_mem: 8584
+eta: 0:00:02  epoch: 1  step: 3  ct_loss: 30.2914  init_py_loss: 18.7323  coarse_py_loss: 18.1424  py_loss_0: 18.1413  py_loss_1: 18.1401  loss: 46.0726  data: 0.6609  batch: 2.3659  lr: 0.000100  max_mem: 8883
+eta: 0:00:02  epoch: 2  step: 5  ct_loss: 24.3597  init_py_loss: 18.5509  coarse_py_loss: 17.2996  py_loss_0: 17.2978  py_loss_1: 17.2951  loss: 39.4757  data: 0.5691  batch: 2.2276  lr: 0.000100  max_mem: 8883
+eta: 0:00:02  epoch: 3  step: 7  ct_loss: 20.5643  init_py_loss: 18.3336  coarse_py_loss: 16.5471  py_loss_0: 16.5442  py_loss_1: 16.5396  loss: 35.0803  data: 0.5414  batch: 2.1804  lr: 0.000100  max_mem: 8884
+eta: 0:00:02  epoch: 4  step: 9  ct_loss: 18.4159  init_py_loss: 17.8584  coarse_py_loss: 15.6512  py_loss_0: 15.6471  py_loss_1: 15.6403  loss: 32.1960  data: 0.5147  batch: 2.1422  lr: 0.000100  max_mem: 8884
+eta: 0:00:02  epoch: 5  step: 11  ct_loss: 16.3826  init_py_loss: 17.3493  coarse_py_loss: 14.7765  py_loss_0: 14.7718  py_loss_1: 14.7650  loss: 29.4408  data: 0.5042  batch: 2.1260  lr: 0.000100  max_mem: 8884
+eta: 0:00:02  epoch: 6  step: 13  ct_loss: 14.8907  init_py_loss: 17.3983  coarse_py_loss: 14.2809  py_loss_0: 14.2756  py_loss_1: 14.2675  loss: 27.5730  data: 0.4911  batch: 2.1087  lr: 0.000100  max_mem: 8884
+eta: 0:00:02  epoch: 7  step: 15  ct_loss: 13.4372  init_py_loss: 17.4493  coarse_py_loss: 14.0148  py_loss_0: 14.0086  py_loss_1: 13.9998  loss: 25.9197  data: 0.4850  batch: 2.1000  lr: 0.000100  max_mem: 8884
+eta: 0:00:02  epoch: 8  step: 17  ct_loss: 12.3435  init_py_loss: 16.7605  coarse_py_loss: 13.3817  py_loss_0: 13.3795  py_loss_1: 13.3763  loss: 24.2763  data: 0.4790  batch: 2.0920  lr: 0.000100  max_mem: 8884
+eta: 0:00:02  epoch: 9  step: 19  ct_loss: 11.3737  init_py_loss: 16.7854  coarse_py_loss: 13.0258  py_loss_0: 13.0217  py_loss_1: 13.0158  loss: 23.0340  data: 0.4744  batch: 2.0867  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 10  step: 21  ct_loss: 8.5362  init_py_loss: 16.6224  coarse_py_loss: 12.4032  py_loss_0: 12.3957  py_loss_1: 12.3847  loss: 19.7974  end_set_loss: 5.9096  data: 0.4426  batch: 2.0391  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 11  step: 23  ct_loss: 6.8674  init_py_loss: 16.6258  coarse_py_loss: 11.9272  py_loss_0: 11.9179  py_loss_1: 11.9043  loss: 18.0091  end_set_loss: 6.9129  data: 0.4425  batch: 2.0439  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 12  step: 25  ct_loss: 5.6190  init_py_loss: 16.2962  coarse_py_loss: 11.1576  py_loss_0: 11.1490  py_loss_1: 11.1363  loss: 16.2719  end_set_loss: 5.7487  data: 0.4438  batch: 2.0497  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 13  step: 27  ct_loss: 4.8010  init_py_loss: 15.9687  coarse_py_loss: 10.5657  py_loss_0: 10.5594  py_loss_1: 10.5487  loss: 15.1214  end_set_loss: 5.4083  data: 0.4392  batch: 2.0493  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 14  step: 29  ct_loss: 3.9750  init_py_loss: 15.9529  coarse_py_loss: 10.0685  py_loss_0: 10.0599  py_loss_1: 10.0465  loss: 14.0403  end_set_loss: 5.0739  data: 0.4447  batch: 2.0602  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 15  step: 31  ct_loss: 3.5165  init_py_loss: 16.0061  coarse_py_loss: 9.7971  py_loss_0: 9.7875  py_loss_1: 9.7734  loss: 13.5425  end_set_loss: 5.0477  data: 0.4444  batch: 2.0637  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 16  step: 33  ct_loss: 3.1260  init_py_loss: 15.5667  coarse_py_loss: 9.5582  py_loss_0: 9.5525  py_loss_1: 9.5450  loss: 13.0963  end_set_loss: 5.0402  data: 0.4483  batch: 2.0721  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 17  step: 35  ct_loss: 3.0039  init_py_loss: 15.2581  coarse_py_loss: 9.3493  py_loss_0: 9.3476  py_loss_1: 9.3488  loss: 12.9541  end_set_loss: 5.0291  data: 0.4466  batch: 2.0749  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 18  step: 37  ct_loss: 2.8472  init_py_loss: 15.3751  coarse_py_loss: 9.3094  py_loss_0: 9.3074  py_loss_1: 9.3082  loss: 12.9101  end_set_loss: 4.9031  data: 0.4476  batch: 2.0802  lr: 0.000100  max_mem: 8886
+eta: 0:00:02  epoch: 19  step: 39  ct_loss: 2.7808  init_py_loss: 15.2848  coarse_py_loss: 9.1577  py_loss_0: 9.1558  py_loss_1: 9.1580  loss: 12.8742  end_set_loss: 4.8776  data: 0.4467  batch: 2.0828  lr: 0.000100  max_mem: 8886
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  6.50it/s]
+Loading and preparing results...
+DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.00s).
+Accumulating evaluation results...
+DONE (t=0.00s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:02  epoch: 20  step: 41  ct_loss: 2.7418  init_py_loss: 15.1194  coarse_py_loss: 9.1135  py_loss_0: 9.1168  py_loss_1: 9.1258  loss: 12.8468  end_set_loss: 4.8023  data: 0.4464  batch: 2.0850  lr: 0.000100  max_mem: 8886

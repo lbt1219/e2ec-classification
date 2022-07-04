@@ -1,0 +1,330 @@
+2022-06-10 16:12:06,832 INFO    MainThread:27512 [internal.py:wandb_internal():93] W&B internal server running at pid: 27512, started at: 2022-06-10 16:12:06.832249
+2022-06-10 16:12:06,834 INFO    WriterThread:27512 [datastore.py:open_for_write():75] open: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/run-2gz1iet6.wandb
+2022-06-10 16:12:06,836 DEBUG   SenderThread:27512 [sender.py:send():232] send: header
+2022-06-10 16:12:06,837 DEBUG   SenderThread:27512 [sender.py:send():232] send: run
+2022-06-10 16:12:07,307 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: check_version
+2022-06-10 16:12:07,314 INFO    SenderThread:27512 [dir_watcher.py:__init__():197] watching files in: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files
+2022-06-10 16:12:07,314 INFO    SenderThread:27512 [sender.py:_start_run_threads():814] run started: 2gz1iet6 with start time 1654848726
+2022-06-10 16:12:07,314 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:07,314 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:07,314 DEBUG   SenderThread:27512 [sender.py:send_request():246] send_request: check_version
+2022-06-10 16:12:07,693 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: run_start
+2022-06-10 16:12:07,697 DEBUG   HandlerThread:27512 [meta.py:__init__():35] meta init
+2022-06-10 16:12:07,697 DEBUG   HandlerThread:27512 [meta.py:__init__():49] meta init done
+2022-06-10 16:12:07,697 DEBUG   HandlerThread:27512 [meta.py:probe():209] probe
+2022-06-10 16:12:07,704 DEBUG   HandlerThread:27512 [meta.py:_setup_git():199] setup git
+2022-06-10 16:12:07,711 DEBUG   HandlerThread:27512 [meta.py:_setup_git():206] setup git done
+2022-06-10 16:12:07,711 DEBUG   HandlerThread:27512 [meta.py:_save_pip():53] save pip
+2022-06-10 16:12:07,712 DEBUG   HandlerThread:27512 [meta.py:_save_pip():67] save pip done
+2022-06-10 16:12:07,712 DEBUG   HandlerThread:27512 [meta.py:_save_conda():74] save conda
+2022-06-10 16:12:08,316 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_created():244] file/dir created: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:08,317 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_created():244] file/dir created: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/requirements.txt
+2022-06-10 16:12:08,317 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_created():244] file/dir created: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/conda-environment.yaml
+2022-06-10 16:12:09,128 DEBUG   HandlerThread:27512 [meta.py:_save_conda():84] save conda done
+2022-06-10 16:12:09,128 DEBUG   HandlerThread:27512 [meta.py:probe():247] probe done
+2022-06-10 16:12:09,132 DEBUG   SenderThread:27512 [sender.py:send():232] send: files
+2022-06-10 16:12:09,133 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-06-10 16:12:09,141 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-10 16:12:09,142 DEBUG   SenderThread:27512 [sender.py:send_request():246] send_request: stop_status
+2022-06-10 16:12:09,317 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/conda-environment.yaml
+2022-06-10 16:12:09,317 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_created():244] file/dir created: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/output.log
+2022-06-10 16:12:09,317 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_created():244] file/dir created: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-metadata.json
+2022-06-10 16:12:09,556 DEBUG   SenderThread:27512 [sender.py:send():232] send: telemetry
+2022-06-10 16:12:10,518 INFO    Thread-11 :27512 [upload_job.py:push():132] Uploaded file /tmp/tmpdjck0wyfwandb/3vmejxr9-wandb-metadata.json
+2022-06-10 16:12:15,129 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:15,131 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:15,131 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:15,137 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:15,320 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:15,320 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/output.log
+2022-06-10 16:12:16,848 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:16,849 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:16,849 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:16,850 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:17,321 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:17,321 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/output.log
+2022-06-10 16:12:18,477 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:18,478 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:18,478 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:18,479 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:19,322 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:20,136 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:20,136 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:20,137 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:20,139 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:20,323 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:21,824 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:21,825 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:21,825 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:21,826 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:22,323 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:23,488 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:23,488 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:23,490 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:23,493 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:24,324 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:24,558 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-10 16:12:24,558 DEBUG   SenderThread:27512 [sender.py:send_request():246] send_request: stop_status
+2022-06-10 16:12:25,146 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:25,147 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:25,147 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:25,148 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:25,325 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:26,811 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:26,813 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:26,813 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:26,816 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:27,325 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:28,473 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:28,474 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:28,474 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:28,475 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:29,326 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:30,156 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:30,156 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:30,157 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:30,159 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:30,327 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:31,822 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:31,823 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:31,823 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:31,823 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:32,327 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:33,489 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:33,490 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:33,490 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:33,494 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:34,328 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:35,159 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:35,159 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:35,160 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:35,161 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:35,329 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:36,845 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:36,846 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:37,287 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:37,288 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:37,329 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/config.yaml
+2022-06-10 16:12:37,330 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:37,453 DEBUG   SenderThread:27512 [sender.py:send():232] send: stats
+2022-06-10 16:12:38,512 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:38,514 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:38,514 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:38,515 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:39,330 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:39,984 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-10 16:12:39,984 DEBUG   SenderThread:27512 [sender.py:send_request():246] send_request: stop_status
+2022-06-10 16:12:40,197 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:40,388 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:40,389 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:40,393 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:41,331 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:41,864 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:41,864 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:41,865 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:41,866 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:42,331 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:43,542 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:43,543 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:43,544 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:43,547 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:44,332 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:44,811 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:44,812 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:44,813 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:44,813 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:45,006 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:45,006 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:45,007 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:45,007 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:45,332 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:47,333 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/output.log
+2022-06-10 16:12:49,334 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/output.log
+2022-06-10 16:12:50,675 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:50,676 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:50,676 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:50,676 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:51,335 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:52,335 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/output.log
+2022-06-10 16:12:52,410 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:52,411 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:52,411 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:52,412 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:53,336 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:54,148 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:54,148 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:54,148 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:54,151 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:54,336 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:55,447 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-10 16:12:55,447 DEBUG   SenderThread:27512 [sender.py:send_request():246] send_request: stop_status
+2022-06-10 16:12:55,875 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:55,876 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:55,876 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:55,877 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:56,337 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:57,588 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:57,589 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:57,589 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:57,591 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:58,338 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:12:59,297 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:12:59,298 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:12:59,299 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:12:59,299 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:12:59,338 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:00,983 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:00,984 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:00,985 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:00,987 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:01,338 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:02,658 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:02,659 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:02,659 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:02,660 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:03,339 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:04,369 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:04,370 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:04,370 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:04,373 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:05,340 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:06,075 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:06,076 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:06,076 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:06,077 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:06,340 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:07,765 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:07,766 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:07,766 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:07,767 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:08,341 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:09,167 DEBUG   SenderThread:27512 [sender.py:send():232] send: stats
+2022-06-10 16:13:09,472 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:09,473 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:09,473 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:09,473 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:10,342 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:10,855 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-10 16:13:10,855 DEBUG   SenderThread:27512 [sender.py:send_request():246] send_request: stop_status
+2022-06-10 16:13:11,166 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:11,266 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:11,266 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:11,267 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:11,342 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:12,882 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:12,883 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:12,883 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:12,883 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:13,343 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:14,584 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:14,585 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:14,585 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:14,588 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:15,344 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:16,279 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:16,279 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:16,280 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:16,280 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:16,345 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:17,983 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:17,984 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:17,984 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:17,985 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:18,345 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:19,690 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:19,690 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:19,691 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:19,691 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:20,346 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:20,985 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:20,985 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:20,986 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:20,986 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:21,172 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:21,172 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:21,173 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:21,173 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:21,347 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:22,347 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/output.log
+2022-06-10 16:13:24,348 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/output.log
+2022-06-10 16:13:26,267 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-10 16:13:26,268 DEBUG   SenderThread:27512 [sender.py:send_request():246] send_request: stop_status
+2022-06-10 16:13:26,348 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/output.log
+2022-06-10 16:13:26,509 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:26,711 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:26,711 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:26,712 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:27,349 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:28,252 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:28,253 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:28,253 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:28,254 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:28,349 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:29,960 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:29,961 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:29,961 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:29,962 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:30,350 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:31,657 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:31,658 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:31,658 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:31,658 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:32,351 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:33,370 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:33,371 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:33,372 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:33,372 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:34,352 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:35,064 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:35,064 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:35,065 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:35,065 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:35,352 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:36,782 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:36,782 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:36,783 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:36,783 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:37,353 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:38,486 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:38,487 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:38,487 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:38,487 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:39,354 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:40,189 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:40,190 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:40,190 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:40,191 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:40,354 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:41,002 DEBUG   SenderThread:27512 [sender.py:send():232] send: stats
+2022-06-10 16:13:41,713 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-10 16:13:41,713 DEBUG   SenderThread:27512 [sender.py:send_request():246] send_request: stop_status
+2022-06-10 16:13:41,923 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:42,116 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:42,116 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:42,117 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:42,355 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:43,622 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:43,622 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:43,623 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:43,623 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:44,356 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:45,366 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:45,367 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:45,367 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:45,368 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:46,363 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:47,300 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:47,300 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:47,300 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:47,303 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:47,357 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:49,076 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:49,077 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:49,078 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:49,078 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:49,358 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json
+2022-06-10 16:13:50,793 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-10 16:13:50,794 DEBUG   SenderThread:27512 [sender.py:send():232] send: history
+2022-06-10 16:13:50,794 DEBUG   SenderThread:27512 [sender.py:send():232] send: summary
+2022-06-10 16:13:50,794 INFO    SenderThread:27512 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-10 16:13:51,358 INFO    Thread-7  :27512 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/deep/1-POJECT/e2ec/e2ec/wandb/run-20220610_161206-2gz1iet6/files/wandb-summary.json

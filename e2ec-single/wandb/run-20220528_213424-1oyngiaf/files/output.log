@@ -1,0 +1,53 @@
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+[31mWARNING: NO MODEL LOADED !!!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+Traceback (most recent call last):
+  File "train_net.py", line 69, in <module>
+    main()
+  File "train_net.py", line 66, in main
+    train(network, cfg)
+  File "train_net.py", line 50, in train
+    trainer.train(epoch, train_loader, optimizer, recorder)
+  File "/home/deep/1-POJECT/e2ec/e2ec/train/trainer/trainer.py", line 37, in train
+    output, loss, loss_stats = self.network(batch)
+  File "/home/deep/anaconda3/envs/e2ec/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/deep/1-POJECT/e2ec/e2ec/train/trainer/snake.py", line 21, in forward
+    output = self.net(batch['inp'], batch)
+  File "/home/deep/anaconda3/envs/e2ec/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/deep/1-POJECT/e2ec/e2ec/network/make_network.py", line 29, in forward
+    output, cnn_feature = self.dla(x)
+  File "/home/deep/anaconda3/envs/e2ec/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/deep/1-POJECT/e2ec/e2ec/network/backbone/dla.py", line 474, in forward
+    x = self.dla_up(x)
+  File "/home/deep/anaconda3/envs/e2ec/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/deep/1-POJECT/e2ec/e2ec/network/backbone/dla.py", line 413, in forward
+    ida(layers, len(layers) - i - 2, len(layers))
+  File "/home/deep/anaconda3/envs/e2ec/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/deep/1-POJECT/e2ec/e2ec/network/backbone/dla.py", line 389, in forward
+    layers[i] = node(layers[i] + layers[i - 1])
+  File "/home/deep/anaconda3/envs/e2ec/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/deep/1-POJECT/e2ec/e2ec/network/backbone/dla.py", line 360, in forward
+    x = self.conv(x)
+  File "/home/deep/anaconda3/envs/e2ec/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/deep/1-POJECT/e2ec/e2ec/network/backbone/dcn_v2.py", line 128, in forward
+    self.deformable_groups)
+  File "/home/deep/1-POJECT/e2ec/e2ec/network/backbone/dcn_v2.py", line 31, in forward
+    ctx.deformable_groups)
+RuntimeError: CUDA out of memory. Tried to allocate 1.15 GiB (GPU 3; 11.91 GiB total capacity; 9.37 GiB already allocated; 729.06 MiB free; 10.51 GiB reserved in total by PyTorch)

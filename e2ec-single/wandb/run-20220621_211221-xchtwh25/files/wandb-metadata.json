@@ -1,0 +1,24 @@
+{
+    "os": "Linux-4.15.0-142-generic-x86_64-with-debian-stretch-sid",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-06-21T13:12:23.194489",
+    "startedAt": "2022-06-21T13:12:21.702602",
+    "docker": null,
+    "gpu": "TITAN Xp",
+    "gpu_count": 4,
+    "cpu_count": 12,
+    "cuda": "10.1.105",
+    "args": [],
+    "state": "running",
+    "program": "train_net.py",
+    "codePath": "1-POJECT/e2ec/e2ec/train_net.py",
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": "\"962033407@qq.com \"",
+    "root": "/home/deep",
+    "host": "omnisky",
+    "username": "deep",
+    "executable": "/home/deep/anaconda3/envs/e2ec/bin/python"
+}

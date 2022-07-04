@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train.py", line 71, in <module>
+    main()
+  File "train.py", line 65, in main
+    device = select_device(args.device, batch_size=args.batch_size)
+AttributeError: 'Namespace' object has no attribute 'batch_size'

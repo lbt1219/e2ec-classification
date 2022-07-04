@@ -1,0 +1,4 @@
+usage: train_net.py [-h] [--checkpoint CHECKPOINT] [--type TYPE] [--bs BS]
+                    [--dml DML] [--device DEVICE]
+                    config_file
+train_net.py: error: the following arguments are required: config_file

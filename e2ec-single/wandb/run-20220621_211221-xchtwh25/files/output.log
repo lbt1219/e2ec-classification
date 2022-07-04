@@ -1,0 +1,26 @@
+
+loading annotations into memory...
+Traceback (most recent call last):
+  File "train_net.py", line 69, in <module>
+    main()
+  File "train_net.py", line 66, in main
+    train(network, cfg)
+  File "train_net.py", line 39, in train
+    evaluator = make_evaluator(cfg)
+  File "/home/deep/1-POJECT/e2ec/e2ec/evaluator/make_evaluator.py", line 18, in make_evaluator
+    return _evaluator_factory(name, cfg.commen.result_dir, anno_file, eval_format)
+  File "/home/deep/1-POJECT/e2ec/e2ec/evaluator/make_evaluator.py", line 8, in _evaluator_factory
+    evaluator = file.Evaluator(result_dir, anno_file)
+  File "/home/deep/1-POJECT/e2ec/e2ec/evaluator/coco/snake.py", line 18, in __init__
+    self.coco = coco.COCO(ann_file)
+  File "/home/deep/anaconda3/envs/e2ec/lib/python3.7/site-packages/pycocotools/coco.py", line 82, in __init__
+    dataset = json.load(f)
+  File "/home/deep/anaconda3/envs/e2ec/lib/python3.7/json/__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/home/deep/anaconda3/envs/e2ec/lib/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/home/deep/anaconda3/envs/e2ec/lib/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/deep/anaconda3/envs/e2ec/lib/python3.7/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 5949 column 9 (char 153979)

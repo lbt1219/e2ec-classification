@@ -1,0 +1,1401 @@
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+[31mWARNING: NO MODEL LOADED !!!
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+/home/deep/anaconda3/envs/e2ec/lib/python3.7/site-packages/torch/nn/functional.py:3385: UserWarning: Default grid_sample and affine_grid behavior has changed to align_corners=False since 1.3.0. Please specify align_corners=True if the old behavior is desired. See the documentation of grid_sample for details.
+  warnings.warn("Default grid_sample and affine_grid behavior has changed "
+/home/deep/1-POJECT/e2ec/e2ec/network/evolve/utils.py:5: UserWarning: indexing with dtype torch.uint8 is now deprecated, please use a dtype torch.bool instead. (Triggered internally at  /pytorch/aten/src/ATen/native/IndexingUtils.h:25.)
+  poly = torch.cat([poly[i][ct_01[i]] for i in range(batch_size)], dim=0)
+eta: 0:00:25  epoch: 0  step: 20  ct_loss: 3.8818  init_py_loss: 8.9986  coarse_py_loss: 6.2554  py_loss_0: 6.2422  py_loss_1: 6.2277  end_set_loss: 0.0000  loss: 9.5639  data: 0.0641  batch: 1.7940  lr: 0.000100  max_mem: 7686
+eta: 0:00:01  epoch: 0  step: 33  ct_loss: 2.2656  init_py_loss: 7.4019  coarse_py_loss: 4.2086  py_loss_0: 4.1555  py_loss_1: 4.1065  end_set_loss: 0.0000  loss: 6.1806  data: 0.0014  batch: 1.7415  lr: 0.000100  max_mem: 7694
+eta: 0:00:24  epoch: 1  step: 54  ct_loss: 1.7185  init_py_loss: 5.6469  coarse_py_loss: 3.8113  py_loss_0: 3.5495  py_loss_1: 3.4806  end_set_loss: 0.0000  loss: 5.0077  data: 0.0547  batch: 1.8151  lr: 0.000100  max_mem: 7702
+eta: 0:00:01  epoch: 1  step: 67  ct_loss: 1.4041  init_py_loss: 4.7041  coarse_py_loss: 3.5934  py_loss_0: 3.2132  py_loss_1: 3.1765  end_set_loss: 0.0000  loss: 4.3638  data: 0.0013  batch: 1.7706  lr: 0.000100  max_mem: 7730
+eta: 0:00:24  epoch: 2  step: 88  ct_loss: 0.9834  init_py_loss: 4.0770  coarse_py_loss: 3.6618  py_loss_0: 3.2111  py_loss_1: 3.1840  end_set_loss: 0.0000  loss: 3.8890  data: 0.0593  batch: 1.8583  lr: 0.000100  max_mem: 7730
+eta: 0:00:01  epoch: 2  step: 101  ct_loss: 0.8742  init_py_loss: 3.7737  coarse_py_loss: 3.4318  py_loss_0: 2.8733  py_loss_1: 2.8399  end_set_loss: 0.0000  loss: 3.4991  data: 0.0013  batch: 1.8311  lr: 0.000100  max_mem: 7730
+eta: 0:00:25  epoch: 3  step: 122  ct_loss: 0.7303  init_py_loss: 3.5431  coarse_py_loss: 3.1637  py_loss_0: 2.5437  py_loss_1: 2.5044  end_set_loss: 0.0000  loss: 3.0837  data: 0.0556  batch: 1.8891  lr: 0.000100  max_mem: 7730
+eta: 0:00:01  epoch: 3  step: 135  ct_loss: 0.6776  init_py_loss: 3.3920  coarse_py_loss: 3.0036  py_loss_0: 2.4268  py_loss_1: 2.4077  end_set_loss: 0.0000  loss: 2.9287  data: 0.0014  batch: 1.8356  lr: 0.000100  max_mem: 7730
+eta: 0:00:25  epoch: 4  step: 156  ct_loss: 0.5562  init_py_loss: 3.3082  coarse_py_loss: 2.7078  py_loss_0: 2.1501  py_loss_1: 2.1163  end_set_loss: 0.0000  loss: 2.5799  data: 0.0550  batch: 1.8967  lr: 0.000100  max_mem: 7730
+eta: 0:00:01  epoch: 4  step: 169  ct_loss: 0.5225  init_py_loss: 3.3847  coarse_py_loss: 2.7427  py_loss_0: 2.2656  py_loss_1: 2.2436  end_set_loss: 0.0000  loss: 2.6384  data: 0.0016  batch: 1.8550  lr: 0.000100  max_mem: 7730
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.65it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.15s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.253
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.805
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.027
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.237
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.270
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.129
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.321
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.321
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.312
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.332
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:25  epoch: 5  step: 190  ct_loss: 0.5181  init_py_loss: 3.4365  coarse_py_loss: 2.7767  py_loss_0: 2.3129  py_loss_1: 2.2882  end_set_loss: 0.0000  loss: 2.6731  data: 0.0588  batch: 1.9121  lr: 0.000100  max_mem: 7730
+eta: 0:00:01  epoch: 5  step: 203  ct_loss: 0.5178  init_py_loss: 3.2541  coarse_py_loss: 2.5713  py_loss_0: 2.0898  py_loss_1: 2.0614  end_set_loss: 0.0000  loss: 2.4841  data: 0.0013  batch: 1.8521  lr: 0.000100  max_mem: 7730
+eta: 0:00:25  epoch: 6  step: 224  ct_loss: 0.4446  init_py_loss: 3.3802  coarse_py_loss: 2.5965  py_loss_0: 2.1514  py_loss_1: 2.1164  end_set_loss: 0.0000  loss: 2.4649  data: 0.0538  batch: 1.9082  lr: 0.000100  max_mem: 7730
+eta: 0:00:01  epoch: 6  step: 237  ct_loss: 0.4225  init_py_loss: 3.1960  coarse_py_loss: 2.4176  py_loss_0: 2.0070  py_loss_1: 1.9825  end_set_loss: 0.0000  loss: 2.3136  data: 0.0013  batch: 1.8345  lr: 0.000100  max_mem: 7730
+eta: 0:00:25  epoch: 7  step: 258  ct_loss: 0.3923  init_py_loss: 3.1698  coarse_py_loss: 2.2868  py_loss_0: 1.9113  py_loss_1: 1.8821  end_set_loss: 0.0000  loss: 2.2025  data: 0.0577  batch: 1.9225  lr: 0.000100  max_mem: 7730
+eta: 0:00:01  epoch: 7  step: 271  ct_loss: 0.4028  init_py_loss: 3.0486  coarse_py_loss: 2.1272  py_loss_0: 1.7502  py_loss_1: 1.7173  end_set_loss: 0.0000  loss: 2.0762  data: 0.0013  batch: 1.8438  lr: 0.000100  max_mem: 7730
+eta: 0:00:25  epoch: 8  step: 292  ct_loss: 0.3826  init_py_loss: 2.9651  coarse_py_loss: 1.9989  py_loss_0: 1.6612  py_loss_1: 1.6373  end_set_loss: 0.0000  loss: 1.9785  data: 0.0558  batch: 1.9177  lr: 0.000100  max_mem: 7730
+eta: 0:00:01  epoch: 8  step: 305  ct_loss: 0.3735  init_py_loss: 2.9730  coarse_py_loss: 1.9203  py_loss_0: 1.5972  py_loss_1: 1.5760  end_set_loss: 0.0000  loss: 1.9206  data: 0.0013  batch: 1.8607  lr: 0.000100  max_mem: 7730
+eta: 0:00:25  epoch: 9  step: 326  ct_loss: 0.3491  init_py_loss: 2.9004  coarse_py_loss: 2.0121  py_loss_0: 1.7376  py_loss_1: 1.7233  end_set_loss: 0.0000  loss: 1.9940  data: 0.0606  batch: 1.9408  lr: 0.000100  max_mem: 7730
+eta: 0:00:01  epoch: 9  step: 339  ct_loss: 0.3317  init_py_loss: 2.9904  coarse_py_loss: 2.0580  py_loss_0: 1.8008  py_loss_1: 1.7908  end_set_loss: 0.0000  loss: 2.0337  data: 0.0014  batch: 1.8757  lr: 0.000100  max_mem: 7730
+
+ 69%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                         | 91/132 [00:03<00:01, 25.43it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.11s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.409
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.907
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.193
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.381
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.442
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.182
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.461
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.461
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.426
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.499
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 26.04it/s]
+eta: 0:00:25  epoch: 10  step: 360  ct_loss: 0.3279  init_py_loss: 2.9313  coarse_py_loss: 1.9876  py_loss_0: 1.6818  py_loss_1: 1.6714  end_set_loss: 0.7458  loss: 2.1861  data: 0.0554  batch: 1.9089  lr: 0.000100  max_mem: 7927
+eta: 0:00:01  epoch: 10  step: 373  ct_loss: 0.3331  init_py_loss: 2.9670  coarse_py_loss: 1.9509  py_loss_0: 1.6428  py_loss_1: 1.6440  end_set_loss: 0.6294  loss: 2.1303  data: 0.0014  batch: 1.8663  lr: 0.000100  max_mem: 7927
+eta: 0:00:25  epoch: 11  step: 394  ct_loss: 0.3618  init_py_loss: 2.9109  coarse_py_loss: 1.9533  py_loss_0: 1.6311  py_loss_1: 1.6352  end_set_loss: 0.6653  loss: 2.1588  data: 0.0596  batch: 1.9190  lr: 0.000100  max_mem: 7928
+eta: 0:00:01  epoch: 11  step: 407  ct_loss: 0.3161  init_py_loss: 2.7471  coarse_py_loss: 1.8031  py_loss_0: 1.5266  py_loss_1: 1.5421  end_set_loss: 0.5565  loss: 1.9795  data: 0.0015  batch: 1.8597  lr: 0.000100  max_mem: 7928
+eta: 0:00:25  epoch: 12  step: 428  ct_loss: 0.2919  init_py_loss: 2.7633  coarse_py_loss: 1.7779  py_loss_0: 1.4950  py_loss_1: 1.4996  end_set_loss: 0.5962  loss: 1.9430  data: 0.0631  batch: 1.9280  lr: 0.000100  max_mem: 7940
+eta: 0:00:01  epoch: 12  step: 441  ct_loss: 0.3156  init_py_loss: 2.7414  coarse_py_loss: 1.8139  py_loss_0: 1.5457  py_loss_1: 1.5577  end_set_loss: 0.5972  loss: 2.0047  data: 0.0013  batch: 1.8690  lr: 0.000100  max_mem: 7940
+eta: 0:00:25  epoch: 13  step: 462  ct_loss: 0.3156  init_py_loss: 2.7377  coarse_py_loss: 1.8086  py_loss_0: 1.5573  py_loss_1: 1.5563  end_set_loss: 0.5944  loss: 2.0062  data: 0.0557  batch: 1.9275  lr: 0.000100  max_mem: 7940
+eta: 0:00:01  epoch: 13  step: 475  ct_loss: 0.2953  init_py_loss: 2.6906  coarse_py_loss: 1.7838  py_loss_0: 1.5163  py_loss_1: 1.5209  end_set_loss: 0.5778  loss: 1.9477  data: 0.0014  batch: 1.8901  lr: 0.000100  max_mem: 7940
+eta: 0:00:25  epoch: 14  step: 496  ct_loss: 0.2985  init_py_loss: 2.5631  coarse_py_loss: 1.7115  py_loss_0: 1.4467  py_loss_1: 1.4663  end_set_loss: 0.5222  loss: 1.8710  data: 0.0585  batch: 1.9309  lr: 0.000100  max_mem: 7940
+eta: 0:00:01  epoch: 14  step: 509  ct_loss: 0.2911  init_py_loss: 2.5724  coarse_py_loss: 1.7180  py_loss_0: 1.4702  py_loss_1: 1.4761  end_set_loss: 0.5271  loss: 1.8780  data: 0.0014  batch: 1.8776  lr: 0.000100  max_mem: 7940
+
+
+ 89%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                   | 118/132 [00:04<00:00, 27.00it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.10s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.495
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.914
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.539
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.443
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.552
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.212
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.548
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.548
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.491
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.610
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.82it/s]
+eta: 0:00:25  epoch: 15  step: 530  ct_loss: 0.2463  init_py_loss: 2.5170  coarse_py_loss: 1.6989  py_loss_0: 1.4443  py_loss_1: 1.4561  end_set_loss: 0.5084  loss: 1.8042  data: 0.0574  batch: 1.9415  lr: 0.000100  max_mem: 7940
+eta: 0:00:01  epoch: 15  step: 543  ct_loss: 0.2612  init_py_loss: 2.5169  coarse_py_loss: 1.7226  py_loss_0: 1.4605  py_loss_1: 1.4692  end_set_loss: 0.4596  loss: 1.8149  data: 0.0013  batch: 1.8861  lr: 0.000100  max_mem: 7940
+eta: 0:00:25  epoch: 16  step: 564  ct_loss: 0.2836  init_py_loss: 2.4871  coarse_py_loss: 1.7063  py_loss_0: 1.4604  py_loss_1: 1.4724  end_set_loss: 0.4827  loss: 1.8415  data: 0.0575  batch: 1.9157  lr: 0.000100  max_mem: 7940
+eta: 0:00:01  epoch: 16  step: 577  ct_loss: 0.2861  init_py_loss: 2.3523  coarse_py_loss: 1.6135  py_loss_0: 1.3763  py_loss_1: 1.3805  end_set_loss: 0.4677  loss: 1.7576  data: 0.0014  batch: 1.8434  lr: 0.000100  max_mem: 7940
+eta: 0:00:25  epoch: 17  step: 598  ct_loss: 0.2997  init_py_loss: 2.3236  coarse_py_loss: 1.5721  py_loss_0: 1.3675  py_loss_1: 1.3858  end_set_loss: 0.4582  loss: 1.7597  data: 0.0602  batch: 1.9701  lr: 0.000100  max_mem: 7940
+eta: 0:00:01  epoch: 17  step: 611  ct_loss: 0.2626  init_py_loss: 2.2230  coarse_py_loss: 1.5212  py_loss_0: 1.3270  py_loss_1: 1.3469  end_set_loss: 0.4241  loss: 1.6697  data: 0.0016  batch: 1.8765  lr: 0.000100  max_mem: 7940
+eta: 0:00:25  epoch: 18  step: 632  ct_loss: 0.2726  init_py_loss: 2.2078  coarse_py_loss: 1.5617  py_loss_0: 1.3617  py_loss_1: 1.3694  end_set_loss: 0.4570  loss: 1.7122  data: 0.0584  batch: 1.9155  lr: 0.000100  max_mem: 7940
+eta: 0:00:01  epoch: 18  step: 645  ct_loss: 0.2457  init_py_loss: 2.1472  coarse_py_loss: 1.4746  py_loss_0: 1.2641  py_loss_1: 1.2680  end_set_loss: 0.4047  loss: 1.5868  data: 0.0014  batch: 1.8435  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 19  step: 666  ct_loss: 0.2898  init_py_loss: 2.1505  coarse_py_loss: 1.4727  py_loss_0: 1.2691  py_loss_1: 1.2777  end_set_loss: 0.4125  loss: 1.6386  data: 0.0548  batch: 1.9274  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 19  step: 679  ct_loss: 0.2692  init_py_loss: 2.0019  coarse_py_loss: 1.4086  py_loss_0: 1.2093  py_loss_1: 1.2172  end_set_loss: 0.3949  loss: 1.5507  data: 0.0014  batch: 1.8471  lr: 0.000100  max_mem: 7959
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.56it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.11s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.557
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.920
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.732
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.488
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.629
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.240
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.606
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.606
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.541
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.677
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:25  epoch: 20  step: 700  ct_loss: 0.2240  init_py_loss: 2.0738  coarse_py_loss: 1.4258  py_loss_0: 1.2421  py_loss_1: 1.2468  end_set_loss: 0.3935  loss: 1.5348  data: 0.0574  batch: 1.9227  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 20  step: 713  ct_loss: 0.2434  init_py_loss: 2.0961  coarse_py_loss: 1.4744  py_loss_0: 1.2911  py_loss_1: 1.2936  end_set_loss: 0.4220  loss: 1.6027  data: 0.0014  batch: 1.8622  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 21  step: 734  ct_loss: 0.2596  init_py_loss: 2.2133  coarse_py_loss: 1.5118  py_loss_0: 1.3157  py_loss_1: 1.3154  end_set_loss: 0.4221  loss: 1.6498  data: 0.0575  batch: 1.9266  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 21  step: 747  ct_loss: 0.2616  init_py_loss: 2.1746  coarse_py_loss: 1.5621  py_loss_0: 1.3762  py_loss_1: 1.3765  end_set_loss: 0.4488  loss: 1.7025  data: 0.0014  batch: 1.8507  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 22  step: 768  ct_loss: 0.2420  init_py_loss: 2.0636  coarse_py_loss: 1.4830  py_loss_0: 1.3037  py_loss_1: 1.3145  end_set_loss: 0.4192  loss: 1.6091  data: 0.0567  batch: 1.9308  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 22  step: 781  ct_loss: 0.2686  init_py_loss: 2.1249  coarse_py_loss: 1.5438  py_loss_0: 1.3637  py_loss_1: 1.3685  end_set_loss: 0.4636  loss: 1.7007  data: 0.0015  batch: 1.8737  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 23  step: 802  ct_loss: 0.2501  init_py_loss: 2.1262  coarse_py_loss: 1.5029  py_loss_0: 1.3198  py_loss_1: 1.3304  end_set_loss: 0.4467  loss: 1.6453  data: 0.0567  batch: 1.9227  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 23  step: 815  ct_loss: 0.2489  init_py_loss: 1.9735  coarse_py_loss: 1.4195  py_loss_0: 1.2312  py_loss_1: 1.2394  end_set_loss: 0.3884  loss: 1.5411  data: 0.0015  batch: 1.8571  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 24  step: 836  ct_loss: 0.2288  init_py_loss: 2.0188  coarse_py_loss: 1.4966  py_loss_0: 1.3131  py_loss_1: 1.3181  end_set_loss: 0.3892  loss: 1.5871  data: 0.0580  batch: 1.9161  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 24  step: 849  ct_loss: 0.2421  init_py_loss: 2.0414  coarse_py_loss: 1.4698  py_loss_0: 1.2802  py_loss_1: 1.2864  end_set_loss: 0.3832  loss: 1.5765  data: 0.0013  batch: 1.8642  lr: 0.000100  max_mem: 7959
+
+
+ 85%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                            | 112/132 [00:04<00:00, 27.64it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.14s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.541
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.927
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.648
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.470
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.610
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.233
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.582
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.582
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.520
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.648
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 26.22it/s]
+eta: 0:00:25  epoch: 25  step: 870  ct_loss: 0.2691  init_py_loss: 1.8651  coarse_py_loss: 1.3534  py_loss_0: 1.1854  py_loss_1: 1.1875  end_set_loss: 0.3600  loss: 1.5019  data: 0.0612  batch: 1.9315  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 25  step: 883  ct_loss: 0.2438  init_py_loss: 1.9673  coarse_py_loss: 1.4188  py_loss_0: 1.2529  py_loss_1: 1.2520  end_set_loss: 0.3600  loss: 1.5374  data: 0.0015  batch: 1.8754  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 26  step: 904  ct_loss: 0.2201  init_py_loss: 1.9212  coarse_py_loss: 1.4032  py_loss_0: 1.2455  py_loss_1: 1.2493  end_set_loss: 0.3745  loss: 1.5090  data: 0.0558  batch: 1.9237  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 26  step: 917  ct_loss: 0.2480  init_py_loss: 1.8732  coarse_py_loss: 1.3377  py_loss_0: 1.1843  py_loss_1: 1.1907  end_set_loss: 0.3537  loss: 1.4786  data: 0.0015  batch: 1.8433  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 27  step: 938  ct_loss: 0.2045  init_py_loss: 1.7103  coarse_py_loss: 1.2484  py_loss_0: 1.1041  py_loss_1: 1.1054  end_set_loss: 0.3341  loss: 1.3482  data: 0.0555  batch: 1.9520  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 27  step: 951  ct_loss: 0.2126  init_py_loss: 1.8532  coarse_py_loss: 1.3461  py_loss_0: 1.1914  py_loss_1: 1.1965  end_set_loss: 0.3817  loss: 1.4558  data: 0.0015  batch: 1.8574  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 28  step: 972  ct_loss: 0.2257  init_py_loss: 1.8349  coarse_py_loss: 1.3604  py_loss_0: 1.2209  py_loss_1: 1.2312  end_set_loss: 0.3644  loss: 1.4841  data: 0.0522  batch: 1.9386  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 28  step: 985  ct_loss: 0.2144  init_py_loss: 1.8572  coarse_py_loss: 1.3637  py_loss_0: 1.2233  py_loss_1: 1.2268  end_set_loss: 0.3616  loss: 1.4738  data: 0.0014  batch: 1.8877  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 29  step: 1006  ct_loss: 0.2254  init_py_loss: 1.7826  coarse_py_loss: 1.3317  py_loss_0: 1.1984  py_loss_1: 1.2013  end_set_loss: 0.3408  loss: 1.4504  data: 0.0545  batch: 1.9099  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 29  step: 1019  ct_loss: 0.2105  init_py_loss: 1.7585  coarse_py_loss: 1.3032  py_loss_0: 1.1622  py_loss_1: 1.1643  end_set_loss: 0.3223  loss: 1.3996  data: 0.0014  batch: 1.8750  lr: 0.000100  max_mem: 7959
+
+
+ 98%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏  | 130/132 [00:04<00:00, 27.04it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.09s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.590
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.935
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.764
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.518
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.664
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.255
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.637
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.637
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.566
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.714
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 26.05it/s]
+eta: 0:00:25  epoch: 30  step: 1040  ct_loss: 0.2302  init_py_loss: 1.6857  coarse_py_loss: 1.1846  py_loss_0: 1.0415  py_loss_1: 1.0445  end_set_loss: 0.3161  loss: 1.3179  data: 0.0564  batch: 1.9299  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 30  step: 1053  ct_loss: 0.2297  init_py_loss: 1.6228  coarse_py_loss: 1.1261  py_loss_0: 0.9861  py_loss_1: 0.9865  end_set_loss: 0.3030  loss: 1.2631  data: 0.0014  batch: 1.8721  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 31  step: 1074  ct_loss: 0.2129  init_py_loss: 1.6221  coarse_py_loss: 1.1588  py_loss_0: 1.0257  py_loss_1: 1.0279  end_set_loss: 0.3041  loss: 1.2769  data: 0.0580  batch: 1.9445  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 31  step: 1087  ct_loss: 0.2143  init_py_loss: 1.6634  coarse_py_loss: 1.1921  py_loss_0: 1.0615  py_loss_1: 1.0630  end_set_loss: 0.3119  loss: 1.3119  data: 0.0015  batch: 1.8865  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 32  step: 1108  ct_loss: 0.2121  init_py_loss: 1.8087  coarse_py_loss: 1.3065  py_loss_0: 1.1753  py_loss_1: 1.1786  end_set_loss: 0.3372  loss: 1.4207  data: 0.0580  batch: 1.9121  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 32  step: 1121  ct_loss: 0.2332  init_py_loss: 1.7303  coarse_py_loss: 1.2468  py_loss_0: 1.1075  py_loss_1: 1.1105  end_set_loss: 0.3499  loss: 1.3868  data: 0.0014  batch: 1.8945  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 33  step: 1142  ct_loss: 0.2090  init_py_loss: 1.7700  coarse_py_loss: 1.2712  py_loss_0: 1.1490  py_loss_1: 1.1559  end_set_loss: 0.3362  loss: 1.3935  data: 0.0576  batch: 1.9344  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 33  step: 1155  ct_loss: 0.1913  init_py_loss: 1.7342  coarse_py_loss: 1.2570  py_loss_0: 1.1344  py_loss_1: 1.1436  end_set_loss: 0.3076  loss: 1.3523  data: 0.0013  batch: 1.8840  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 34  step: 1176  ct_loss: 0.2204  init_py_loss: 1.6758  coarse_py_loss: 1.2717  py_loss_0: 1.1453  py_loss_1: 1.1528  end_set_loss: 0.3082  loss: 1.3840  data: 0.0563  batch: 1.9427  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 34  step: 1189  ct_loss: 0.1952  init_py_loss: 1.5424  coarse_py_loss: 1.1356  py_loss_0: 1.0192  py_loss_1: 1.0242  end_set_loss: 0.2871  loss: 1.2399  data: 0.0014  batch: 1.8787  lr: 0.000100  max_mem: 7959
+
+
+ 85%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                            | 112/132 [00:04<00:00, 27.12it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.09s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.504
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.917
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.469
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.446
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.568
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.225
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.566
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.566
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.504
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.633
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:04<00:00, 26.65it/s]
+eta: 0:00:25  epoch: 35  step: 1210  ct_loss: 0.2752  init_py_loss: 1.7064  coarse_py_loss: 1.2469  py_loss_0: 1.1232  py_loss_1: 1.1321  end_set_loss: 0.3272  loss: 1.4314  data: 0.0561  batch: 1.9147  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 35  step: 1223  ct_loss: 0.2180  init_py_loss: 1.6467  coarse_py_loss: 1.2479  py_loss_0: 1.1290  py_loss_1: 1.1342  end_set_loss: 0.3123  loss: 1.3660  data: 0.0014  batch: 1.8883  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 36  step: 1244  ct_loss: 0.1653  init_py_loss: 1.4817  coarse_py_loss: 1.0482  py_loss_0: 0.9326  py_loss_1: 0.9363  end_set_loss: 0.2664  loss: 1.1301  data: 0.0557  batch: 1.9449  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 36  step: 1257  ct_loss: 0.1788  init_py_loss: 1.4954  coarse_py_loss: 1.0485  py_loss_0: 0.9386  py_loss_1: 0.9429  end_set_loss: 0.2672  loss: 1.1494  data: 0.0013  batch: 1.8802  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 37  step: 1278  ct_loss: 0.1750  init_py_loss: 1.5384  coarse_py_loss: 1.1423  py_loss_0: 1.0317  py_loss_1: 1.0368  end_set_loss: 0.2871  loss: 1.2282  data: 0.0547  batch: 1.9111  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 37  step: 1291  ct_loss: 0.1686  init_py_loss: 1.5126  coarse_py_loss: 1.1036  py_loss_0: 0.9859  py_loss_1: 0.9903  end_set_loss: 0.3179  loss: 1.1949  data: 0.0015  batch: 1.8756  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 38  step: 1312  ct_loss: 0.1952  init_py_loss: 1.4184  coarse_py_loss: 1.0418  py_loss_0: 0.9290  py_loss_1: 0.9285  end_set_loss: 0.2802  loss: 1.1538  data: 0.0575  batch: 1.9433  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 38  step: 1325  ct_loss: 0.1951  init_py_loss: 1.3960  coarse_py_loss: 0.9940  py_loss_0: 0.8823  py_loss_1: 0.8843  end_set_loss: 0.2655  loss: 1.1115  data: 0.0015  batch: 1.8665  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 39  step: 1346  ct_loss: 0.1898  init_py_loss: 1.5408  coarse_py_loss: 1.1281  py_loss_0: 1.0218  py_loss_1: 1.0232  end_set_loss: 0.2910  loss: 1.2354  data: 0.0575  batch: 1.9429  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 39  step: 1359  ct_loss: 0.1978  init_py_loss: 1.4354  coarse_py_loss: 1.0362  py_loss_0: 0.9237  py_loss_1: 0.9255  end_set_loss: 0.2715  loss: 1.1519  data: 0.0014  batch: 1.8884  lr: 0.000100  max_mem: 7959
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 26.09it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.10s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.552
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.939
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.640
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.468
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.634
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.245
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.603
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.603
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.527
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.686
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:25  epoch: 40  step: 1380  ct_loss: 0.1825  init_py_loss: 1.5272  coarse_py_loss: 1.1237  py_loss_0: 1.0136  py_loss_1: 1.0166  end_set_loss: 0.2903  loss: 1.2210  data: 0.0571  batch: 1.9447  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 40  step: 1393  ct_loss: 0.1826  init_py_loss: 1.3659  coarse_py_loss: 0.9789  py_loss_0: 0.8680  py_loss_1: 0.8689  end_set_loss: 0.2754  loss: 1.0878  data: 0.0014  batch: 1.8869  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 41  step: 1414  ct_loss: 0.1944  init_py_loss: 1.5001  coarse_py_loss: 1.1003  py_loss_0: 0.9943  py_loss_1: 0.9986  end_set_loss: 0.2806  loss: 1.2123  data: 0.0554  batch: 1.8977  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 41  step: 1427  ct_loss: 0.2081  init_py_loss: 1.4858  coarse_py_loss: 1.1058  py_loss_0: 1.0026  py_loss_1: 1.0080  end_set_loss: 0.2958  loss: 1.2361  data: 0.0014  batch: 1.8507  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 42  step: 1448  ct_loss: 0.2203  init_py_loss: 1.4894  coarse_py_loss: 1.1102  py_loss_0: 1.0082  py_loss_1: 1.0118  end_set_loss: 0.2788  loss: 1.2465  data: 0.0553  batch: 1.9209  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 42  step: 1461  ct_loss: 0.1992  init_py_loss: 1.5871  coarse_py_loss: 1.1296  py_loss_0: 1.0258  py_loss_1: 1.0281  end_set_loss: 0.2980  loss: 1.2548  data: 0.0015  batch: 1.8451  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 43  step: 1482  ct_loss: 0.2143  init_py_loss: 1.5152  coarse_py_loss: 1.1102  py_loss_0: 0.9979  py_loss_1: 1.0025  end_set_loss: 0.2751  loss: 1.2354  data: 0.0564  batch: 1.9413  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 43  step: 1495  ct_loss: 0.2042  init_py_loss: 1.4189  coarse_py_loss: 1.0534  py_loss_0: 0.9497  py_loss_1: 0.9530  end_set_loss: 0.2670  loss: 1.1747  data: 0.0015  batch: 1.8595  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 44  step: 1516  ct_loss: 0.1990  init_py_loss: 1.4850  coarse_py_loss: 1.1059  py_loss_0: 1.0052  py_loss_1: 1.0064  end_set_loss: 0.2871  loss: 1.2243  data: 0.0571  batch: 1.9309  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 44  step: 1529  ct_loss: 0.1654  init_py_loss: 1.4074  coarse_py_loss: 1.0452  py_loss_0: 0.9470  py_loss_1: 0.9471  end_set_loss: 0.2748  loss: 1.1336  data: 0.0015  batch: 1.8683  lr: 0.000100  max_mem: 7959
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.45it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.09s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.603
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.935
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.762
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.540
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.668
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.259
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.654
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.654
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.597
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.717
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:25  epoch: 45  step: 1550  ct_loss: 0.1826  init_py_loss: 1.3959  coarse_py_loss: 1.0300  py_loss_0: 0.9325  py_loss_1: 0.9365  end_set_loss: 0.2638  loss: 1.1362  data: 0.0552  batch: 1.9193  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 45  step: 1563  ct_loss: 0.1950  init_py_loss: 1.3712  coarse_py_loss: 1.0333  py_loss_0: 0.9368  py_loss_1: 0.9427  end_set_loss: 0.2609  loss: 1.1489  data: 0.0013  batch: 1.8726  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 46  step: 1584  ct_loss: 0.1881  init_py_loss: 1.4089  coarse_py_loss: 1.0373  py_loss_0: 0.9370  py_loss_1: 0.9366  end_set_loss: 0.2638  loss: 1.1452  data: 0.0544  batch: 1.9085  lr: 0.000100  max_mem: 7959
+eta: 0:00:01  epoch: 46  step: 1597  ct_loss: 0.1503  init_py_loss: 1.3382  coarse_py_loss: 0.9845  py_loss_0: 0.8813  py_loss_1: 0.8836  end_set_loss: 0.2569  loss: 1.0565  data: 0.0014  batch: 1.8711  lr: 0.000100  max_mem: 7959
+eta: 0:00:25  epoch: 47  step: 1618  ct_loss: 0.1743  init_py_loss: 1.5111  coarse_py_loss: 1.0942  py_loss_0: 0.9935  py_loss_1: 0.9968  end_set_loss: 0.2754  loss: 1.1900  data: 0.0567  batch: 1.9226  lr: 0.000099  max_mem: 7959
+eta: 0:00:01  epoch: 47  step: 1631  ct_loss: 0.1787  init_py_loss: 1.4193  coarse_py_loss: 1.0295  py_loss_0: 0.9295  py_loss_1: 0.9311  end_set_loss: 0.2749  loss: 1.1354  data: 0.0013  batch: 1.8705  lr: 0.000099  max_mem: 7959
+eta: 0:00:25  epoch: 48  step: 1652  ct_loss: 0.1827  init_py_loss: 1.3831  coarse_py_loss: 1.0275  py_loss_0: 0.9262  py_loss_1: 0.9306  end_set_loss: 0.2525  loss: 1.1269  data: 0.0588  batch: 1.9229  lr: 0.000099  max_mem: 7959
+eta: 0:00:01  epoch: 48  step: 1665  ct_loss: 0.2006  init_py_loss: 1.4171  coarse_py_loss: 1.0693  py_loss_0: 0.9708  py_loss_1: 0.9749  end_set_loss: 0.2760  loss: 1.1897  data: 0.0013  batch: 1.8699  lr: 0.000099  max_mem: 7959
+eta: 0:00:25  epoch: 49  step: 1686  ct_loss: 0.2006  init_py_loss: 1.3564  coarse_py_loss: 1.0112  py_loss_0: 0.9112  py_loss_1: 0.9167  end_set_loss: 0.2668  loss: 1.1356  data: 0.0590  batch: 1.9514  lr: 0.000099  max_mem: 7959
+eta: 0:00:01  epoch: 49  step: 1699  ct_loss: 0.1554  init_py_loss: 1.3013  coarse_py_loss: 0.9466  py_loss_0: 0.8558  py_loss_1: 0.8591  end_set_loss: 0.2327  loss: 1.0294  data: 0.0013  batch: 1.8689  lr: 0.000099  max_mem: 7959
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 26.34it/s]
+Loading and preparing results...
+DONE (t=0.06s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.10s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.632
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.953
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.786
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.566
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.695
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.265
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.677
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.677
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.619
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.739
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:25  epoch: 50  step: 1720  ct_loss: 0.2025  init_py_loss: 1.4614  coarse_py_loss: 1.0880  py_loss_0: 0.9758  py_loss_1: 0.9796  end_set_loss: 0.2867  loss: 1.2048  data: 0.0592  batch: 1.9133  lr: 0.000099  max_mem: 7959
+eta: 0:00:01  epoch: 50  step: 1733  ct_loss: 0.1879  init_py_loss: 1.4257  coarse_py_loss: 1.0459  py_loss_0: 0.9349  py_loss_1: 0.9399  end_set_loss: 0.2754  loss: 1.1518  data: 0.0014  batch: 1.8429  lr: 0.000099  max_mem: 7959
+eta: 0:00:25  epoch: 51  step: 1754  ct_loss: 0.2045  init_py_loss: 1.3762  coarse_py_loss: 1.0629  py_loss_0: 0.9616  py_loss_1: 0.9618  end_set_loss: 0.2831  loss: 1.1839  data: 0.0579  batch: 1.9455  lr: 0.000099  max_mem: 7959
+eta: 0:00:01  epoch: 51  step: 1767  ct_loss: 0.1719  init_py_loss: 1.2591  coarse_py_loss: 0.9352  py_loss_0: 0.8371  py_loss_1: 0.8376  end_set_loss: 0.2371  loss: 1.0286  data: 0.0014  batch: 1.8766  lr: 0.000099  max_mem: 7959
+eta: 0:00:25  epoch: 52  step: 1788  ct_loss: 0.1576  init_py_loss: 1.3818  coarse_py_loss: 1.0634  py_loss_0: 0.9750  py_loss_1: 0.9797  end_set_loss: 0.2439  loss: 1.1350  data: 0.0550  batch: 1.9022  lr: 0.000099  max_mem: 7959
+eta: 0:00:01  epoch: 52  step: 1801  ct_loss: 0.1770  init_py_loss: 1.3086  coarse_py_loss: 0.9739  py_loss_0: 0.8857  py_loss_1: 0.8897  end_set_loss: 0.2421  loss: 1.0778  data: 0.0013  batch: 1.8631  lr: 0.000099  max_mem: 7959
+eta: 0:00:25  epoch: 53  step: 1822  ct_loss: 0.1748  init_py_loss: 1.3347  coarse_py_loss: 1.0064  py_loss_0: 0.9165  py_loss_1: 0.9180  end_set_loss: 0.2541  loss: 1.1051  data: 0.0571  batch: 1.9212  lr: 0.000098  max_mem: 7959
+eta: 0:00:01  epoch: 53  step: 1835  ct_loss: 0.1666  init_py_loss: 1.3337  coarse_py_loss: 0.9797  py_loss_0: 0.8836  py_loss_1: 0.8837  end_set_loss: 0.2578  loss: 1.0730  data: 0.0014  batch: 1.8411  lr: 0.000098  max_mem: 7959
+eta: 0:00:25  epoch: 54  step: 1856  ct_loss: 0.1758  init_py_loss: 1.3436  coarse_py_loss: 0.9595  py_loss_0: 0.8594  py_loss_1: 0.8626  end_set_loss: 0.2354  loss: 1.0586  data: 0.0581  batch: 1.9400  lr: 0.000098  max_mem: 7959
+eta: 0:00:01  epoch: 54  step: 1869  ct_loss: 0.1749  init_py_loss: 1.3350  coarse_py_loss: 0.9913  py_loss_0: 0.8988  py_loss_1: 0.9001  end_set_loss: 0.2421  loss: 1.0879  data: 0.0014  batch: 1.8827  lr: 0.000098  max_mem: 7959
+
+
+ 96%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████       | 127/132 [00:05<00:00, 25.71it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.10s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.623
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.950
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.791
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.555
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.692
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.262
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.670
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.670
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.613
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.733
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.01it/s]
+eta: 0:00:25  epoch: 55  step: 1890  ct_loss: 0.1957  init_py_loss: 1.4031  coarse_py_loss: 1.0114  py_loss_0: 0.9199  py_loss_1: 0.9228  end_set_loss: 0.2663  loss: 1.1401  data: 0.0589  batch: 1.9294  lr: 0.000098  max_mem: 7959
+eta: 0:00:01  epoch: 55  step: 1903  ct_loss: 0.1849  init_py_loss: 1.3494  coarse_py_loss: 1.0049  py_loss_0: 0.9120  py_loss_1: 0.9156  end_set_loss: 0.2505  loss: 1.1131  data: 0.0015  batch: 1.9035  lr: 0.000098  max_mem: 7959
+eta: 0:00:25  epoch: 56  step: 1924  ct_loss: 0.2279  init_py_loss: 1.3189  coarse_py_loss: 0.9928  py_loss_0: 0.8976  py_loss_1: 0.8980  end_set_loss: 0.2722  loss: 1.1483  data: 0.0557  batch: 1.9300  lr: 0.000098  max_mem: 7959
+eta: 0:00:01  epoch: 56  step: 1937  ct_loss: 0.1741  init_py_loss: 1.3720  coarse_py_loss: 1.0403  py_loss_0: 0.9371  py_loss_1: 0.9385  end_set_loss: 0.2511  loss: 1.1242  data: 0.0014  batch: 1.8840  lr: 0.000098  max_mem: 7959
+eta: 0:00:25  epoch: 57  step: 1958  ct_loss: 0.2066  init_py_loss: 1.3283  coarse_py_loss: 0.9959  py_loss_0: 0.9022  py_loss_1: 0.9043  end_set_loss: 0.2774  loss: 1.1337  data: 0.0575  batch: 1.8984  lr: 0.000097  max_mem: 7959
+eta: 0:00:01  epoch: 57  step: 1971  ct_loss: 0.1988  init_py_loss: 1.3919  coarse_py_loss: 1.0544  py_loss_0: 0.9575  py_loss_1: 0.9588  end_set_loss: 0.2862  loss: 1.1776  data: 0.0014  batch: 1.8519  lr: 0.000097  max_mem: 7959
+eta: 0:00:25  epoch: 58  step: 1992  ct_loss: 0.1659  init_py_loss: 1.2299  coarse_py_loss: 0.9018  py_loss_0: 0.8115  py_loss_1: 0.8112  end_set_loss: 0.2261  loss: 0.9953  data: 0.0604  batch: 1.9406  lr: 0.000097  max_mem: 7959
+eta: 0:00:01  epoch: 58  step: 2005  ct_loss: 0.1489  init_py_loss: 1.1968  coarse_py_loss: 0.8928  py_loss_0: 0.8030  py_loss_1: 0.8032  end_set_loss: 0.2137  loss: 0.9645  data: 0.0015  batch: 1.8695  lr: 0.000097  max_mem: 7959
+eta: 0:00:25  epoch: 59  step: 2026  ct_loss: 0.1659  init_py_loss: 1.3449  coarse_py_loss: 1.0240  py_loss_0: 0.9369  py_loss_1: 0.9384  end_set_loss: 0.2348  loss: 1.1062  data: 0.0546  batch: 1.9307  lr: 0.000097  max_mem: 7959
+eta: 0:00:01  epoch: 59  step: 2039  ct_loss: 0.1479  init_py_loss: 1.2353  coarse_py_loss: 0.9095  py_loss_0: 0.8192  py_loss_1: 0.8203  end_set_loss: 0.2208  loss: 0.9825  data: 0.0014  batch: 1.8895  lr: 0.000097  max_mem: 7959
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.05it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.09s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.594
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.942
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.731
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.533
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.652
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.253
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.650
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.650
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.598
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.707
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:26  epoch: 60  step: 2060  ct_loss: 0.1497  init_py_loss: 1.2286  coarse_py_loss: 0.9019  py_loss_0: 0.8163  py_loss_1: 0.8178  end_set_loss: 0.2185  loss: 0.9802  data: 0.0593  batch: 1.9473  lr: 0.000096  max_mem: 7959
+eta: 0:00:01  epoch: 60  step: 2073  ct_loss: 0.1644  init_py_loss: 1.2274  coarse_py_loss: 0.9065  py_loss_0: 0.8220  py_loss_1: 0.8277  end_set_loss: 0.2303  loss: 1.0045  data: 0.0015  batch: 1.8869  lr: 0.000096  max_mem: 7959
+eta: 0:00:26  epoch: 61  step: 2094  ct_loss: 0.2007  init_py_loss: 1.2747  coarse_py_loss: 0.9554  py_loss_0: 0.8724  py_loss_1: 0.8745  end_set_loss: 0.2387  loss: 1.0855  data: 0.0577  batch: 1.9297  lr: 0.000096  max_mem: 7959
+eta: 0:00:01  epoch: 61  step: 2107  ct_loss: 0.1625  init_py_loss: 1.2500  coarse_py_loss: 0.9145  py_loss_0: 0.8207  py_loss_1: 0.8224  end_set_loss: 0.2231  loss: 1.0010  data: 0.0014  batch: 1.8661  lr: 0.000096  max_mem: 7959
+eta: 0:00:26  epoch: 62  step: 2128  ct_loss: 0.2004  init_py_loss: 1.2531  coarse_py_loss: 0.9422  py_loss_0: 0.8464  py_loss_1: 0.8470  end_set_loss: 0.2309  loss: 1.0613  data: 0.0614  batch: 1.9520  lr: 0.000095  max_mem: 7959
+eta: 0:00:01  epoch: 62  step: 2141  ct_loss: 0.1820  init_py_loss: 1.2715  coarse_py_loss: 0.9648  py_loss_0: 0.8629  py_loss_1: 0.8619  end_set_loss: 0.2504  loss: 1.0641  data: 0.0013  batch: 1.8589  lr: 0.000095  max_mem: 7959
+eta: 0:00:26  epoch: 63  step: 2162  ct_loss: 0.1630  init_py_loss: 1.1890  coarse_py_loss: 0.8921  py_loss_0: 0.8166  py_loss_1: 0.8209  end_set_loss: 0.2395  loss: 0.9968  data: 0.0595  batch: 1.9320  lr: 0.000095  max_mem: 7959
+eta: 0:00:01  epoch: 63  step: 2175  ct_loss: 0.1451  init_py_loss: 1.2207  coarse_py_loss: 0.9006  py_loss_0: 0.8122  py_loss_1: 0.8141  end_set_loss: 0.2157  loss: 0.9712  data: 0.0013  batch: 1.8568  lr: 0.000095  max_mem: 7959
+eta: 0:00:26  epoch: 64  step: 2196  ct_loss: 0.1555  init_py_loss: 1.3375  coarse_py_loss: 0.9342  py_loss_0: 0.8327  py_loss_1: 0.8380  end_set_loss: 0.2316  loss: 1.0168  data: 0.0570  batch: 1.9575  lr: 0.000095  max_mem: 7959
+eta: 0:00:01  epoch: 64  step: 2209  ct_loss: 0.1751  init_py_loss: 1.4106  coarse_py_loss: 1.0217  py_loss_0: 0.9172  py_loss_1: 0.9155  end_set_loss: 0.2669  loss: 1.1182  data: 0.0013  batch: 1.8732  lr: 0.000095  max_mem: 7959
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 26.06it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.10s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.607
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.937
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.760
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.543
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.675
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.254
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.661
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.661
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.604
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.724
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:26  epoch: 65  step: 2230  ct_loss: 0.1614  init_py_loss: 1.2266  coarse_py_loss: 0.9305  py_loss_0: 0.8525  py_loss_1: 0.8557  end_set_loss: 0.2434  loss: 1.0277  data: 0.0583  batch: 1.9325  lr: 0.000094  max_mem: 7959
+eta: 0:00:01  epoch: 65  step: 2243  ct_loss: 0.1550  init_py_loss: 1.2392  coarse_py_loss: 0.9362  py_loss_0: 0.8511  py_loss_1: 0.8513  end_set_loss: 0.2879  loss: 1.0360  data: 0.0014  batch: 1.8745  lr: 0.000094  max_mem: 7959
+eta: 0:00:26  epoch: 66  step: 2264  ct_loss: 0.1861  init_py_loss: 1.3474  coarse_py_loss: 1.0706  py_loss_0: 0.9877  py_loss_1: 0.9949  end_set_loss: 0.2533  loss: 1.1732  data: 0.0553  batch: 1.9194  lr: 0.000094  max_mem: 7959
+eta: 0:00:01  epoch: 66  step: 2277  ct_loss: 0.1431  init_py_loss: 1.2279  coarse_py_loss: 0.9359  py_loss_0: 0.8519  py_loss_1: 0.8574  end_set_loss: 0.2257  loss: 1.0045  data: 0.0013  batch: 1.8548  lr: 0.000094  max_mem: 7959
+eta: 0:00:26  epoch: 67  step: 2298  ct_loss: 0.1343  init_py_loss: 1.2373  coarse_py_loss: 0.9265  py_loss_0: 0.8380  py_loss_1: 0.8388  end_set_loss: 0.2450  loss: 0.9913  data: 0.0587  batch: 1.9146  lr: 0.000093  max_mem: 7959
+eta: 0:00:01  epoch: 67  step: 2311  ct_loss: 0.1550  init_py_loss: 1.2268  coarse_py_loss: 0.9526  py_loss_0: 0.8707  py_loss_1: 0.8714  end_set_loss: 0.2415  loss: 1.0341  data: 0.0013  batch: 1.8686  lr: 0.000093  max_mem: 7959
+eta: 0:00:26  epoch: 68  step: 2332  ct_loss: 0.1602  init_py_loss: 1.2061  coarse_py_loss: 0.8877  py_loss_0: 0.8002  py_loss_1: 0.8031  end_set_loss: 0.2123  loss: 0.9747  data: 0.0571  batch: 1.9333  lr: 0.000093  max_mem: 7959
+eta: 0:00:01  epoch: 68  step: 2345  ct_loss: 0.1739  init_py_loss: 1.2261  coarse_py_loss: 0.8941  py_loss_0: 0.8031  py_loss_1: 0.8029  end_set_loss: 0.2171  loss: 0.9936  data: 0.0014  batch: 1.8821  lr: 0.000093  max_mem: 7959
+eta: 0:00:26  epoch: 69  step: 2366  ct_loss: 0.1718  init_py_loss: 1.1608  coarse_py_loss: 0.8715  py_loss_0: 0.7823  py_loss_1: 0.7839  end_set_loss: 0.2097  loss: 0.9670  data: 0.0623  batch: 1.9312  lr: 0.000092  max_mem: 7959
+eta: 0:00:01  epoch: 69  step: 2379  ct_loss: 0.1545  init_py_loss: 1.1876  coarse_py_loss: 0.8796  py_loss_0: 0.7996  py_loss_1: 0.7996  end_set_loss: 0.2019  loss: 0.9616  data: 0.0014  batch: 1.8530  lr: 0.000092  max_mem: 7959
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.31it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.09s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.650
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.962
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.820
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.582
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.716
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.274
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.695
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.695
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.637
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.758
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:26  epoch: 70  step: 2400  ct_loss: 0.1599  init_py_loss: 1.1664  coarse_py_loss: 0.8475  py_loss_0: 0.7653  py_loss_1: 0.7672  end_set_loss: 0.2139  loss: 0.9434  data: 0.0569  batch: 1.9282  lr: 0.000092  max_mem: 7959
+eta: 0:00:01  epoch: 70  step: 2413  ct_loss: 0.1458  init_py_loss: 1.1628  coarse_py_loss: 0.8283  py_loss_0: 0.7397  py_loss_1: 0.7404  end_set_loss: 0.2077  loss: 0.9075  data: 0.0015  batch: 1.8737  lr: 0.000092  max_mem: 7959
+eta: 0:00:26  epoch: 71  step: 2434  ct_loss: 0.1504  init_py_loss: 1.1359  coarse_py_loss: 0.8022  py_loss_0: 0.7168  py_loss_1: 0.7200  end_set_loss: 0.2111  loss: 0.8935  data: 0.0560  batch: 1.9311  lr: 0.000091  max_mem: 7959
+eta: 0:00:01  epoch: 71  step: 2447  ct_loss: 0.1482  init_py_loss: 1.1204  coarse_py_loss: 0.8301  py_loss_0: 0.7435  py_loss_1: 0.7456  end_set_loss: 0.2090  loss: 0.9093  data: 0.0015  batch: 1.8921  lr: 0.000091  max_mem: 7959
+eta: 0:00:26  epoch: 72  step: 2468  ct_loss: 0.1406  init_py_loss: 1.1327  coarse_py_loss: 0.8328  py_loss_0: 0.7453  py_loss_1: 0.7451  end_set_loss: 0.2074  loss: 0.9031  data: 0.0609  batch: 2.0290  lr: 0.000091  max_mem: 7959
+eta: 0:00:01  epoch: 72  step: 2481  ct_loss: 0.1195  init_py_loss: 1.0813  coarse_py_loss: 0.7948  py_loss_0: 0.7176  py_loss_1: 0.7198  end_set_loss: 0.1964  loss: 0.8517  data: 0.0030  batch: 2.4319  lr: 0.000091  max_mem: 7959
+eta: 0:00:26  epoch: 73  step: 2502  ct_loss: 0.1771  init_py_loss: 1.2246  coarse_py_loss: 0.9120  py_loss_0: 0.8235  py_loss_1: 0.8252  end_set_loss: 0.2387  loss: 1.0199  data: 0.1136  batch: 2.1570  lr: 0.000090  max_mem: 7959
+eta: 0:00:01  epoch: 73  step: 2515  ct_loss: 0.1556  init_py_loss: 1.1872  coarse_py_loss: 0.8882  py_loss_0: 0.8019  py_loss_1: 0.8061  end_set_loss: 0.2145  loss: 0.9706  data: 0.0013  batch: 1.8674  lr: 0.000090  max_mem: 7959
+eta: 0:00:26  epoch: 74  step: 2536  ct_loss: 0.1709  init_py_loss: 1.2743  coarse_py_loss: 0.9617  py_loss_0: 0.8608  py_loss_1: 0.8593  end_set_loss: 0.2349  loss: 1.0462  data: 0.0658  batch: 1.9551  lr: 0.000090  max_mem: 7959
+eta: 0:00:01  epoch: 74  step: 2549  ct_loss: 0.1616  init_py_loss: 1.1377  coarse_py_loss: 0.8485  py_loss_0: 0.7651  py_loss_1: 0.7655  end_set_loss: 0.2062  loss: 0.9392  data: 0.0015  batch: 1.8670  lr: 0.000090  max_mem: 7959
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 24.13it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.10s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.628
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.952
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.790
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.565
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.694
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.265
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.678
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.678
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.619
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.742
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:26  epoch: 75  step: 2570  ct_loss: 0.1365  init_py_loss: 1.1077  coarse_py_loss: 0.8242  py_loss_0: 0.7409  py_loss_1: 0.7416  end_set_loss: 0.2021  loss: 0.8913  data: 0.0676  batch: 1.9471  lr: 0.000089  max_mem: 7959
+eta: 0:00:01  epoch: 75  step: 2583  ct_loss: 0.1383  init_py_loss: 1.0335  coarse_py_loss: 0.7468  py_loss_0: 0.6574  py_loss_1: 0.6576  end_set_loss: 0.1910  loss: 0.8183  data: 0.0014  batch: 1.8554  lr: 0.000089  max_mem: 7959
+eta: 0:00:26  epoch: 76  step: 2604  ct_loss: 0.1507  init_py_loss: 1.1705  coarse_py_loss: 0.8598  py_loss_0: 0.7778  py_loss_1: 0.7771  end_set_loss: 0.2107  loss: 0.9422  data: 0.0744  batch: 2.0026  lr: 0.000089  max_mem: 7959
+eta: 0:00:01  epoch: 76  step: 2617  ct_loss: 0.1403  init_py_loss: 1.0612  coarse_py_loss: 0.7879  py_loss_0: 0.7106  py_loss_1: 0.7132  end_set_loss: 0.1992  loss: 0.8662  data: 0.0014  batch: 1.8976  lr: 0.000089  max_mem: 7959
+eta: 0:00:26  epoch: 77  step: 2638  ct_loss: 0.1566  init_py_loss: 1.2204  coarse_py_loss: 0.9116  py_loss_0: 0.8177  py_loss_1: 0.8198  end_set_loss: 0.2328  loss: 0.9932  data: 0.0760  batch: 1.9744  lr: 0.000088  max_mem: 7959
+eta: 0:00:01  epoch: 77  step: 2651  ct_loss: 0.1610  init_py_loss: 1.1099  coarse_py_loss: 0.8323  py_loss_0: 0.7458  py_loss_1: 0.7492  end_set_loss: 0.2087  loss: 0.9231  data: 0.0014  batch: 1.8694  lr: 0.000088  max_mem: 7959
+eta: 0:00:26  epoch: 78  step: 2672  ct_loss: 0.1440  init_py_loss: 1.1159  coarse_py_loss: 0.7923  py_loss_0: 0.7004  py_loss_1: 0.6979  end_set_loss: 0.2080  loss: 0.8703  data: 0.0745  batch: 1.9672  lr: 0.000087  max_mem: 7959
+eta: 0:00:01  epoch: 78  step: 2685  ct_loss: 0.1212  init_py_loss: 1.1613  coarse_py_loss: 0.8337  py_loss_0: 0.7487  py_loss_1: 0.7476  end_set_loss: 0.2010  loss: 0.8865  data: 0.0021  batch: 1.8785  lr: 0.000087  max_mem: 7959
+eta: 0:00:26  epoch: 79  step: 2706  ct_loss: 0.1410  init_py_loss: 1.1119  coarse_py_loss: 0.8199  py_loss_0: 0.7365  py_loss_1: 0.7404  end_set_loss: 0.1994  loss: 0.8929  data: 0.0691  batch: 1.9837  lr: 0.000087  max_mem: 7959
+eta: 0:00:01  epoch: 79  step: 2719  ct_loss: 0.1388  init_py_loss: 1.0892  coarse_py_loss: 0.8195  py_loss_0: 0.7237  py_loss_1: 0.7216  end_set_loss: 0.1903  loss: 0.8748  data: 0.0014  batch: 1.8942  lr: 0.000087  max_mem: 7959
+
+
+ 94%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊           | 124/132 [00:04<00:00, 25.29it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.09s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.649
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.954
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.826
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.583
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.716
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.272
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.698
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.698
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.640
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.761
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 24.98it/s]
+eta: 0:00:26  epoch: 80  step: 2740  ct_loss: 0.1562  init_py_loss: 1.1392  coarse_py_loss: 0.8661  py_loss_0: 0.7802  py_loss_1: 0.7777  end_set_loss: 0.2455  loss: 0.9578  data: 0.0706  batch: 1.9308  lr: 0.000086  max_mem: 7959
+eta: 0:00:01  epoch: 80  step: 2753  ct_loss: 0.1501  init_py_loss: 1.1273  coarse_py_loss: 0.8722  py_loss_0: 0.7947  py_loss_1: 0.7960  end_set_loss: 0.2093  loss: 0.9500  data: 0.0015  batch: 1.8668  lr: 0.000086  max_mem: 7959
+eta: 0:00:26  epoch: 81  step: 2774  ct_loss: 0.1396  init_py_loss: 1.1104  coarse_py_loss: 0.8194  py_loss_0: 0.7290  py_loss_1: 0.7289  end_set_loss: 0.2094  loss: 0.8884  data: 0.0762  batch: 1.9758  lr: 0.000086  max_mem: 7959
+eta: 0:00:01  epoch: 81  step: 2787  ct_loss: 0.1452  init_py_loss: 1.0914  coarse_py_loss: 0.8242  py_loss_0: 0.7452  py_loss_1: 0.7446  end_set_loss: 0.1936  loss: 0.8979  data: 0.0013  batch: 1.8500  lr: 0.000086  max_mem: 7959
+eta: 0:00:26  epoch: 82  step: 2808  ct_loss: 0.1850  init_py_loss: 1.1543  coarse_py_loss: 0.8170  py_loss_0: 0.7118  py_loss_1: 0.7068  end_set_loss: 0.2260  loss: 0.9303  data: 0.0684  batch: 1.9377  lr: 0.000085  max_mem: 7959
+eta: 0:00:01  epoch: 82  step: 2821  ct_loss: 0.1627  init_py_loss: 1.0613  coarse_py_loss: 0.7641  py_loss_0: 0.6793  py_loss_1: 0.6784  end_set_loss: 0.1926  loss: 0.8620  data: 0.0013  batch: 1.8657  lr: 0.000085  max_mem: 7959
+eta: 0:00:26  epoch: 83  step: 2842  ct_loss: 0.1612  init_py_loss: 1.0964  coarse_py_loss: 0.8039  py_loss_0: 0.7155  py_loss_1: 0.7153  end_set_loss: 0.2109  loss: 0.8984  data: 0.0629  batch: 1.9700  lr: 0.000084  max_mem: 7959
+eta: 0:00:01  epoch: 83  step: 2855  ct_loss: 0.1437  init_py_loss: 1.1051  coarse_py_loss: 0.7912  py_loss_0: 0.7058  py_loss_1: 0.7016  end_set_loss: 0.2145  loss: 0.8739  data: 0.0014  batch: 1.9018  lr: 0.000084  max_mem: 7959
+eta: 0:00:26  epoch: 84  step: 2876  ct_loss: 0.1475  init_py_loss: 1.2058  coarse_py_loss: 0.8218  py_loss_0: 0.7262  py_loss_1: 0.7249  end_set_loss: 0.2096  loss: 0.9039  data: 0.0779  batch: 1.9661  lr: 0.000084  max_mem: 7959
+eta: 0:00:01  epoch: 84  step: 2889  ct_loss: 0.1239  init_py_loss: 1.0321  coarse_py_loss: 0.7240  py_loss_0: 0.6298  py_loss_1: 0.6307  end_set_loss: 0.1775  loss: 0.7788  data: 0.0014  batch: 1.8761  lr: 0.000084  max_mem: 7959
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.30it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.09s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.642
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.964
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.809
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.575
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.708
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.267
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.687
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.687
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.629
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.749
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:26  epoch: 85  step: 2910  ct_loss: 0.1365  init_py_loss: 1.1046  coarse_py_loss: 0.8237  py_loss_0: 0.7484  py_loss_1: 0.7486  end_set_loss: 0.2011  loss: 0.8954  data: 0.0823  batch: 1.9642  lr: 0.000083  max_mem: 7959
+eta: 0:00:01  epoch: 85  step: 2923  ct_loss: 0.1421  init_py_loss: 1.1896  coarse_py_loss: 0.8954  py_loss_0: 0.8205  py_loss_1: 0.8207  end_set_loss: 0.2318  loss: 0.9749  data: 0.0014  batch: 1.8594  lr: 0.000083  max_mem: 7959
+eta: 0:00:26  epoch: 86  step: 2944  ct_loss: 0.1313  init_py_loss: 1.1001  coarse_py_loss: 0.7956  py_loss_0: 0.7078  py_loss_1: 0.7080  end_set_loss: 0.1904  loss: 0.8562  data: 0.0712  batch: 1.9564  lr: 0.000082  max_mem: 7959
+eta: 0:00:01  epoch: 86  step: 2957  ct_loss: 0.1324  init_py_loss: 1.0669  coarse_py_loss: 0.7863  py_loss_0: 0.6940  py_loss_1: 0.6933  end_set_loss: 0.2205  loss: 0.8537  data: 0.0013  batch: 1.8904  lr: 0.000082  max_mem: 7959
+eta: 0:00:26  epoch: 87  step: 2978  ct_loss: 0.1343  init_py_loss: 1.0484  coarse_py_loss: 0.7593  py_loss_0: 0.6708  py_loss_1: 0.6695  end_set_loss: 0.1925  loss: 0.8260  data: 0.0719  batch: 1.9595  lr: 0.000081  max_mem: 7959
+eta: 0:00:01  epoch: 87  step: 2991  ct_loss: 0.1570  init_py_loss: 1.0802  coarse_py_loss: 0.7905  py_loss_0: 0.7012  py_loss_1: 0.7005  end_set_loss: 0.1924  loss: 0.8755  data: 0.0013  batch: 1.8987  lr: 0.000081  max_mem: 7959
+eta: 0:00:26  epoch: 88  step: 3012  ct_loss: 0.1568  init_py_loss: 1.1520  coarse_py_loss: 0.8752  py_loss_0: 0.7926  py_loss_1: 0.7912  end_set_loss: 0.2457  loss: 0.9694  data: 0.0738  batch: 1.9566  lr: 0.000081  max_mem: 7959
+eta: 0:00:01  epoch: 88  step: 3025  ct_loss: 0.1318  init_py_loss: 1.0584  coarse_py_loss: 0.7719  py_loss_0: 0.6864  py_loss_1: 0.6836  end_set_loss: 0.1912  loss: 0.8352  data: 0.0014  batch: 1.8682  lr: 0.000081  max_mem: 7959
+eta: 0:00:26  epoch: 89  step: 3046  ct_loss: 0.1205  init_py_loss: 0.9769  coarse_py_loss: 0.7057  py_loss_0: 0.6279  py_loss_1: 0.6275  end_set_loss: 0.1782  loss: 0.7666  data: 0.0694  batch: 1.9573  lr: 0.000080  max_mem: 7959
+eta: 0:00:01  epoch: 89  step: 3059  ct_loss: 0.1167  init_py_loss: 1.0027  coarse_py_loss: 0.7341  py_loss_0: 0.6544  py_loss_1: 0.6521  end_set_loss: 0.1828  loss: 0.7868  data: 0.0013  batch: 1.8431  lr: 0.000080  max_mem: 7959
+
+
+ 98%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏  | 130/132 [00:05<00:00, 27.04it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.644
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.966
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.803
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.588
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.698
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.266
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.690
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.690
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.640
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.745
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 24.72it/s]
+eta: 0:00:26  epoch: 90  step: 3080  ct_loss: 0.1255  init_py_loss: 1.0637  coarse_py_loss: 0.7854  py_loss_0: 0.7097  py_loss_1: 0.7113  end_set_loss: 0.1874  loss: 0.8465  data: 0.0703  batch: 1.9316  lr: 0.000079  max_mem: 7959
+eta: 0:00:01  epoch: 90  step: 3093  ct_loss: 0.1212  init_py_loss: 1.0326  coarse_py_loss: 0.7753  py_loss_0: 0.7005  py_loss_1: 0.7034  end_set_loss: 0.1901  loss: 0.8334  data: 0.0013  batch: 1.8897  lr: 0.000079  max_mem: 7959
+eta: 0:00:26  epoch: 91  step: 3114  ct_loss: 0.2096  init_py_loss: 1.1364  coarse_py_loss: 0.8544  py_loss_0: 0.7761  py_loss_1: 0.7744  end_set_loss: 0.2298  loss: 1.0021  data: 0.0683  batch: 1.9471  lr: 0.000079  max_mem: 7959
+eta: 0:00:01  epoch: 91  step: 3127  ct_loss: 0.1592  init_py_loss: 1.1436  coarse_py_loss: 0.8753  py_loss_0: 0.7998  py_loss_1: 0.7960  end_set_loss: 0.2122  loss: 0.9638  data: 0.0013  batch: 1.8724  lr: 0.000079  max_mem: 7959
+eta: 0:00:26  epoch: 92  step: 3148  ct_loss: 0.1306  init_py_loss: 1.0792  coarse_py_loss: 0.7718  py_loss_0: 0.6877  py_loss_1: 0.6867  end_set_loss: 0.1953  loss: 0.8390  data: 0.0680  batch: 1.9259  lr: 0.000078  max_mem: 7959
+eta: 0:00:01  epoch: 92  step: 3161  ct_loss: 0.1181  init_py_loss: 1.0541  coarse_py_loss: 0.7540  py_loss_0: 0.6736  py_loss_1: 0.6739  end_set_loss: 0.1886  loss: 0.8109  data: 0.0014  batch: 1.8648  lr: 0.000078  max_mem: 7959
+eta: 0:00:26  epoch: 93  step: 3182  ct_loss: 0.1357  init_py_loss: 1.0032  coarse_py_loss: 0.7322  py_loss_0: 0.6412  py_loss_1: 0.6388  end_set_loss: 0.1885  loss: 0.7987  data: 0.0727  batch: 1.9657  lr: 0.000077  max_mem: 7959
+eta: 0:00:01  epoch: 93  step: 3195  ct_loss: 0.1412  init_py_loss: 1.0530  coarse_py_loss: 0.7747  py_loss_0: 0.6822  py_loss_1: 0.6795  end_set_loss: 0.2072  loss: 0.8470  data: 0.0013  batch: 1.8853  lr: 0.000077  max_mem: 7959
+eta: 0:00:26  epoch: 94  step: 3216  ct_loss: 0.1497  init_py_loss: 1.0258  coarse_py_loss: 0.7704  py_loss_0: 0.6957  py_loss_1: 0.6967  end_set_loss: 0.1957  loss: 0.8587  data: 0.0692  batch: 1.9595  lr: 0.000076  max_mem: 7959
+eta: 0:00:01  epoch: 94  step: 3229  ct_loss: 0.1317  init_py_loss: 0.9982  coarse_py_loss: 0.7234  py_loss_0: 0.6446  py_loss_1: 0.6439  end_set_loss: 0.1839  loss: 0.7947  data: 0.0013  batch: 1.8644  lr: 0.000076  max_mem: 7959
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 24.97it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.628
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.958
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.807
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.566
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.691
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.263
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.669
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.669
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.610
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.733
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:26  epoch: 95  step: 3250  ct_loss: 0.1300  init_py_loss: 1.0015  coarse_py_loss: 0.7325  py_loss_0: 0.6514  py_loss_1: 0.6510  end_set_loss: 0.1802  loss: 0.7977  data: 0.0749  batch: 1.9550  lr: 0.000075  max_mem: 7970
+eta: 0:00:01  epoch: 95  step: 3263  ct_loss: 0.1059  init_py_loss: 1.0161  coarse_py_loss: 0.7435  py_loss_0: 0.6559  py_loss_1: 0.6541  end_set_loss: 0.1731  loss: 0.7762  data: 0.0014  batch: 1.8585  lr: 0.000075  max_mem: 7970
+eta: 0:00:26  epoch: 96  step: 3284  ct_loss: 0.1365  init_py_loss: 1.0853  coarse_py_loss: 0.7864  py_loss_0: 0.6953  py_loss_1: 0.6950  end_set_loss: 0.2123  loss: 0.8578  data: 0.0740  batch: 1.9388  lr: 0.000075  max_mem: 7970
+eta: 0:00:01  epoch: 96  step: 3297  ct_loss: 0.1231  init_py_loss: 0.9865  coarse_py_loss: 0.7107  py_loss_0: 0.6222  py_loss_1: 0.6220  end_set_loss: 0.1777  loss: 0.7668  data: 0.0013  batch: 1.8645  lr: 0.000075  max_mem: 7970
+eta: 0:00:26  epoch: 97  step: 3318  ct_loss: 0.1732  init_py_loss: 1.1005  coarse_py_loss: 0.8189  py_loss_0: 0.7384  py_loss_1: 0.7380  end_set_loss: 0.2179  loss: 0.9299  data: 0.0686  batch: 1.9210  lr: 0.000074  max_mem: 7970
+eta: 0:00:01  epoch: 97  step: 3331  ct_loss: 0.1818  init_py_loss: 1.1001  coarse_py_loss: 0.8412  py_loss_0: 0.7682  py_loss_1: 0.7680  end_set_loss: 0.2405  loss: 0.9681  data: 0.0014  batch: 1.8524  lr: 0.000074  max_mem: 7970
+eta: 0:00:26  epoch: 98  step: 3352  ct_loss: 0.1455  init_py_loss: 1.0439  coarse_py_loss: 0.7695  py_loss_0: 0.6939  py_loss_1: 0.6927  end_set_loss: 0.1939  loss: 0.8537  data: 0.0651  batch: 1.9604  lr: 0.000073  max_mem: 7970
+eta: 0:00:01  epoch: 98  step: 3365  ct_loss: 0.1325  init_py_loss: 1.0074  coarse_py_loss: 0.7321  py_loss_0: 0.6540  py_loss_1: 0.6526  end_set_loss: 0.1856  loss: 0.8039  data: 0.0013  batch: 1.8669  lr: 0.000073  max_mem: 7970
+eta: 0:00:26  epoch: 99  step: 3386  ct_loss: 0.1307  init_py_loss: 1.0293  coarse_py_loss: 0.7417  py_loss_0: 0.6581  py_loss_1: 0.6563  end_set_loss: 0.1894  loss: 0.8091  data: 0.0741  batch: 1.9639  lr: 0.000072  max_mem: 7970
+eta: 0:00:01  epoch: 99  step: 3399  ct_loss: 0.1253  init_py_loss: 1.0054  coarse_py_loss: 0.7508  py_loss_0: 0.6693  py_loss_1: 0.6715  end_set_loss: 0.1800  loss: 0.8078  data: 0.0012  batch: 1.8888  lr: 0.000072  max_mem: 7970
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 24.92it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.09s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.648
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.955
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.833
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.596
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.704
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.270
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.693
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.693
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.642
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.749
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:26  epoch: 100  step: 3420  ct_loss: 0.1210  init_py_loss: 1.0251  coarse_py_loss: 0.7788  py_loss_0: 0.6913  py_loss_1: 0.6883  end_set_loss: 0.1772  loss: 0.8204  data: 0.0665  batch: 1.9297  lr: 0.000071  max_mem: 7970
+eta: 0:00:01  epoch: 100  step: 3433  ct_loss: 0.1111  init_py_loss: 0.9786  coarse_py_loss: 0.7094  py_loss_0: 0.6216  py_loss_1: 0.6202  end_set_loss: 0.1860  loss: 0.7558  data: 0.0014  batch: 1.8562  lr: 0.000071  max_mem: 7970
+eta: 0:00:26  epoch: 101  step: 3454  ct_loss: 0.1294  init_py_loss: 1.0359  coarse_py_loss: 0.7709  py_loss_0: 0.6875  py_loss_1: 0.6825  end_set_loss: 0.1781  loss: 0.8261  data: 0.0750  batch: 1.9451  lr: 0.000071  max_mem: 7970
+eta: 0:00:01  epoch: 101  step: 3467  ct_loss: 0.1429  init_py_loss: 0.9911  coarse_py_loss: 0.7457  py_loss_0: 0.6633  py_loss_1: 0.6598  end_set_loss: 0.1839  loss: 0.8190  data: 0.0013  batch: 1.9003  lr: 0.000071  max_mem: 7970
+eta: 0:00:26  epoch: 102  step: 3488  ct_loss: 0.1558  init_py_loss: 1.0008  coarse_py_loss: 0.7492  py_loss_0: 0.6736  py_loss_1: 0.6729  end_set_loss: 0.1858  loss: 0.8416  data: 0.0696  batch: 1.9417  lr: 0.000070  max_mem: 7970
+eta: 0:00:01  epoch: 102  step: 3501  ct_loss: 0.1286  init_py_loss: 0.9713  coarse_py_loss: 0.7136  py_loss_0: 0.6262  py_loss_1: 0.6224  end_set_loss: 0.1860  loss: 0.7753  data: 0.0014  batch: 1.8812  lr: 0.000070  max_mem: 7970
+eta: 0:00:26  epoch: 103  step: 3522  ct_loss: 0.1338  init_py_loss: 0.9929  coarse_py_loss: 0.7096  py_loss_0: 0.6267  py_loss_1: 0.6273  end_set_loss: 0.1804  loss: 0.7822  data: 0.0657  batch: 1.9173  lr: 0.000069  max_mem: 7970
+eta: 0:00:01  epoch: 103  step: 3535  ct_loss: 0.1321  init_py_loss: 1.0190  coarse_py_loss: 0.7295  py_loss_0: 0.6467  py_loss_1: 0.6475  end_set_loss: 0.1821  loss: 0.7990  data: 0.0013  batch: 1.8785  lr: 0.000069  max_mem: 7970
+eta: 0:00:26  epoch: 104  step: 3556  ct_loss: 0.1210  init_py_loss: 0.9666  coarse_py_loss: 0.6910  py_loss_0: 0.6100  py_loss_1: 0.6096  end_set_loss: 0.1688  loss: 0.7496  data: 0.0734  batch: 1.9625  lr: 0.000068  max_mem: 7970
+eta: 0:00:01  epoch: 104  step: 3569  ct_loss: 0.1260  init_py_loss: 1.0105  coarse_py_loss: 0.7560  py_loss_0: 0.6774  py_loss_1: 0.6754  end_set_loss: 0.1794  loss: 0.8134  data: 0.0013  batch: 1.8662  lr: 0.000068  max_mem: 7970
+
+
+ 94%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊           | 124/132 [00:05<00:00, 25.20it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.655
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.950
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.809
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.587
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.724
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.272
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.699
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.699
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.636
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.767
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 24.55it/s]
+eta: 0:00:26  epoch: 105  step: 3590  ct_loss: 0.1353  init_py_loss: 1.0409  coarse_py_loss: 0.7704  py_loss_0: 0.6893  py_loss_1: 0.6879  end_set_loss: 0.1943  loss: 0.8402  data: 0.0696  batch: 1.9648  lr: 0.000067  max_mem: 7970
+eta: 0:00:01  epoch: 105  step: 3603  ct_loss: 0.1357  init_py_loss: 1.0713  coarse_py_loss: 0.7962  py_loss_0: 0.7106  py_loss_1: 0.7090  end_set_loss: 0.1910  loss: 0.8593  data: 0.0013  batch: 1.8638  lr: 0.000067  max_mem: 7970
+eta: 0:00:26  epoch: 106  step: 3624  ct_loss: 0.1337  init_py_loss: 0.9940  coarse_py_loss: 0.6927  py_loss_0: 0.6085  py_loss_1: 0.6081  end_set_loss: 0.1829  loss: 0.7689  data: 0.0669  batch: 1.9218  lr: 0.000066  max_mem: 7970
+eta: 0:00:01  epoch: 106  step: 3637  ct_loss: 0.1301  init_py_loss: 1.0311  coarse_py_loss: 0.7451  py_loss_0: 0.6594  py_loss_1: 0.6574  end_set_loss: 0.1797  loss: 0.8066  data: 0.0014  batch: 1.8665  lr: 0.000066  max_mem: 7970
+eta: 0:00:26  epoch: 107  step: 3658  ct_loss: 0.1253  init_py_loss: 1.0672  coarse_py_loss: 0.7821  py_loss_0: 0.6912  py_loss_1: 0.6880  end_set_loss: 0.1787  loss: 0.8296  data: 0.0744  batch: 1.9453  lr: 0.000066  max_mem: 7970
+eta: 0:00:01  epoch: 107  step: 3671  ct_loss: 0.1308  init_py_loss: 1.0651  coarse_py_loss: 0.7843  py_loss_0: 0.6920  py_loss_1: 0.6863  end_set_loss: 0.1881  loss: 0.8379  data: 0.0013  batch: 1.8724  lr: 0.000066  max_mem: 7970
+eta: 0:00:26  epoch: 108  step: 3692  ct_loss: 0.1216  init_py_loss: 1.0302  coarse_py_loss: 0.7544  py_loss_0: 0.6735  py_loss_1: 0.6720  end_set_loss: 0.1875  loss: 0.8111  data: 0.0692  batch: 1.9581  lr: 0.000065  max_mem: 7970
+eta: 0:00:01  epoch: 108  step: 3705  ct_loss: 0.1260  init_py_loss: 0.9739  coarse_py_loss: 0.6941  py_loss_0: 0.6062  py_loss_1: 0.6071  end_set_loss: 0.1767  loss: 0.7561  data: 0.0014  batch: 1.8584  lr: 0.000065  max_mem: 7970
+eta: 0:00:26  epoch: 109  step: 3726  ct_loss: 0.1131  init_py_loss: 0.9476  coarse_py_loss: 0.6888  py_loss_0: 0.6075  py_loss_1: 0.6086  end_set_loss: 0.1616  loss: 0.7359  data: 0.0677  batch: 1.9456  lr: 0.000064  max_mem: 7970
+eta: 0:00:01  epoch: 109  step: 3739  ct_loss: 0.1190  init_py_loss: 0.9174  coarse_py_loss: 0.6672  py_loss_0: 0.5873  py_loss_1: 0.5866  end_set_loss: 0.1622  loss: 0.7228  data: 0.0013  batch: 1.8912  lr: 0.000064  max_mem: 7970
+
+
+ 89%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                   | 118/132 [00:04<00:00, 26.60it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.631
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.966
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.786
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.571
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.694
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.263
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.683
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.683
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.627
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.745
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.56it/s]
+eta: 0:00:26  epoch: 110  step: 3760  ct_loss: 0.1354  init_py_loss: 0.9905  coarse_py_loss: 0.7223  py_loss_0: 0.6374  py_loss_1: 0.6370  end_set_loss: 0.1801  loss: 0.7916  data: 0.0664  batch: 1.9646  lr: 0.000063  max_mem: 7970
+eta: 0:00:01  epoch: 110  step: 3773  ct_loss: 0.1224  init_py_loss: 0.9303  coarse_py_loss: 0.6555  py_loss_0: 0.5712  py_loss_1: 0.5685  end_set_loss: 0.1624  loss: 0.7150  data: 0.0013  batch: 1.8618  lr: 0.000063  max_mem: 7970
+eta: 0:00:26  epoch: 111  step: 3794  ct_loss: 0.1306  init_py_loss: 1.0572  coarse_py_loss: 0.7482  py_loss_0: 0.6611  py_loss_1: 0.6605  end_set_loss: 0.1818  loss: 0.8122  data: 0.0696  batch: 1.9850  lr: 0.000062  max_mem: 7970
+eta: 0:00:01  epoch: 111  step: 3807  ct_loss: 0.1352  init_py_loss: 0.9809  coarse_py_loss: 0.7074  py_loss_0: 0.6266  py_loss_1: 0.6257  end_set_loss: 0.1963  loss: 0.7869  data: 0.0013  batch: 1.8937  lr: 0.000062  max_mem: 7970
+eta: 0:00:26  epoch: 112  step: 3828  ct_loss: 0.1274  init_py_loss: 0.9773  coarse_py_loss: 0.7139  py_loss_0: 0.6281  py_loss_1: 0.6293  end_set_loss: 0.1769  loss: 0.7746  data: 0.0746  batch: 1.9651  lr: 0.000061  max_mem: 7970
+eta: 0:00:01  epoch: 112  step: 3841  ct_loss: 0.1210  init_py_loss: 0.9499  coarse_py_loss: 0.6920  py_loss_0: 0.6060  py_loss_1: 0.6055  end_set_loss: 0.1765  loss: 0.7478  data: 0.0013  batch: 1.8520  lr: 0.000061  max_mem: 7970
+eta: 0:00:26  epoch: 113  step: 3862  ct_loss: 0.1230  init_py_loss: 1.0119  coarse_py_loss: 0.7393  py_loss_0: 0.6630  py_loss_1: 0.6635  end_set_loss: 0.1854  loss: 0.8021  data: 0.0690  batch: 1.9546  lr: 0.000060  max_mem: 7970
+eta: 0:00:01  epoch: 113  step: 3875  ct_loss: 0.1219  init_py_loss: 0.9434  coarse_py_loss: 0.6929  py_loss_0: 0.6135  py_loss_1: 0.6139  end_set_loss: 0.1637  loss: 0.7492  data: 0.0014  batch: 1.8894  lr: 0.000060  max_mem: 7970
+eta: 0:00:26  epoch: 114  step: 3896  ct_loss: 0.1122  init_py_loss: 0.9133  coarse_py_loss: 0.6633  py_loss_0: 0.5850  py_loss_1: 0.5835  end_set_loss: 0.1555  loss: 0.7112  data: 0.0693  batch: 1.9202  lr: 0.000059  max_mem: 7970
+eta: 0:00:01  epoch: 114  step: 3909  ct_loss: 0.1081  init_py_loss: 0.9109  coarse_py_loss: 0.6565  py_loss_0: 0.5808  py_loss_1: 0.5798  end_set_loss: 0.1618  loss: 0.7056  data: 0.0015  batch: 1.8496  lr: 0.000059  max_mem: 7970
+
+ 68%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                          | 90/132 [00:03<00:01, 26.17it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.09s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.645
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.964
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.805
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.579
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.708
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.270
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.693
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.693
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.638
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.753
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.22it/s]
+eta: 0:00:26  epoch: 115  step: 3930  ct_loss: 0.1139  init_py_loss: 0.8670  coarse_py_loss: 0.6249  py_loss_0: 0.5495  py_loss_1: 0.5494  end_set_loss: 0.1615  loss: 0.6832  data: 0.0666  batch: 1.9751  lr: 0.000059  max_mem: 7970
+eta: 0:00:01  epoch: 115  step: 3943  ct_loss: 0.1164  init_py_loss: 0.8432  coarse_py_loss: 0.6022  py_loss_0: 0.5290  py_loss_1: 0.5284  end_set_loss: 0.1554  loss: 0.6652  data: 0.0013  batch: 1.8530  lr: 0.000059  max_mem: 7970
+eta: 0:00:26  epoch: 116  step: 3964  ct_loss: 0.1057  init_py_loss: 0.8851  coarse_py_loss: 0.6319  py_loss_0: 0.5547  py_loss_1: 0.5524  end_set_loss: 0.1650  loss: 0.6815  data: 0.0666  batch: 1.9749  lr: 0.000058  max_mem: 7970
+eta: 0:00:01  epoch: 116  step: 3977  ct_loss: 0.1218  init_py_loss: 0.8907  coarse_py_loss: 0.6475  py_loss_0: 0.5738  py_loss_1: 0.5738  end_set_loss: 0.1571  loss: 0.7105  data: 0.0013  batch: 1.8784  lr: 0.000058  max_mem: 7970
+eta: 0:00:26  epoch: 117  step: 3998  ct_loss: 0.1325  init_py_loss: 0.8696  coarse_py_loss: 0.6325  py_loss_0: 0.5528  py_loss_1: 0.5510  end_set_loss: 0.1560  loss: 0.7026  data: 0.0680  batch: 1.9853  lr: 0.000057  max_mem: 7970
+eta: 0:00:01  epoch: 117  step: 4011  ct_loss: 0.1182  init_py_loss: 0.9180  coarse_py_loss: 0.6859  py_loss_0: 0.6097  py_loss_1: 0.6094  end_set_loss: 0.1584  loss: 0.7378  data: 0.0013  batch: 1.8808  lr: 0.000057  max_mem: 7970
+eta: 0:00:26  epoch: 118  step: 4032  ct_loss: 0.1241  init_py_loss: 0.9104  coarse_py_loss: 0.6626  py_loss_0: 0.5854  py_loss_1: 0.5851  end_set_loss: 0.1566  loss: 0.7237  data: 0.0665  batch: 1.9485  lr: 0.000056  max_mem: 7970
+eta: 0:00:01  epoch: 118  step: 4045  ct_loss: 0.1087  init_py_loss: 0.8573  coarse_py_loss: 0.6218  py_loss_0: 0.5431  py_loss_1: 0.5412  end_set_loss: 0.1542  loss: 0.6694  data: 0.0012  batch: 1.8591  lr: 0.000056  max_mem: 7970
+eta: 0:00:26  epoch: 119  step: 4066  ct_loss: 0.0951  init_py_loss: 0.9009  coarse_py_loss: 0.6593  py_loss_0: 0.5894  py_loss_1: 0.5935  end_set_loss: 0.1521  loss: 0.6961  data: 0.0646  batch: 1.9806  lr: 0.000055  max_mem: 7970
+eta: 0:00:01  epoch: 119  step: 4079  ct_loss: 0.1026  init_py_loss: 0.8587  coarse_py_loss: 0.6115  py_loss_0: 0.5337  py_loss_1: 0.5323  end_set_loss: 0.1539  loss: 0.6562  data: 0.0013  batch: 1.8734  lr: 0.000055  max_mem: 7970
+
+ 71%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                     | 94/132 [00:03<00:01, 26.86it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.17s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.674
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.965
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.840
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.616
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.732
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.279
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.722
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.722
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.670
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.779
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 26.10it/s]
+eta: 0:00:26  epoch: 120  step: 4100  ct_loss: 0.1292  init_py_loss: 0.8796  coarse_py_loss: 0.6493  py_loss_0: 0.5684  py_loss_1: 0.5665  end_set_loss: 0.1651  loss: 0.7154  data: 0.0696  batch: 1.9655  lr: 0.000054  max_mem: 7970
+eta: 0:00:01  epoch: 120  step: 4113  ct_loss: 0.1106  init_py_loss: 0.8288  coarse_py_loss: 0.5892  py_loss_0: 0.5091  py_loss_1: 0.5091  end_set_loss: 0.1582  loss: 0.6446  data: 0.0013  batch: 1.8897  lr: 0.000054  max_mem: 7970
+eta: 0:00:26  epoch: 121  step: 4134  ct_loss: 0.1098  init_py_loss: 0.8759  coarse_py_loss: 0.6512  py_loss_0: 0.5805  py_loss_1: 0.5797  end_set_loss: 0.1557  loss: 0.7011  data: 0.0667  batch: 1.9362  lr: 0.000053  max_mem: 7970
+eta: 0:00:01  epoch: 121  step: 4147  ct_loss: 0.1136  init_py_loss: 0.8422  coarse_py_loss: 0.6222  py_loss_0: 0.5508  py_loss_1: 0.5493  end_set_loss: 0.1543  loss: 0.6782  data: 0.0013  batch: 1.8557  lr: 0.000053  max_mem: 7970
+eta: 0:00:26  epoch: 122  step: 4168  ct_loss: 0.1152  init_py_loss: 0.8378  coarse_py_loss: 0.6054  py_loss_0: 0.5293  py_loss_1: 0.5288  end_set_loss: 0.1498  loss: 0.6622  data: 0.0652  batch: 1.9588  lr: 0.000052  max_mem: 7970
+eta: 0:00:01  epoch: 122  step: 4181  ct_loss: 0.1047  init_py_loss: 0.8654  coarse_py_loss: 0.6072  py_loss_0: 0.5227  py_loss_1: 0.5219  end_set_loss: 0.1687  loss: 0.6563  data: 0.0015  batch: 1.8767  lr: 0.000052  max_mem: 7970
+eta: 0:00:26  epoch: 123  step: 4202  ct_loss: 0.1252  init_py_loss: 0.9936  coarse_py_loss: 0.6896  py_loss_0: 0.6064  py_loss_1: 0.6057  end_set_loss: 0.1617  loss: 0.7515  data: 0.0630  batch: 1.9156  lr: 0.000051  max_mem: 7970
+eta: 0:00:01  epoch: 123  step: 4215  ct_loss: 0.1249  init_py_loss: 0.9611  coarse_py_loss: 0.6823  py_loss_0: 0.6031  py_loss_1: 0.6015  end_set_loss: 0.1746  loss: 0.7490  data: 0.0013  batch: 1.8495  lr: 0.000051  max_mem: 7970
+eta: 0:00:26  epoch: 124  step: 4236  ct_loss: 0.1326  init_py_loss: 0.9221  coarse_py_loss: 0.6831  py_loss_0: 0.6001  py_loss_1: 0.5981  end_set_loss: 0.1740  loss: 0.7506  data: 0.0649  batch: 1.9568  lr: 0.000051  max_mem: 7970
+eta: 0:00:01  epoch: 124  step: 4249  ct_loss: 0.0954  init_py_loss: 0.8615  coarse_py_loss: 0.6482  py_loss_0: 0.5708  py_loss_1: 0.5698  end_set_loss: 0.1559  loss: 0.6785  data: 0.0013  batch: 1.8455  lr: 0.000051  max_mem: 7970
+
+
+ 78%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                        | 103/132 [00:04<00:01, 27.10it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.662
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.963
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.831
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.602
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.719
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.276
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.704
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.704
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.651
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.761
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 24.96it/s]
+eta: 0:00:26  epoch: 125  step: 4270  ct_loss: 0.1236  init_py_loss: 0.9301  coarse_py_loss: 0.6889  py_loss_0: 0.6024  py_loss_1: 0.5996  end_set_loss: 0.1630  loss: 0.7405  data: 0.0700  batch: 1.9499  lr: 0.000050  max_mem: 7970
+eta: 0:00:01  epoch: 125  step: 4283  ct_loss: 0.0985  init_py_loss: 0.8380  coarse_py_loss: 0.5980  py_loss_0: 0.5095  py_loss_1: 0.5097  end_set_loss: 0.1598  loss: 0.6352  data: 0.0013  batch: 1.8545  lr: 0.000050  max_mem: 7970
+eta: 0:00:26  epoch: 126  step: 4304  ct_loss: 0.1016  init_py_loss: 0.8433  coarse_py_loss: 0.5970  py_loss_0: 0.5174  py_loss_1: 0.5155  end_set_loss: 0.1502  loss: 0.6401  data: 0.0736  batch: 1.9553  lr: 0.000049  max_mem: 7970
+eta: 0:00:01  epoch: 126  step: 4317  ct_loss: 0.1002  init_py_loss: 0.8334  coarse_py_loss: 0.5846  py_loss_0: 0.5060  py_loss_1: 0.5035  end_set_loss: 0.1568  loss: 0.6307  data: 0.0013  batch: 1.8557  lr: 0.000049  max_mem: 7970
+eta: 0:00:26  epoch: 127  step: 4338  ct_loss: 0.0937  init_py_loss: 0.8680  coarse_py_loss: 0.6151  py_loss_0: 0.5300  py_loss_1: 0.5262  end_set_loss: 0.1523  loss: 0.6448  data: 0.0690  batch: 1.9410  lr: 0.000048  max_mem: 7970
+eta: 0:00:01  epoch: 127  step: 4351  ct_loss: 0.1032  init_py_loss: 0.8720  coarse_py_loss: 0.6304  py_loss_0: 0.5523  py_loss_1: 0.5497  end_set_loss: 0.1692  loss: 0.6772  data: 0.0015  batch: 1.8676  lr: 0.000048  max_mem: 7970
+eta: 0:00:26  epoch: 128  step: 4372  ct_loss: 0.1111  init_py_loss: 0.9342  coarse_py_loss: 0.6777  py_loss_0: 0.5958  py_loss_1: 0.5957  end_set_loss: 0.1731  loss: 0.7272  data: 0.0722  batch: 1.9650  lr: 0.000047  max_mem: 7970
+eta: 0:00:01  epoch: 128  step: 4385  ct_loss: 0.1092  init_py_loss: 0.8912  coarse_py_loss: 0.6450  py_loss_0: 0.5665  py_loss_1: 0.5648  end_set_loss: 0.1666  loss: 0.6955  data: 0.0013  batch: 1.8641  lr: 0.000047  max_mem: 7970
+eta: 0:00:26  epoch: 129  step: 4406  ct_loss: 0.1085  init_py_loss: 0.8496  coarse_py_loss: 0.6123  py_loss_0: 0.5403  py_loss_1: 0.5398  end_set_loss: 0.1475  loss: 0.6639  data: 0.0805  batch: 1.9550  lr: 0.000046  max_mem: 7970
+eta: 0:00:01  epoch: 129  step: 4419  ct_loss: 0.1175  init_py_loss: 0.8491  coarse_py_loss: 0.6128  py_loss_0: 0.5359  py_loss_1: 0.5341  end_set_loss: 0.1544  loss: 0.6718  data: 0.0013  batch: 1.8485  lr: 0.000046  max_mem: 7970
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 24.12it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.09s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.671
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.967
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.847
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.608
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.729
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.277
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.716
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.716
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.669
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.767
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:26  epoch: 130  step: 4440  ct_loss: 0.1323  init_py_loss: 0.8685  coarse_py_loss: 0.6262  py_loss_0: 0.5553  py_loss_1: 0.5569  end_set_loss: 0.1576  loss: 0.7050  data: 0.0642  batch: 1.9665  lr: 0.000045  max_mem: 7970
+eta: 0:00:01  epoch: 130  step: 4453  ct_loss: 0.1149  init_py_loss: 0.8448  coarse_py_loss: 0.6019  py_loss_0: 0.5203  py_loss_1: 0.5179  end_set_loss: 0.1606  loss: 0.6592  data: 0.0014  batch: 1.8584  lr: 0.000045  max_mem: 7970
+eta: 0:00:26  epoch: 131  step: 4474  ct_loss: 0.1263  init_py_loss: 0.7950  coarse_py_loss: 0.5654  py_loss_0: 0.4929  py_loss_1: 0.4937  end_set_loss: 0.1499  loss: 0.6412  data: 0.0756  batch: 1.9865  lr: 0.000044  max_mem: 7970
+eta: 0:00:01  epoch: 131  step: 4487  ct_loss: 0.1278  init_py_loss: 0.8172  coarse_py_loss: 0.5770  py_loss_0: 0.4963  py_loss_1: 0.4957  end_set_loss: 0.1467  loss: 0.6469  data: 0.0013  batch: 1.8942  lr: 0.000044  max_mem: 7970
+eta: 0:00:26  epoch: 132  step: 4508  ct_loss: 0.1074  init_py_loss: 0.8697  coarse_py_loss: 0.5930  py_loss_0: 0.5170  py_loss_1: 0.5187  end_set_loss: 0.1601  loss: 0.6523  data: 0.0658  batch: 1.9701  lr: 0.000044  max_mem: 7970
+eta: 0:00:01  epoch: 132  step: 4521  ct_loss: 0.0939  init_py_loss: 0.9069  coarse_py_loss: 0.6009  py_loss_0: 0.5121  py_loss_1: 0.5092  end_set_loss: 0.1638  loss: 0.6397  data: 0.0014  batch: 1.8602  lr: 0.000044  max_mem: 7970
+eta: 0:00:26  epoch: 133  step: 4542  ct_loss: 0.1091  init_py_loss: 0.8882  coarse_py_loss: 0.6589  py_loss_0: 0.5740  py_loss_1: 0.5732  end_set_loss: 0.1480  loss: 0.6955  data: 0.0718  batch: 1.9826  lr: 0.000043  max_mem: 7970
+eta: 0:00:01  epoch: 133  step: 4555  ct_loss: 0.1262  init_py_loss: 0.9119  coarse_py_loss: 0.6660  py_loss_0: 0.5755  py_loss_1: 0.5789  end_set_loss: 0.1512  loss: 0.7192  data: 0.0013  batch: 1.8504  lr: 0.000043  max_mem: 7970
+eta: 0:00:26  epoch: 134  step: 4576  ct_loss: 0.1206  init_py_loss: 0.8567  coarse_py_loss: 0.6190  py_loss_0: 0.5298  py_loss_1: 0.5255  end_set_loss: 0.1502  loss: 0.6700  data: 0.0716  batch: 1.9735  lr: 0.000042  max_mem: 7970
+  1%|█▍                                                                                                                                                                                        | 1/132 [00:00<00:14,  8.74it/s]
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.35it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.11s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.675
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.963
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.850
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.608
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.744
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.280
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.717
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.717
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.655
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.784
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:26  epoch: 135  step: 4610  ct_loss: 0.1006  init_py_loss: 0.8516  coarse_py_loss: 0.6038  py_loss_0: 0.5223  py_loss_1: 0.5214  end_set_loss: 0.1475  loss: 0.6433  data: 0.0680  batch: 1.9621  lr: 0.000041  max_mem: 7970
+eta: 0:00:01  epoch: 135  step: 4623  ct_loss: 0.0890  init_py_loss: 0.8776  coarse_py_loss: 0.6503  py_loss_0: 0.5799  py_loss_1: 0.5798  end_set_loss: 0.1442  loss: 0.6764  data: 0.0014  batch: 1.8971  lr: 0.000041  max_mem: 7970
+eta: 0:00:26  epoch: 136  step: 4644  ct_loss: 0.1080  init_py_loss: 0.8314  coarse_py_loss: 0.6016  py_loss_0: 0.5235  py_loss_1: 0.5213  end_set_loss: 0.1471  loss: 0.6487  data: 0.0722  batch: 1.9697  lr: 0.000040  max_mem: 7970
+eta: 0:00:01  epoch: 136  step: 4657  ct_loss: 0.1158  init_py_loss: 0.7878  coarse_py_loss: 0.5705  py_loss_0: 0.5050  py_loss_1: 0.5053  end_set_loss: 0.1451  loss: 0.6367  data: 0.0013  batch: 1.8975  lr: 0.000040  max_mem: 7970
+eta: 0:00:26  epoch: 137  step: 4678  ct_loss: 0.0917  init_py_loss: 0.8334  coarse_py_loss: 0.5932  py_loss_0: 0.5217  py_loss_1: 0.5190  end_set_loss: 0.1424  loss: 0.6288  data: 0.0717  batch: 1.9949  lr: 0.000039  max_mem: 7970
+eta: 0:00:01  epoch: 137  step: 4691  ct_loss: 0.0913  init_py_loss: 0.7946  coarse_py_loss: 0.5508  py_loss_0: 0.4736  py_loss_1: 0.4722  end_set_loss: 0.1435  loss: 0.5890  data: 0.0013  batch: 1.8906  lr: 0.000039  max_mem: 7970
+eta: 0:00:26  epoch: 138  step: 4712  ct_loss: 0.1194  init_py_loss: 0.7814  coarse_py_loss: 0.5486  py_loss_0: 0.4743  py_loss_1: 0.4744  end_set_loss: 0.1388  loss: 0.6149  data: 0.0764  batch: 1.9889  lr: 0.000039  max_mem: 7970
+eta: 0:00:01  epoch: 138  step: 4725  ct_loss: 0.1259  init_py_loss: 0.8789  coarse_py_loss: 0.6295  py_loss_0: 0.5490  py_loss_1: 0.5477  end_set_loss: 0.1663  loss: 0.6977  data: 0.0014  batch: 1.8618  lr: 0.000039  max_mem: 7970
+eta: 0:00:26  epoch: 139  step: 4746  ct_loss: 0.1206  init_py_loss: 0.8266  coarse_py_loss: 0.5932  py_loss_0: 0.5129  py_loss_1: 0.5130  end_set_loss: 0.1513  loss: 0.6550  data: 0.0739  batch: 1.9729  lr: 0.000038  max_mem: 7970
+eta: 0:00:01  epoch: 139  step: 4759  ct_loss: 0.1151  init_py_loss: 0.8105  coarse_py_loss: 0.5793  py_loss_0: 0.5003  py_loss_1: 0.4990  end_set_loss: 0.1394  loss: 0.6337  data: 0.0013  batch: 1.8594  lr: 0.000038  max_mem: 7970
+
+
+ 89%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                   | 118/132 [00:04<00:00, 26.97it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.09s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.671
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.965
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.856
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.618
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.721
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.277
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.715
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.715
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.671
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.763
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 24.97it/s]
+eta: 0:00:26  epoch: 140  step: 4780  ct_loss: 0.0932  init_py_loss: 0.7821  coarse_py_loss: 0.5496  py_loss_0: 0.4620  py_loss_1: 0.4611  end_set_loss: 0.1343  loss: 0.5788  data: 0.0721  batch: 1.9863  lr: 0.000037  max_mem: 7970
+eta: 0:00:01  epoch: 140  step: 4793  ct_loss: 0.1121  init_py_loss: 0.7685  coarse_py_loss: 0.5454  py_loss_0: 0.4666  py_loss_1: 0.4656  end_set_loss: 0.1362  loss: 0.5996  data: 0.0013  batch: 1.8593  lr: 0.000037  max_mem: 7970
+eta: 0:00:26  epoch: 141  step: 4814  ct_loss: 0.1544  init_py_loss: 0.8956  coarse_py_loss: 0.6584  py_loss_0: 0.5701  py_loss_1: 0.5710  end_set_loss: 0.1717  loss: 0.7474  data: 0.0671  batch: 1.9704  lr: 0.000036  max_mem: 7970
+eta: 0:00:01  epoch: 141  step: 4827  ct_loss: 0.1631  init_py_loss: 0.9136  coarse_py_loss: 0.6350  py_loss_0: 0.5284  py_loss_1: 0.5267  end_set_loss: 0.1847  loss: 0.7312  data: 0.0014  batch: 1.8903  lr: 0.000036  max_mem: 7970
+eta: 0:00:26  epoch: 142  step: 4848  ct_loss: 0.1312  init_py_loss: 0.9593  coarse_py_loss: 0.7012  py_loss_0: 0.6057  py_loss_1: 0.6025  end_set_loss: 0.1819  loss: 0.7606  data: 0.0719  batch: 1.9262  lr: 0.000035  max_mem: 7970
+eta: 0:00:01  epoch: 142  step: 4861  ct_loss: 0.1173  init_py_loss: 0.8707  coarse_py_loss: 0.6206  py_loss_0: 0.5265  py_loss_1: 0.5236  end_set_loss: 0.1565  loss: 0.6686  data: 0.0013  batch: 1.8631  lr: 0.000035  max_mem: 7970
+eta: 0:00:26  epoch: 143  step: 4882  ct_loss: 0.1216  init_py_loss: 0.8842  coarse_py_loss: 0.6162  py_loss_0: 0.5370  py_loss_1: 0.5354  end_set_loss: 0.1555  loss: 0.6809  data: 0.0684  batch: 1.9628  lr: 0.000035  max_mem: 7970
+eta: 0:00:01  epoch: 143  step: 4895  ct_loss: 0.1153  init_py_loss: 0.8816  coarse_py_loss: 0.6306  py_loss_0: 0.5525  py_loss_1: 0.5531  end_set_loss: 0.1571  loss: 0.6875  data: 0.0015  batch: 1.8679  lr: 0.000035  max_mem: 7970
+eta: 0:00:26  epoch: 144  step: 4916  ct_loss: 0.1117  init_py_loss: 0.8176  coarse_py_loss: 0.5732  py_loss_0: 0.4896  py_loss_1: 0.4869  end_set_loss: 0.1438  loss: 0.6243  data: 0.0640  batch: 1.9471  lr: 0.000034  max_mem: 7970
+eta: 0:00:01  epoch: 144  step: 4929  ct_loss: 0.1061  init_py_loss: 0.8890  coarse_py_loss: 0.6447  py_loss_0: 0.5581  py_loss_1: 0.5548  end_set_loss: 0.1604  loss: 0.6839  data: 0.0014  batch: 1.8474  lr: 0.000034  max_mem: 7970
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.50it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.10s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.687
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.966
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.864
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.629
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.744
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.287
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.731
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.731
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.679
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.787
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:26  epoch: 145  step: 4950  ct_loss: 0.1004  init_py_loss: 0.8199  coarse_py_loss: 0.5814  py_loss_0: 0.4941  py_loss_1: 0.4926  end_set_loss: 0.1439  loss: 0.6174  data: 0.0671  batch: 1.9663  lr: 0.000033  max_mem: 7970
+eta: 0:00:01  epoch: 145  step: 4963  ct_loss: 0.1002  init_py_loss: 0.7455  coarse_py_loss: 0.5112  py_loss_0: 0.4286  py_loss_1: 0.4286  end_set_loss: 0.1267  loss: 0.5538  data: 0.0013  batch: 1.8711  lr: 0.000033  max_mem: 7970
+eta: 0:00:26  epoch: 146  step: 4984  ct_loss: 0.1030  init_py_loss: 0.8212  coarse_py_loss: 0.5807  py_loss_0: 0.5047  py_loss_1: 0.5008  end_set_loss: 0.1445  loss: 0.6265  data: 0.0630  batch: 1.9306  lr: 0.000032  max_mem: 7970
+eta: 0:00:01  epoch: 146  step: 4997  ct_loss: 0.0995  init_py_loss: 0.8421  coarse_py_loss: 0.5997  py_loss_0: 0.5217  py_loss_1: 0.5188  end_set_loss: 0.1409  loss: 0.6375  data: 0.0014  batch: 1.8910  lr: 0.000032  max_mem: 7970
+eta: 0:00:26  epoch: 147  step: 5018  ct_loss: 0.0930  init_py_loss: 0.8314  coarse_py_loss: 0.5844  py_loss_0: 0.5027  py_loss_1: 0.5004  end_set_loss: 0.1364  loss: 0.6144  data: 0.0646  batch: 1.9633  lr: 0.000031  max_mem: 7970
+eta: 0:00:01  epoch: 147  step: 5031  ct_loss: 0.1062  init_py_loss: 0.8144  coarse_py_loss: 0.5565  py_loss_0: 0.4672  py_loss_1: 0.4645  end_set_loss: 0.1467  loss: 0.6027  data: 0.0013  batch: 1.8936  lr: 0.000031  max_mem: 7970
+eta: 0:00:26  epoch: 148  step: 5052  ct_loss: 0.1014  init_py_loss: 0.8253  coarse_py_loss: 0.5888  py_loss_0: 0.5078  py_loss_1: 0.5060  end_set_loss: 0.1408  loss: 0.6277  data: 0.0735  batch: 1.9792  lr: 0.000031  max_mem: 7970
+eta: 0:00:01  epoch: 148  step: 5065  ct_loss: 0.1034  init_py_loss: 0.8428  coarse_py_loss: 0.5909  py_loss_0: 0.5038  py_loss_1: 0.4993  end_set_loss: 0.1549  loss: 0.6328  data: 0.0013  batch: 1.8939  lr: 0.000031  max_mem: 7970
+eta: 0:00:26  epoch: 149  step: 5086  ct_loss: 0.0907  init_py_loss: 0.7477  coarse_py_loss: 0.5083  py_loss_0: 0.4269  py_loss_1: 0.4205  end_set_loss: 0.1297  loss: 0.5419  data: 0.0698  batch: 1.9774  lr: 0.000030  max_mem: 7970
+eta: 0:00:01  epoch: 149  step: 5099  ct_loss: 0.1009  init_py_loss: 0.7645  coarse_py_loss: 0.5340  py_loss_0: 0.4497  py_loss_1: 0.4468  end_set_loss: 0.1389  loss: 0.5758  data: 0.0013  batch: 1.9113  lr: 0.000030  max_mem: 7970
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.60it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.672
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.958
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.848
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.610
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.732
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.280
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.714
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.714
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.663
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.769
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:26  epoch: 150  step: 5120  ct_loss: 0.1118  init_py_loss: 0.7876  coarse_py_loss: 0.5535  py_loss_0: 0.4777  py_loss_1: 0.4760  end_set_loss: 0.1349  loss: 0.6087  data: 0.0684  batch: 1.9490  lr: 0.000029  max_mem: 7970
+eta: 0:00:01  epoch: 150  step: 5133  ct_loss: 0.1076  init_py_loss: 0.7389  coarse_py_loss: 0.5125  py_loss_0: 0.4371  py_loss_1: 0.4359  end_set_loss: 0.1274  loss: 0.5662  data: 0.0013  batch: 1.8700  lr: 0.000029  max_mem: 7970
+eta: 0:00:26  epoch: 151  step: 5154  ct_loss: 0.1048  init_py_loss: 0.7840  coarse_py_loss: 0.5524  py_loss_0: 0.4790  py_loss_1: 0.4779  end_set_loss: 0.1346  loss: 0.6023  data: 0.0672  batch: 1.9280  lr: 0.000029  max_mem: 7970
+eta: 0:00:01  epoch: 151  step: 5167  ct_loss: 0.0988  init_py_loss: 0.7613  coarse_py_loss: 0.5445  py_loss_0: 0.4672  py_loss_1: 0.4644  end_set_loss: 0.1364  loss: 0.5853  data: 0.0013  batch: 1.8557  lr: 0.000029  max_mem: 7970
+eta: 0:00:26  epoch: 152  step: 5188  ct_loss: 0.1003  init_py_loss: 0.8202  coarse_py_loss: 0.5690  py_loss_0: 0.4925  py_loss_1: 0.4939  end_set_loss: 0.1394  loss: 0.6145  data: 0.0729  batch: 1.9924  lr: 0.000028  max_mem: 7970
+eta: 0:00:01  epoch: 152  step: 5201  ct_loss: 0.0996  init_py_loss: 0.8267  coarse_py_loss: 0.5900  py_loss_0: 0.5075  py_loss_1: 0.5053  end_set_loss: 0.1328  loss: 0.6232  data: 0.0014  batch: 1.8814  lr: 0.000028  max_mem: 7970
+eta: 0:00:26  epoch: 153  step: 5222  ct_loss: 0.0945  init_py_loss: 0.8332  coarse_py_loss: 0.6033  py_loss_0: 0.5269  py_loss_1: 0.5269  end_set_loss: 0.1462  loss: 0.6381  data: 0.0748  batch: 1.9788  lr: 0.000027  max_mem: 7970
+eta: 0:00:01  epoch: 153  step: 5235  ct_loss: 0.0968  init_py_loss: 0.8319  coarse_py_loss: 0.5997  py_loss_0: 0.5211  py_loss_1: 0.5212  end_set_loss: 0.1494  loss: 0.6372  data: 0.0013  batch: 1.8691  lr: 0.000027  max_mem: 7970
+eta: 0:00:26  epoch: 154  step: 5256  ct_loss: 0.0874  init_py_loss: 0.7623  coarse_py_loss: 0.5290  py_loss_0: 0.4488  py_loss_1: 0.4487  end_set_loss: 0.1301  loss: 0.5591  data: 0.0723  batch: 1.9606  lr: 0.000026  max_mem: 7970
+eta: 0:00:01  epoch: 154  step: 5269  ct_loss: 0.0873  init_py_loss: 0.7853  coarse_py_loss: 0.5454  py_loss_0: 0.4610  py_loss_1: 0.4590  end_set_loss: 0.1401  loss: 0.5737  data: 0.0013  batch: 1.8568  lr: 0.000026  max_mem: 7970
+
+ 64%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                 | 85/132 [00:03<00:01, 27.47it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.690
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.967
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.872
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.633
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.745
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.285
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.732
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.732
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.681
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.788
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.95it/s]
+eta: 0:00:26  epoch: 155  step: 5290  ct_loss: 0.1012  init_py_loss: 0.6846  coarse_py_loss: 0.4571  py_loss_0: 0.3817  py_loss_1: 0.3780  end_set_loss: 0.1245  loss: 0.5101  data: 0.0739  batch: 1.9945  lr: 0.000026  max_mem: 7970
+eta: 0:00:01  epoch: 155  step: 5303  ct_loss: 0.0901  init_py_loss: 0.7641  coarse_py_loss: 0.5125  py_loss_0: 0.4304  py_loss_1: 0.4269  end_set_loss: 0.1322  loss: 0.5476  data: 0.0012  batch: 1.8722  lr: 0.000026  max_mem: 7970
+eta: 0:00:26  epoch: 156  step: 5324  ct_loss: 0.0839  init_py_loss: 0.7567  coarse_py_loss: 0.5303  py_loss_0: 0.4543  py_loss_1: 0.4525  end_set_loss: 0.1274  loss: 0.5574  data: 0.0708  batch: 1.9834  lr: 0.000025  max_mem: 7970
+eta: 0:00:01  epoch: 156  step: 5337  ct_loss: 0.0812  init_py_loss: 0.8751  coarse_py_loss: 0.6231  py_loss_0: 0.5367  py_loss_1: 0.5348  end_set_loss: 0.1322  loss: 0.6322  data: 0.0013  batch: 1.8529  lr: 0.000025  max_mem: 7970
+eta: 0:00:26  epoch: 157  step: 5358  ct_loss: 0.0926  init_py_loss: 0.7947  coarse_py_loss: 0.5418  py_loss_0: 0.4568  py_loss_1: 0.4519  end_set_loss: 0.1301  loss: 0.5725  data: 0.0751  batch: 1.9590  lr: 0.000024  max_mem: 7970
+eta: 0:00:01  epoch: 157  step: 5371  ct_loss: 0.0908  init_py_loss: 0.7580  coarse_py_loss: 0.5222  py_loss_0: 0.4426  py_loss_1: 0.4397  end_set_loss: 0.1258  loss: 0.5548  data: 0.0013  batch: 1.8763  lr: 0.000024  max_mem: 7970
+eta: 0:00:26  epoch: 158  step: 5392  ct_loss: 0.1007  init_py_loss: 0.8458  coarse_py_loss: 0.5971  py_loss_0: 0.5219  py_loss_1: 0.5195  end_set_loss: 0.1351  loss: 0.6372  data: 0.0673  batch: 1.9234  lr: 0.000024  max_mem: 7970
+eta: 0:00:01  epoch: 158  step: 5405  ct_loss: 0.0962  init_py_loss: 0.7328  coarse_py_loss: 0.5027  py_loss_0: 0.4343  py_loss_1: 0.4344  end_set_loss: 0.1232  loss: 0.5503  data: 0.0014  batch: 1.8603  lr: 0.000024  max_mem: 7970
+eta: 0:00:26  epoch: 159  step: 5426  ct_loss: 0.0958  init_py_loss: 0.6715  coarse_py_loss: 0.4501  py_loss_0: 0.3754  py_loss_1: 0.3740  end_set_loss: 0.1180  loss: 0.4971  data: 0.0743  batch: 1.9677  lr: 0.000023  max_mem: 7970
+eta: 0:00:01  epoch: 159  step: 5439  ct_loss: 0.0965  init_py_loss: 0.7818  coarse_py_loss: 0.5481  py_loss_0: 0.4652  py_loss_1: 0.4620  end_set_loss: 0.1421  loss: 0.5859  data: 0.0014  batch: 1.8766  lr: 0.000023  max_mem: 7970
+
+
+ 87%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                       | 115/132 [00:04<00:00, 26.44it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.14s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.685
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.967
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.859
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.625
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.747
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.283
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.730
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.730
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.676
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.789
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.48it/s]
+eta: 0:00:26  epoch: 160  step: 5460  ct_loss: 0.0957  init_py_loss: 0.7497  coarse_py_loss: 0.5083  py_loss_0: 0.4374  py_loss_1: 0.4381  end_set_loss: 0.1243  loss: 0.5547  data: 0.0715  batch: 1.9240  lr: 0.000023  max_mem: 7970
+eta: 0:00:01  epoch: 160  step: 5473  ct_loss: 0.0910  init_py_loss: 0.7234  coarse_py_loss: 0.4906  py_loss_0: 0.4197  py_loss_1: 0.4198  end_set_loss: 0.1272  loss: 0.5346  data: 0.0014  batch: 1.8647  lr: 0.000023  max_mem: 7970
+eta: 0:00:26  epoch: 161  step: 5494  ct_loss: 0.0809  init_py_loss: 0.7263  coarse_py_loss: 0.5059  py_loss_0: 0.4338  py_loss_1: 0.4310  end_set_loss: 0.1236  loss: 0.5336  data: 0.0763  batch: 1.9515  lr: 0.000022  max_mem: 7970
+eta: 0:00:01  epoch: 161  step: 5507  ct_loss: 0.0916  init_py_loss: 0.7525  coarse_py_loss: 0.5300  py_loss_0: 0.4566  py_loss_1: 0.4539  end_set_loss: 0.1308  loss: 0.5670  data: 0.0013  batch: 1.8689  lr: 0.000022  max_mem: 7970
+eta: 0:00:26  epoch: 162  step: 5528  ct_loss: 0.0974  init_py_loss: 0.8228  coarse_py_loss: 0.5794  py_loss_0: 0.5039  py_loss_1: 0.5011  end_set_loss: 0.1275  loss: 0.6151  data: 0.0698  batch: 1.9726  lr: 0.000021  max_mem: 7970
+eta: 0:00:01  epoch: 162  step: 5541  ct_loss: 0.1059  init_py_loss: 0.7936  coarse_py_loss: 0.5538  py_loss_0: 0.4769  py_loss_1: 0.4745  end_set_loss: 0.1314  loss: 0.6016  data: 0.0013  batch: 1.8827  lr: 0.000021  max_mem: 7970
+eta: 0:00:26  epoch: 163  step: 5562  ct_loss: 0.0890  init_py_loss: 0.6593  coarse_py_loss: 0.4482  py_loss_0: 0.3756  py_loss_1: 0.3732  end_set_loss: 0.1208  loss: 0.4896  data: 0.0690  batch: 1.9752  lr: 0.000021  max_mem: 7970
+eta: 0:00:01  epoch: 163  step: 5575  ct_loss: 0.0861  init_py_loss: 0.7046  coarse_py_loss: 0.4730  py_loss_0: 0.3953  py_loss_1: 0.3923  end_set_loss: 0.1198  loss: 0.5063  data: 0.0012  batch: 1.9074  lr: 0.000021  max_mem: 7970
+eta: 0:00:26  epoch: 164  step: 5596  ct_loss: 0.0845  init_py_loss: 0.7212  coarse_py_loss: 0.4849  py_loss_0: 0.4061  py_loss_1: 0.4043  end_set_loss: 0.1295  loss: 0.5184  data: 0.0694  batch: 1.9406  lr: 0.000020  max_mem: 7970
+eta: 0:00:01  epoch: 164  step: 5609  ct_loss: 0.0953  init_py_loss: 0.7764  coarse_py_loss: 0.5441  py_loss_0: 0.4675  py_loss_1: 0.4645  end_set_loss: 0.1344  loss: 0.5829  data: 0.0013  batch: 1.8757  lr: 0.000020  max_mem: 7970
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 26.00it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.682
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.970
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.857
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.627
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.740
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.279
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.723
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.723
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.675
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.774
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:26  epoch: 165  step: 5630  ct_loss: 0.0957  init_py_loss: 0.7943  coarse_py_loss: 0.5532  py_loss_0: 0.4707  py_loss_1: 0.4649  end_set_loss: 0.1264  loss: 0.5845  data: 0.0685  batch: 1.9899  lr: 0.000020  max_mem: 7970
+eta: 0:00:01  epoch: 165  step: 5643  ct_loss: 0.0951  init_py_loss: 0.7559  coarse_py_loss: 0.5305  py_loss_0: 0.4572  py_loss_1: 0.4531  end_set_loss: 0.1258  loss: 0.5691  data: 0.0013  batch: 1.8756  lr: 0.000020  max_mem: 7970
+eta: 0:00:26  epoch: 166  step: 5664  ct_loss: 0.0899  init_py_loss: 0.7195  coarse_py_loss: 0.4939  py_loss_0: 0.4150  py_loss_1: 0.4119  end_set_loss: 0.1278  loss: 0.5295  data: 0.0674  batch: 1.9744  lr: 0.000019  max_mem: 7970
+eta: 0:00:01  epoch: 166  step: 5677  ct_loss: 0.0793  init_py_loss: 0.7434  coarse_py_loss: 0.5103  py_loss_0: 0.4345  py_loss_1: 0.4328  end_set_loss: 0.1248  loss: 0.5354  data: 0.0014  batch: 1.8791  lr: 0.000019  max_mem: 7970
+eta: 0:00:26  epoch: 167  step: 5698  ct_loss: 0.0985  init_py_loss: 0.7320  coarse_py_loss: 0.5014  py_loss_0: 0.4164  py_loss_1: 0.4110  end_set_loss: 0.1253  loss: 0.5394  data: 0.0678  batch: 1.9895  lr: 0.000019  max_mem: 7970
+eta: 0:00:01  epoch: 167  step: 5711  ct_loss: 0.0942  init_py_loss: 0.7785  coarse_py_loss: 0.5473  py_loss_0: 0.4636  py_loss_1: 0.4588  end_set_loss: 0.1296  loss: 0.5774  data: 0.0012  batch: 1.9017  lr: 0.000019  max_mem: 7970
+eta: 0:00:26  epoch: 168  step: 5732  ct_loss: 0.0953  init_py_loss: 0.7694  coarse_py_loss: 0.5297  py_loss_0: 0.4493  py_loss_1: 0.4465  end_set_loss: 0.1256  loss: 0.5656  data: 0.0663  batch: 1.9211  lr: 0.000018  max_mem: 7970
+eta: 0:00:01  epoch: 168  step: 5745  ct_loss: 0.0967  init_py_loss: 0.7666  coarse_py_loss: 0.5307  py_loss_0: 0.4556  py_loss_1: 0.4506  end_set_loss: 0.1292  loss: 0.5715  data: 0.0013  batch: 1.8560  lr: 0.000018  max_mem: 7970
+eta: 0:00:26  epoch: 169  step: 5766  ct_loss: 0.0915  init_py_loss: 0.7121  coarse_py_loss: 0.4854  py_loss_0: 0.4042  py_loss_1: 0.4004  end_set_loss: 0.1194  loss: 0.5193  data: 0.0705  batch: 1.9485  lr: 0.000018  max_mem: 7970
+eta: 0:00:01  epoch: 169  step: 5779  ct_loss: 0.0903  init_py_loss: 0.7090  coarse_py_loss: 0.4829  py_loss_0: 0.4009  py_loss_1: 0.3963  end_set_loss: 0.1208  loss: 0.5155  data: 0.0013  batch: 1.8529  lr: 0.000018  max_mem: 7970
+
+ 71%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                     | 94/132 [00:03<00:01, 27.39it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.09s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.692
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.969
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.861
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.626
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.759
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.284
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.733
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.733
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.679
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.793
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.68it/s]
+eta: 0:00:26  epoch: 170  step: 5800  ct_loss: 0.0827  init_py_loss: 0.7819  coarse_py_loss: 0.5481  py_loss_0: 0.4735  py_loss_1: 0.4720  end_set_loss: 0.1167  loss: 0.5698  data: 0.0683  batch: 1.9697  lr: 0.000017  max_mem: 7970
+eta: 0:00:01  epoch: 170  step: 5813  ct_loss: 0.0787  init_py_loss: 0.7435  coarse_py_loss: 0.5116  py_loss_0: 0.4278  py_loss_1: 0.4252  end_set_loss: 0.1183  loss: 0.5280  data: 0.0013  batch: 1.8952  lr: 0.000017  max_mem: 7970
+eta: 0:00:26  epoch: 171  step: 5834  ct_loss: 0.0946  init_py_loss: 0.6893  coarse_py_loss: 0.4634  py_loss_0: 0.3896  py_loss_1: 0.3873  end_set_loss: 0.1210  loss: 0.5092  data: 0.0679  batch: 1.9299  lr: 0.000017  max_mem: 7970
+eta: 0:00:01  epoch: 171  step: 5847  ct_loss: 0.0861  init_py_loss: 0.7099  coarse_py_loss: 0.4826  py_loss_0: 0.4129  py_loss_1: 0.4112  end_set_loss: 0.1296  loss: 0.5233  data: 0.0014  batch: 1.9104  lr: 0.000017  max_mem: 7970
+eta: 0:00:26  epoch: 172  step: 5868  ct_loss: 0.0801  init_py_loss: 0.6810  coarse_py_loss: 0.4581  py_loss_0: 0.3807  py_loss_1: 0.3756  end_set_loss: 0.1129  loss: 0.4838  data: 0.0709  batch: 1.9673  lr: 0.000016  max_mem: 7970
+eta: 0:00:01  epoch: 172  step: 5881  ct_loss: 0.0762  init_py_loss: 0.7262  coarse_py_loss: 0.4802  py_loss_0: 0.3999  py_loss_1: 0.3987  end_set_loss: 0.1315  loss: 0.5068  data: 0.0013  batch: 1.8642  lr: 0.000016  max_mem: 7970
+eta: 0:00:26  epoch: 173  step: 5902  ct_loss: 0.0979  init_py_loss: 0.7668  coarse_py_loss: 0.5364  py_loss_0: 0.4532  py_loss_1: 0.4490  end_set_loss: 0.1309  loss: 0.5727  data: 0.0650  batch: 1.9844  lr: 0.000016  max_mem: 7970
+eta: 0:00:01  epoch: 173  step: 5915  ct_loss: 0.0931  init_py_loss: 0.7296  coarse_py_loss: 0.5007  py_loss_0: 0.4214  py_loss_1: 0.4198  end_set_loss: 0.1149  loss: 0.5348  data: 0.0014  batch: 1.9003  lr: 0.000016  max_mem: 7970
+eta: 0:00:26  epoch: 174  step: 5936  ct_loss: 0.0904  init_py_loss: 0.7193  coarse_py_loss: 0.4849  py_loss_0: 0.4051  py_loss_1: 0.4026  end_set_loss: 0.1188  loss: 0.5197  data: 0.0680  batch: 1.9476  lr: 0.000015  max_mem: 7970
+eta: 0:00:01  epoch: 174  step: 5949  ct_loss: 0.0884  init_py_loss: 0.7402  coarse_py_loss: 0.5059  py_loss_0: 0.4252  py_loss_1: 0.4208  end_set_loss: 0.1205  loss: 0.5352  data: 0.0012  batch: 1.8692  lr: 0.000015  max_mem: 7970
+
+
+ 94%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊           | 124/132 [00:05<00:00, 26.22it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.15s).
+Accumulating evaluation results...
+DONE (t=0.03s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.680
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.958
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.833
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.624
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.741
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.283
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.726
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.726
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.674
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.782
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 24.56it/s]
+eta: 0:00:26  epoch: 175  step: 5970  ct_loss: 0.1000  init_py_loss: 0.7211  coarse_py_loss: 0.5016  py_loss_0: 0.4236  py_loss_1: 0.4203  end_set_loss: 0.1198  loss: 0.5435  data: 0.0684  batch: 1.9399  lr: 0.000015  max_mem: 7970
+eta: 0:00:01  epoch: 175  step: 5983  ct_loss: 0.0938  init_py_loss: 0.7628  coarse_py_loss: 0.5330  py_loss_0: 0.4559  py_loss_1: 0.4528  end_set_loss: 0.1288  loss: 0.5692  data: 0.0014  batch: 1.8630  lr: 0.000015  max_mem: 7970
+eta: 0:00:26  epoch: 176  step: 6004  ct_loss: 0.0843  init_py_loss: 0.7184  coarse_py_loss: 0.4886  py_loss_0: 0.4154  py_loss_1: 0.4135  end_set_loss: 0.1151  loss: 0.5197  data: 0.0745  batch: 1.9370  lr: 0.000015  max_mem: 7970
+eta: 0:00:01  epoch: 176  step: 6017  ct_loss: 0.0834  init_py_loss: 0.6978  coarse_py_loss: 0.4746  py_loss_0: 0.4021  py_loss_1: 0.3980  end_set_loss: 0.1156  loss: 0.5059  data: 0.0013  batch: 1.8695  lr: 0.000015  max_mem: 7970
+eta: 0:00:26  epoch: 177  step: 6038  ct_loss: 0.0873  init_py_loss: 0.6739  coarse_py_loss: 0.4452  py_loss_0: 0.3626  py_loss_1: 0.3600  end_set_loss: 0.1217  loss: 0.4806  data: 0.0663  batch: 1.9711  lr: 0.000014  max_mem: 7970
+eta: 0:00:01  epoch: 177  step: 6051  ct_loss: 0.0890  init_py_loss: 0.6723  coarse_py_loss: 0.4471  py_loss_0: 0.3715  py_loss_1: 0.3674  end_set_loss: 0.1110  loss: 0.4843  data: 0.0013  batch: 1.8941  lr: 0.000014  max_mem: 7970
+eta: 0:00:26  epoch: 178  step: 6072  ct_loss: 0.0770  init_py_loss: 0.7189  coarse_py_loss: 0.4840  py_loss_0: 0.4057  py_loss_1: 0.4004  end_set_loss: 0.1186  loss: 0.5055  data: 0.0700  batch: 1.9440  lr: 0.000014  max_mem: 7970
+eta: 0:00:01  epoch: 178  step: 6085  ct_loss: 0.0824  init_py_loss: 0.7143  coarse_py_loss: 0.4709  py_loss_0: 0.3858  py_loss_1: 0.3821  end_set_loss: 0.1192  loss: 0.4967  data: 0.0013  batch: 1.8942  lr: 0.000014  max_mem: 7970
+eta: 0:00:26  epoch: 179  step: 6106  ct_loss: 0.0744  init_py_loss: 0.7179  coarse_py_loss: 0.4837  py_loss_0: 0.4068  py_loss_1: 0.4045  end_set_loss: 0.1233  loss: 0.5061  data: 0.0637  batch: 1.9503  lr: 0.000013  max_mem: 7970
+eta: 0:00:01  epoch: 179  step: 6119  ct_loss: 0.0823  init_py_loss: 0.7673  coarse_py_loss: 0.5202  py_loss_0: 0.4408  py_loss_1: 0.4371  end_set_loss: 0.1239  loss: 0.5450  data: 0.0014  batch: 1.8718  lr: 0.000013  max_mem: 7970
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.00it/s]
+Loading and preparing results...
+DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.08s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.676
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.966
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.834
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.616
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.739
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.281
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.722
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.722
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.669
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.780
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:26  epoch: 180  step: 6140  ct_loss: 0.0997  init_py_loss: 0.7640  coarse_py_loss: 0.5306  py_loss_0: 0.4496  py_loss_1: 0.4442  end_set_loss: 0.1196  loss: 0.5670  data: 0.0715  batch: 1.9617  lr: 0.000013  max_mem: 7970
+eta: 0:00:01  epoch: 180  step: 6153  ct_loss: 0.0980  init_py_loss: 0.7478  coarse_py_loss: 0.5126  py_loss_0: 0.4322  py_loss_1: 0.4280  end_set_loss: 0.1208  loss: 0.5510  data: 0.0014  batch: 1.8959  lr: 0.000013  max_mem: 7970
+eta: 0:00:26  epoch: 181  step: 6174  ct_loss: 0.0994  init_py_loss: 0.7237  coarse_py_loss: 0.4945  py_loss_0: 0.4204  py_loss_1: 0.4184  end_set_loss: 0.1074  loss: 0.5366  data: 0.0642  batch: 1.9313  lr: 0.000013  max_mem: 7970
+eta: 0:00:01  epoch: 181  step: 6187  ct_loss: 0.0828  init_py_loss: 0.6824  coarse_py_loss: 0.4665  py_loss_0: 0.3935  py_loss_1: 0.3916  end_set_loss: 0.1125  loss: 0.4969  data: 0.0014  batch: 1.8707  lr: 0.000013  max_mem: 7970
+eta: 0:00:26  epoch: 182  step: 6208  ct_loss: 0.0781  init_py_loss: 0.7480  coarse_py_loss: 0.5048  py_loss_0: 0.4279  py_loss_1: 0.4249  end_set_loss: 0.1276  loss: 0.5302  data: 0.0692  batch: 1.9444  lr: 0.000012  max_mem: 7970
+eta: 0:00:01  epoch: 182  step: 6221  ct_loss: 0.0778  init_py_loss: 0.7442  coarse_py_loss: 0.5083  py_loss_0: 0.4300  py_loss_1: 0.4268  end_set_loss: 0.1234  loss: 0.5297  data: 0.0013  batch: 1.8905  lr: 0.000012  max_mem: 7970
+eta: 0:00:26  epoch: 183  step: 6242  ct_loss: 0.0801  init_py_loss: 0.7354  coarse_py_loss: 0.4900  py_loss_0: 0.4112  py_loss_1: 0.4069  end_set_loss: 0.1171  loss: 0.5144  data: 0.0770  batch: 1.9275  lr: 0.000012  max_mem: 7970
+eta: 0:00:01  epoch: 183  step: 6255  ct_loss: 0.0857  init_py_loss: 0.6660  coarse_py_loss: 0.4287  py_loss_0: 0.3524  py_loss_1: 0.3484  end_set_loss: 0.1119  loss: 0.4660  data: 0.0014  batch: 1.9079  lr: 0.000012  max_mem: 7970
+eta: 0:00:26  epoch: 184  step: 6276  ct_loss: 0.0860  init_py_loss: 0.6819  coarse_py_loss: 0.4537  py_loss_0: 0.3773  py_loss_1: 0.3731  end_set_loss: 0.1229  loss: 0.4906  data: 0.0739  batch: 1.9525  lr: 0.000012  max_mem: 7970
+eta: 0:00:01  epoch: 184  step: 6289  ct_loss: 0.0890  init_py_loss: 0.7319  coarse_py_loss: 0.5035  py_loss_0: 0.4255  py_loss_1: 0.4229  end_set_loss: 0.1157  loss: 0.5339  data: 0.0013  batch: 1.8638  lr: 0.000012  max_mem: 7970
+
+
+ 98%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏  | 130/132 [00:05<00:00, 26.39it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.09s).
+Accumulating evaluation results...
+DONE (t=0.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.678
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.967
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.847
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.611
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.745
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.282
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.721
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.721
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.664
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.783
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.08it/s]
+eta: 0:00:26  epoch: 185  step: 6310  ct_loss: 0.0829  init_py_loss: 0.6947  coarse_py_loss: 0.4575  py_loss_0: 0.3824  py_loss_1: 0.3774  end_set_loss: 0.1241  loss: 0.4928  data: 0.0680  batch: 1.9590  lr: 0.000012  max_mem: 7970
+eta: 0:00:01  epoch: 185  step: 6323  ct_loss: 0.0779  init_py_loss: 0.6933  coarse_py_loss: 0.4716  py_loss_0: 0.4018  py_loss_1: 0.3969  end_set_loss: 0.1145  loss: 0.4988  data: 0.0014  batch: 1.8546  lr: 0.000012  max_mem: 7970
+eta: 0:00:26  epoch: 186  step: 6344  ct_loss: 0.0945  init_py_loss: 0.6795  coarse_py_loss: 0.4472  py_loss_0: 0.3696  py_loss_1: 0.3670  end_set_loss: 0.1118  loss: 0.4900  data: 0.0617  batch: 1.9186  lr: 0.000011  max_mem: 7970
+eta: 0:00:01  epoch: 186  step: 6357  ct_loss: 0.0822  init_py_loss: 0.6807  coarse_py_loss: 0.4514  py_loss_0: 0.3750  py_loss_1: 0.3728  end_set_loss: 0.1124  loss: 0.4822  data: 0.0013  batch: 1.8825  lr: 0.000011  max_mem: 7970
+eta: 0:00:26  epoch: 187  step: 6378  ct_loss: 0.0952  init_py_loss: 0.7377  coarse_py_loss: 0.5078  py_loss_0: 0.4270  py_loss_1: 0.4216  end_set_loss: 0.1179  loss: 0.5419  data: 0.0720  batch: 1.9268  lr: 0.000011  max_mem: 7970
+eta: 0:00:01  epoch: 187  step: 6391  ct_loss: 0.0791  init_py_loss: 0.6340  coarse_py_loss: 0.4131  py_loss_0: 0.3356  py_loss_1: 0.3312  end_set_loss: 0.1174  loss: 0.4452  data: 0.0013  batch: 1.8519  lr: 0.000011  max_mem: 7970
+eta: 0:00:26  epoch: 188  step: 6412  ct_loss: 0.0870  init_py_loss: 0.7447  coarse_py_loss: 0.5086  py_loss_0: 0.4231  py_loss_1: 0.4178  end_set_loss: 0.1195  loss: 0.5324  data: 0.0729  batch: 1.9599  lr: 0.000011  max_mem: 7970
+eta: 0:00:01  epoch: 188  step: 6425  ct_loss: 0.0882  init_py_loss: 0.6906  coarse_py_loss: 0.4563  py_loss_0: 0.3808  py_loss_1: 0.3763  end_set_loss: 0.1126  loss: 0.4928  data: 0.0013  batch: 1.8788  lr: 0.000011  max_mem: 7970
+eta: 0:00:26  epoch: 189  step: 6446  ct_loss: 0.0846  init_py_loss: 0.7020  coarse_py_loss: 0.4697  py_loss_0: 0.3971  py_loss_1: 0.3931  end_set_loss: 0.1208  loss: 0.5055  data: 0.0752  batch: 1.9678  lr: 0.000011  max_mem: 7970
+eta: 0:00:01  epoch: 189  step: 6459  ct_loss: 0.0818  init_py_loss: 0.6731  coarse_py_loss: 0.4489  py_loss_0: 0.3737  py_loss_1: 0.3714  end_set_loss: 0.1086  loss: 0.4785  data: 0.0014  batch: 1.8716  lr: 0.000011  max_mem: 7970
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.14it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.10s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.689
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.968
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.853
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.635
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.748
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.284
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.734
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.734
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.682
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.790
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:26  epoch: 190  step: 6480  ct_loss: 0.0917  init_py_loss: 0.6622  coarse_py_loss: 0.4334  py_loss_0: 0.3541  py_loss_1: 0.3491  end_set_loss: 0.1077  loss: 0.4716  data: 0.0659  batch: 1.9703  lr: 0.000011  max_mem: 7970
+eta: 0:00:01  epoch: 190  step: 6493  ct_loss: 0.0828  init_py_loss: 0.7549  coarse_py_loss: 0.5210  py_loss_0: 0.4428  py_loss_1: 0.4374  end_set_loss: 0.1174  loss: 0.5429  data: 0.0013  batch: 1.8388  lr: 0.000011  max_mem: 7970
+eta: 0:00:26  epoch: 191  step: 6514  ct_loss: 0.0872  init_py_loss: 0.7552  coarse_py_loss: 0.5164  py_loss_0: 0.4351  py_loss_1: 0.4305  end_set_loss: 0.1147  loss: 0.5411  data: 0.0718  batch: 1.9502  lr: 0.000011  max_mem: 7970
+eta: 0:00:01  epoch: 191  step: 6527  ct_loss: 0.0888  init_py_loss: 0.6943  coarse_py_loss: 0.4691  py_loss_0: 0.3931  py_loss_1: 0.3899  end_set_loss: 0.1119  loss: 0.5035  data: 0.0014  batch: 1.8824  lr: 0.000011  max_mem: 7970
+eta: 0:00:26  epoch: 192  step: 6548  ct_loss: 0.0837  init_py_loss: 0.6699  coarse_py_loss: 0.4398  py_loss_0: 0.3629  py_loss_1: 0.3584  end_set_loss: 0.1143  loss: 0.4731  data: 0.0626  batch: 1.9781  lr: 0.000010  max_mem: 7970
+eta: 0:00:01  epoch: 192  step: 6561  ct_loss: 0.0853  init_py_loss: 0.6663  coarse_py_loss: 0.4298  py_loss_0: 0.3478  py_loss_1: 0.3415  end_set_loss: 0.1171  loss: 0.4637  data: 0.0014  batch: 1.9061  lr: 0.000010  max_mem: 7970
+eta: 0:00:26  epoch: 193  step: 6582  ct_loss: 0.0880  init_py_loss: 0.7317  coarse_py_loss: 0.4989  py_loss_0: 0.4174  py_loss_1: 0.4133  end_set_loss: 0.1144  loss: 0.5261  data: 0.0702  batch: 1.9551  lr: 0.000010  max_mem: 7970
+eta: 0:00:01  epoch: 193  step: 6595  ct_loss: 0.0864  init_py_loss: 0.6469  coarse_py_loss: 0.4326  py_loss_0: 0.3551  py_loss_1: 0.3503  end_set_loss: 0.1061  loss: 0.4649  data: 0.0013  batch: 1.8751  lr: 0.000010  max_mem: 7970
+eta: 0:00:26  epoch: 194  step: 6616  ct_loss: 0.0778  init_py_loss: 0.7027  coarse_py_loss: 0.4752  py_loss_0: 0.3990  py_loss_1: 0.3943  end_set_loss: 0.1122  loss: 0.4974  data: 0.0727  batch: 1.9803  lr: 0.000010  max_mem: 7970
+eta: 0:00:01  epoch: 194  step: 6629  ct_loss: 0.0942  init_py_loss: 0.7074  coarse_py_loss: 0.4934  py_loss_0: 0.4158  py_loss_1: 0.4107  end_set_loss: 0.1120  loss: 0.5271  data: 0.0013  batch: 1.8504  lr: 0.000010  max_mem: 7970
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 25.22it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.10s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.678
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.967
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.834
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.620
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.739
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.281
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.724
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.724
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.671
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.782
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+eta: 0:00:26  epoch: 195  step: 6650  ct_loss: 0.0782  init_py_loss: 0.7147  coarse_py_loss: 0.4832  py_loss_0: 0.3999  py_loss_1: 0.3972  end_set_loss: 0.1139  loss: 0.5017  data: 0.0732  batch: 1.9881  lr: 0.000010  max_mem: 7970
+eta: 0:00:01  epoch: 195  step: 6663  ct_loss: 0.0751  init_py_loss: 0.6371  coarse_py_loss: 0.4188  py_loss_0: 0.3437  py_loss_1: 0.3402  end_set_loss: 0.1048  loss: 0.4436  data: 0.0013  batch: 1.8912  lr: 0.000010  max_mem: 7970
+eta: 0:00:26  epoch: 196  step: 6684  ct_loss: 0.0874  init_py_loss: 0.6687  coarse_py_loss: 0.4343  py_loss_0: 0.3531  py_loss_1: 0.3485  end_set_loss: 0.1032  loss: 0.4660  data: 0.0719  batch: 1.9781  lr: 0.000010  max_mem: 7970
+eta: 0:00:01  epoch: 196  step: 6697  ct_loss: 0.0779  init_py_loss: 0.6610  coarse_py_loss: 0.4297  py_loss_0: 0.3487  py_loss_1: 0.3445  end_set_loss: 0.1086  loss: 0.4543  data: 0.0014  batch: 1.8652  lr: 0.000010  max_mem: 7970
+eta: 0:00:26  epoch: 197  step: 6718  ct_loss: 0.0800  init_py_loss: 0.7046  coarse_py_loss: 0.4783  py_loss_0: 0.4035  py_loss_1: 0.3993  end_set_loss: 0.1143  loss: 0.5040  data: 0.0717  batch: 1.9581  lr: 0.000010  max_mem: 7970
+eta: 0:00:01  epoch: 197  step: 6731  ct_loss: 0.0799  init_py_loss: 0.7592  coarse_py_loss: 0.5390  py_loss_0: 0.4677  py_loss_1: 0.4650  end_set_loss: 0.1093  loss: 0.5571  data: 0.0013  batch: 1.8801  lr: 0.000010  max_mem: 7970
+eta: 0:00:26  epoch: 198  step: 6752  ct_loss: 0.0745  init_py_loss: 0.7237  coarse_py_loss: 0.4864  py_loss_0: 0.4023  py_loss_1: 0.3977  end_set_loss: 0.1138  loss: 0.5001  data: 0.0682  batch: 1.9698  lr: 0.000010  max_mem: 7970
+eta: 0:00:01  epoch: 198  step: 6765  ct_loss: 0.0777  init_py_loss: 0.7506  coarse_py_loss: 0.5138  py_loss_0: 0.4372  py_loss_1: 0.4323  end_set_loss: 0.1143  loss: 0.5321  data: 0.0014  batch: 1.8786  lr: 0.000010  max_mem: 7970
+eta: 0:00:26  epoch: 199  step: 6786  ct_loss: 0.0848  init_py_loss: 0.7440  coarse_py_loss: 0.5021  py_loss_0: 0.4218  py_loss_1: 0.4182  end_set_loss: 0.1140  loss: 0.5275  data: 0.0648  batch: 1.9469  lr: 0.000010  max_mem: 7970
+eta: 0:00:01  epoch: 199  step: 6799  ct_loss: 0.0878  init_py_loss: 0.7306  coarse_py_loss: 0.4851  py_loss_0: 0.4057  py_loss_1: 0.4035  end_set_loss: 0.1087  loss: 0.5153  data: 0.0013  batch: 1.8537  lr: 0.000010  max_mem: 7970
+
+
+ 94%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊           | 124/132 [00:04<00:00, 26.18it/s]
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.09s).
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.685
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.957
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.842
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.619
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.754
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.285
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.731
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.731
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.671
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.795
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 132/132 [00:05<00:00, 24.84it/s]
